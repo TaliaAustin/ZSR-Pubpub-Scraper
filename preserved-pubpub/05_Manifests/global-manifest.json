@@ -1,0 +1,54 @@
+{
+  "scrapedAt": "2025-10-02T19:58:20.086Z",
+  "baseUrl": "https://urbanafrica.pubpub.org",
+  "publishedOnly": true,
+  "collections": [
+    {
+      "slug": "getting-started",
+      "title": "Getting Started",
+      "description": "How to create a pub and submit it for publication.",
+      "publicationCount": 7
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "description": "Contributor Profile",
+      "publicationCount": 9
+    }
+  ],
+  "allPublications": [
+    {
+      "slug": "adding-pubs?readingCollection=b046f25e",
+      "title": "Creating and Submitting Pubs",
+      "collections": [
+        "getting-started"
+      ]
+    },
+    {
+      "slug": "formatting-your-pub?readingCollection=b046f25e",
+      "title": "Formatting your Pub",
+      "collections": [
+        "getting-started"
+      ]
+    },
+    {
+      "slug": "hazik-azam",
+      "title": "Hazik Azam",
+      "collections": [
+        "about"
+      ]
+    },
+    {
+      "slug": "henrybaur",
+      "title": "Henry Baur ",
+      "collections": [
+        "about"
+      ]
+    }
+  ],
+  "stats": {
+    "totalCollections": 2,
+    "totalPublications": 4,
+    "publishedPublications": 4
+  }
+}

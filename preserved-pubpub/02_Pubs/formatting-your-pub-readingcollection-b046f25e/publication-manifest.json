@@ -1,0 +1,85 @@
+{
+  "title": "Formatting your Pub",
+  "url": "https://urbanafrica.pubpub.org/pub/formatting-your-pub?readingCollection=b046f25e",
+  "slug": "formatting-your-pub?readingCollection=b046f25e",
+  "authors": [],
+  "date": "Published: Feb 08, 2023",
+  "isPublished": true,
+  "scrapedAt": "2025-10-02T19:58:31.355Z",
+  "fullTitle": "Home",
+  "content": "0:root { \n\t\t\t--community-accent-dark: #2c4150;\n\t\t\t--community-accent-dark-faded-30: rgb(66, 74, 80);\n\t\t\t--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);\n\t\t}\n\t\t\t.accent-background { background-color: #2c4150; }\n\t\t\t.accent-color { color: #FFFFFF; }\n\t\t\t.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }\n\t\t\t.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }\n\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }\n\n\t\t\t.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }\n\n\t\t\t.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }\n\t\t\t.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-primary\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-success\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-warning\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-danger\"]),\n\t\t\t.accent-color .bp3-button[class*=\"bp3-icon\"]::before { color: inherit; }\n\t\t\t.accent-color a, .accent-color a:hover { color: inherit; }\n\t\t\t.bp3-tab[aria-selected=\"true\"], .bp3-tab:not([aria-selected=\"true\"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }\n\t\t\t.bp3-tab[aria-selected=\"true\"] { box-shadow: inset 0 -3px 0 #2c4150; }\n\t\t\t.thread:hover:after { background-color: #2c4150; }\n\t\t\t.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }\n\t\t\t.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }\n\t\t\t.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }\n\n\t\t\t.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }\n\t\t\t.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }\n\n\t\t\tspan.citation:hover { color: #2c4150; }\n\n\t\t\t.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }\n\n\t\t\t\n\t\t\t\n\t\tSkip to main contentUrban Africa ProjectSearchDashboardcaret-downLogin or SignupHomeCollectionscaret-downGetting StartedAboutGetting StartedGetting StartedPublished on Feb 08, 2023Formatting your PubTime to give your pub some structure.by Kyle DenlingerPublished onFeb 08, 2023CiteSocialPDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX DownloadDownloadContentslast released3 years agoFormatting your Pub - Release #1Show detailsFormatting your PubContents·Structuring your Pub with HeadingsContents of a pub in FermentologyWhen you write for an external audience, it’s helpful to give your pub some structure that permits readers to “skim” your work. This is especially true for longer works. The best way to do this in PubPub is by using headings. Headings do more than just make text larger and bolder: they add code to your pub that make it easier for computers to understand the structure of your document. Notice the “contents” section of any pub that uses headings and you’ll see what I mean. Heading levelsHeadings also make it so folks with who use specialized screen reader software can engage with your pubs more efficiently. To create a heading, just highlight some text and select “H1” or “H2” in the formatting bar that appears, or select a heading level from the text formatting bar at the top of the pub. Keep in mind that you should “nest” your headings appropriately: the first heading in any pub should be H1, and any sub-headings under that H1 should be H2, then H3, etc. In most cases, you’ll need only H1 and H2. Here’s a good example of appropriately nested headings. Note that it’s possible to have multiple sub-headings within any other heading, as long as you don’t skip a heading level: Appropriately nested headingsHere’s what not to do. Notice that the following list of headings skips Heading 2 and goes straight to Heading 3.Inappropriately nested headings. Note that this list skips from H1 to H3, leaving out H2.Other Special FormattingListsLists, either numbered or unnumbered (bulleted) are helpful in some situations. PubPub offers both kinds, which you can find in the formatting toolbar of the pub editor. Examples:Thing AThing BThing CThis thingThat thingThe other thingBlockquotesSometimes it’s useful to call attention to a line of text that stands alone, such as a quote or a prominent claim or statistic. You can use the blockquote tool in the formatting toolbar to apply blockquote styling to any text you select.Why are those quick, brown foxes always jumping over lazy dogs?See how it’s set apart? Kinda cool.TablesTables are useful for organizing data in your pub. Try not to use them for laying out elements or trying to hack image and text alignment. Check it out:FruitVegetableAppleCarrotOrangeBroccoliBananaCauliflowerMangoOnionPineapplePotatoSweet table, eh?LicenseCreative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)Comments0\n\t\t\t\t\t.discussion-list .discussion-thread-component.preview:hover,\n\t\t\t\t\t.discussion-list .discussion-thread-component.expanded-preview {\n\t\t\t\t\t\tborder-left: 3px solid #2c4150;\n\t\t\t\t\t\tpadding-left: calc(1em - 2px);\n\t\t\t\t\t}\n\t\t\t\t?Login to discusscommentNo comments here Why not start the discussion?Urban Africa ProjectAboutRSSLegalPublished withCommunityUrban Africa ProjectCollectionGGetting StartedPubFormatting your PubTheorizing the \"African City\"Shape as Substance? Materiality and Urban AfricaThe City as Control? Space, Power, and Colonial ImprintThe Creative Genius of Urban AfricaMapping AccracollectionGetting StartedCite as  Denlinger, Kyle. 2023. “Formatting Your Pub.” Urban Africa Project, February. https://urbanafrica.pubpub.org/pub/formatting-your-pub.duplicateCopymoreMore Cite OptionsTwitterRedditFacebookLinkedInEmailAuto Generated DownloadPDFWordMarkdownEPUBHTMLOpenDocumentPlain TextJATS XMLLaTeXStructuring your Pub with HeadingsOther Special FormattingListsBlockquotesTablestickRelease #1Feb 08, 2023 4:15 PMStructuring your Pub with HeadingsOther Special FormattingListsBlockquotesTables",
+  "metadata": {
+    "og:title": "Formatting your Pub",
+    "twitter:title": "Formatting your Pub · Urban Africa Project",
+    "twitter:image:alt": "Formatting your Pub · Urban Africa Project",
+    "citation_title": "Formatting your Pub",
+    "dc.title": "Formatting your Pub",
+    "og:site_name": "Urban Africa Project",
+    "og:url": "https://urbanafrica.pubpub.org/pub/formatting-your-pub/release/1",
+    "og:type": "article",
+    "citation_publisher": "PubPub",
+    "citation_pdf_url": "https://urbanafrica.pubpub.org/pub/formatting-your-pub/download/pdf",
+    "description": "Time to give your pub some structure.",
+    "og:description": "Time to give your pub some structure.",
+    "twitter:description": "Time to give your pub some structure.",
+    "og:image": "https://assets.pubpub.org/tt3k482b/31675890911828.jpeg",
+    "og:image:url": "https://assets.pubpub.org/tt3k482b/31675890911828.jpeg",
+    "og:image:width": "500",
+    "twitter:image": "https://assets.pubpub.org/tt3k482b/31675890911828.jpeg",
+    "citation_author": "Kyle Denlinger",
+    "dc.creator": "Kyle Denlinger",
+    "article:published_time": "Wed Feb 08 2023 21:15:42 GMT+0000 (Coordinated Universal Time)",
+    "dc.date": "2023-1-8",
+    "citation_publication_date": "2023/2/8",
+    "dc.publisher": "PubPub",
+    "fb:app_id": "924988584221879",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@pubpub",
+    "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+    "google-site-verification": "jmmJFnkSOeIEuS54adOzGMwc0kwpsa8wQ-L4GyPpPDg"
+  },
+  "doi": "",
+  "abstract": "",
+  "images": [
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6ImwyeXQxMnQ0LzExNjc1NzgwNzE0NjM5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "A table of contents formed by the use of headings",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6InZkY2xnaTIzLzExNjc1NzgwOTE4MDc3LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "Heading levels in the text editor",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjhtbTd5NjdrLzAxNjc1NzgzODkwNDE4LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "A list of formatted text headings nested in appropriate order.",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6InMwMnI1b3B5LzIxNjc1Nzg0MTAzMDYyLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "A list of formatted text headings not nested in appropriate order.",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/license/cc-by-nc.svg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/logoWhite.svg",
+      "alt": "PubPub logo",
+      "title": ""
+    }
+  ],
+  "formats": {
+    "markdown": "content.md",
+    "jatsXml": "content.xml",
+    "pdf": "content.pdf",
+    "html": "snapshot.html"
+  },
+  "media": {
+    "count": 6,
+    "manifest": "media/media-manifest.json"
+  }
+}

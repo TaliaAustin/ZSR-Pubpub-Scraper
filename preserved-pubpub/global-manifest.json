@@ -1,0 +1,25 @@
+{
+  "scrapedAt": "2025-10-02T19:20:07.871Z",
+  "baseUrl": "https://urbanafrica.pubpub.org",
+  "collections": [
+    {
+      "slug": "unknown",
+      "title": "Home",
+      "publicationCount": 7
+    },
+    {
+      "slug": "getting-started",
+      "title": "Getting Started",
+      "publicationCount": 7
+    },
+    {
+      "slug": "about",
+      "title": "About",
+      "publicationCount": 9
+    }
+  ],
+  "stats": {
+    "totalCollections": 3,
+    "totalPublications": 23
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "completedAt": "2025-10-02T19:58:41.264Z",
+  "config": {
+    "baseUrl": "https://urbanafrica.pubpub.org",
+    "outputDir": "./preserved-pubpub",
+    "delays": {
+      "navigation": 2000,
+      "content": 1000,
+      "polite": 500
+    },
+    "headless": false,
+    "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+    "publishedOnly": true
+  },
+  "stats": {
+    "totalCollections": 2,
+    "totalPublications": 4,
+    "publishedPublications": 4
+  }
+}

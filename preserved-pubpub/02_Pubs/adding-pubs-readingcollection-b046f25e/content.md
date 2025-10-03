@@ -1,0 +1,169 @@
+# Home
+
+**Authors:** 
+
+## Content
+
+0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		[Skip to main content](#main-content)[Urban Africa Project](/)[Search](/search)**Dashboardcaret-down[Login or Signup](/login?redirect=/pub/adding-pubs/release/2?readingCollection=b046f25e)
+- [Home](/)
+- Collectionscaret-down
+- [Getting Started](/getting-started)
+- [About](/about)
+
+[Getting Started](https://urbanafrica.pubpub.org/getting-started)Getting StartedPublished on **Jan 27, 2023# Creating and Submitting Pubs
+
+How to create a pub and submit it for publication.
+
+by [Kyle Denlinger](/user/kyle-denlinkdwfuedu)Published onJan 27, 2023CiteSocial[PDF Download](https://s3.amazonaws.com/assets.pubpub.org/emhokieomw8itim0rpvfz4c4pmft42v6.pdf)[Word Download](https://assets.pubpub.org/1w66tzq7/49d987ab-0221-4f0a-b9b2-dc00c4344fb8.docx)[Markdown Download](https://assets.pubpub.org/apg00ca1/49d987ab-0221-4f0a-b9b2-dc00c4344fb8.md)[EPUB Download](https://assets.pubpub.org/ke7dp4ii/49d987ab-0221-4f0a-b9b2-dc00c4344fb8.epub)[HTML Download](https://assets.pubpub.org/5r65qpn3/49d987ab-0221-4f0a-b9b2-dc00c4344fb8.html)[OpenDocument Download](https://assets.pubpub.org/465urzmi/49d987ab-0221-4f0a-b9b2-dc00c4344fb8.odt)[Plain Text Download](https://assets.pubpub.org/z45qbo2s/49d987ab-0221-4f0a-b9b2-dc00c4344fb8.txt)[JATS XML Download](https://assets.pubpub.org/tc26i6p0/49d987ab-0221-4f0a-b9b2-dc00c4344fb8.xml)[LaTeX Download](https://assets.pubpub.org/hc03q9z1/49d987ab-0221-4f0a-b9b2-dc00c4344fb8.tex)DownloadContentslast released3 years ago[Creating and Submitting Pubs - Release #1](https://urbanafrica.pubpub.org/pub/adding-pubs/release/1)[Creating and Submitting Pubs - Release #2](https://urbanafrica.pubpub.org/pub/adding-pubs/release/2)Show detailsCreating and Submitting PubsContents·# What Is a Pub?
+
+You’re reading this on PubPub, a community publishing platform. In PubPub parlance, a “pub” is kind of the atomic unit of writing: it’s equivalent to a blog post, or a journal article, or a book chapter. Pubs can serve any of those purposes and many more.
+
+# How Do I Create a Pub?
+
+If you’re logged into your PubPub account, and the PubPub community you’re contributing to allows for open submissions, you’ll probably see a “Create Pub” button or link somewhere on the site or on the top right of the page. If you don’t see one of these anywhere, see if the community has listed submissions guidelines and procedures. If not, the PubPub community may not accept open submissions, and you may have to be a member of the community to contribute.
+
+All pubs are created through the Pub Editor, which is what you’ll see after you click “Create Pub.” The Pub Editor works very much like any other document editor you may have encountered before — use the tools in the formatting bar to structure your text and add references, tables, and multimedia.
+
+The pub editor is where you’ll draft your pubs. 
+
+# Importing a File
+
+If you’ve drafted your text elsewhere, such as in Google Docs or Microsoft Word, it’s possible to import that text into the pub editor so you can finalize your draft for submission in PubPub. Note that PubPub will strip out text formatting such as special fonts, font sizes, colors, etc., but it should bring in formatting like headings, hyperlinks, and footnotes, as well as images you’ve inserted into your document. 
+
+To import a file, first you need a file PubPub can work with. In most cases, that’s going to be a .docx file. Either download a .docx directly from Word, or in Google Docs, go to File > Download > Microsoft Word (.docx).
+
+Once you have your file ready to go, click “Import Files” in the pub editor. If you don’t see “Import Files,” delete any text you’ve added to the pub so far, and “Import Files” should appear. 
+
+An empty pub displays the option to “Import Files.” 
+
+Next, either drag your file to the paperclip area, or click the paperclip itself to select the file you want to import.
+
+Select a file to upload.
+
+Once PubPub has finished uploading your file, you’ll be able to click “Import” to finish the process. 
+
+The import button appears after the file is done uploading.
+
+Congratulations! Your text is now imported into your pub. You’ll definitely want to look it over to ensure everything imported neatly before you submit for publication, but hopefully this saved you some time.
+
+# Saving your Work
+
+Click “draft last updated” to see the pub history
+
+PubPub automatically saves your work as you edit. When you make changes, you’ll see the save status indicated in the top right of the pub editor. If the status is “Saved,” you can safely close the tab and log back in later. You can view previous drafts of your pub by viewing the pub history.
+
+# Submitting your Pub
+
+You’re all done, eh? Ready to publish? That’s great! 
+
+“Request Publication” will submit your draft to a community admin.
+
+Depending on the permissions you have in the PubPub community to which you’re submitting your work, you can either publish your work immediately or submit it for an editor or community administrator to review and publish. In most cases, you’ll only be able to submit your pub for review by clicking “Request Publication.” When an editor makes a decision or leaves you feedback on your pub, you should receive a notification in your email.
+
+License[Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?[Login to discuss](/login?redirect=/pub/adding-pubs/release/2?readingCollection=b046f25e)commentNo comments here Why not start the discussion?[Urban Africa Project](/)
+- [About](/about)
+- [RSS](/rss.xml)
+- [Legal](/legal)
+
+[Published with*](https://www.pubpub.org)
+- [CommunityUrban Africa Project](/dash)
+- [CollectionGGetting Started](/dash/collection/getting-started)
+- [PubCreating and Submitting Pubs](/dash/pub/adding-pubs)
+
+- [Theorizing the "African City"](/theorizing-the-african-city)
+- [Shape as Substance? Materiality and Urban Africa](/shape-as-substance)
+- [The City as Control? Space, Power, and Colonial Imprint](/the-city-as-control-space-power-and-colonial-imprint)
+- [The Creative Genius of Urban Africa](/the-creative-genius-of-urban-africa)
+- [Mapping Accra](/mapping-accra)
+
+- [collectionGetting Started](https://urbanafrica.pubpub.org/getting-started)
+- 
+
+Cite as  Denlinger, Kyle. 2023. “Creating and Submitting Pubs.” Urban Africa Project*, January. https://urbanafrica.pubpub.org/pub/adding-pubs.duplicateCopymoreMore Cite Options
+- [Twitter](https://twitter.com/intent/tweet?url=https://urbanafrica.pubpub.org/pub/adding-pubs&text=Creating and Submitting Pubs)
+- [Reddit](https://reddit.com/submit?url=https://urbanafrica.pubpub.org/pub/adding-pubs&title=Creating and Submitting Pubs)
+- [Facebook](https://www.facebook.com/sharer.php?u=https://urbanafrica.pubpub.org/pub/adding-pubs)
+- [LinkedIn](https://www.linkedin.com/shareArticle?url=https://urbanafrica.pubpub.org/pub/adding-pubs&title=Creating and Submitting Pubs)
+- [Email](mailto:?subject=Creating and Submitting Pubs&body=https://urbanafrica.pubpub.org/pub/adding-pubs)
+
+- Auto Generated Download
+- PDF
+- Word
+- Markdown
+- EPUB
+- HTML
+- OpenDocument
+- Plain Text
+- JATS XML
+- LaTeX
+
+- [What Is a Pub?](#what-is-a-pub)
+- [How Do I Create a Pub?](#how-do-i-create-a-pub)
+- [Importing a File](#importing-a-file)
+- [Saving your Work](#saving-your-work)
+- [Submitting your Pub](#submitting-your-pub)
+
+[tickRelease #2
+
+Feb 10, 2023 12:37 PM
+
+](https://urbanafrica.pubpub.org/pub/adding-pubs/release/2)[document-shareRelease #1
+
+Jan 27, 2023 10:20 AM
+
+](https://urbanafrica.pubpub.org/pub/adding-pubs/release/1)
+
+- [What Is a Pub?](#what-is-a-pub)
+- [How Do I Create a Pub?](#how-do-i-create-a-pub)
+- [Importing a File](#importing-a-file)
+- [Saving your Work](#saving-your-work)
+- [Submitting your Pub](#submitting-your-pub)
