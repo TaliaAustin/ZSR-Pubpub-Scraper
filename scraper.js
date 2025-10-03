@@ -9,6 +9,16 @@ import http from 'http';
 const CONFIG = {
   baseUrl: 'https://urbanafrica.pubpub.org',
   outputDir: './preserved-pubpub',
+  // Direct collection URLs - no discovery needed
+  collections: [
+    'https://urbanafrica.pubpub.org/theorizing-the-african-city',
+    'https://urbanafrica.pubpub.org/shape-as-substance',
+    'https://urbanafrica.pubpub.org/the-city-as-control-space-power-and-colonial-imprint',
+    'https://urbanafrica.pubpub.org/the-creative-genius-of-urban-africa',
+    'https://urbanafrica.pubpub.org/mapping-accra',
+    'https://urbanafrica.pubpub.org/getting-started',
+    'https://urbanafrica.pubpub.org/about'
+  ],
   delays: {
     navigation: 2000,
     content: 1000,
@@ -16,7 +26,6 @@ const CONFIG = {
   },
   headless: false,
   userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36',
-  // Only scrape published pubs
   publishedOnly: true
 };
 
@@ -170,83 +179,28 @@ ${authors}
 </article>`;
 }
 
-// Step 1: Discover collections
+// Step 1: Use predefined collection URLs
 async function discoverCollections(page) {
-  console.log('\n=== DISCOVERING COLLECTIONS ===');
+  console.log('\n=== LOADING COLLECTIONS ===');
   
-  await page.goto(CONFIG.baseUrl, { waitUntil: 'domcontentloaded' });
-  await waitForNetworkIdle(page);
-  await page.waitForTimeout(CONFIG.delays.content);
-
-  const collections = await page.evaluate(() => {
-    const results = [];
+  const collections = CONFIG.collections.map(url => {
+    const slug = url.split('/').pop();
+    const title = slug.split('-').map(word => 
+      word.charAt(0).toUpperCase() + word.slice(1)
+    ).join(' ');
     
-    // Strategy 1: Look for collection links
-    const collectionLinks = document.querySelectorAll('a[href*="/collection/"], a[href*="/collections/"]');
-    collectionLinks.forEach(link => {
-      const href = link.getAttribute('href');
-      const title = link.textContent?.trim() || link.getAttribute('title') || '';
-      if (href && title && !href.endsWith('/collection/') && !href.endsWith('/collections/')) {
-        results.push({
-          title,
-          url: href.startsWith('http') ? href : window.location.origin + href,
-          slug: href.split('/').pop() || href.split('/').slice(-2)[0]
-        });
-      }
-    });
-
-    // Strategy 2: Look in navigation
-    const navLinks = document.querySelectorAll('nav a, .nav a, [role="navigation"] a');
-    navLinks.forEach(link => {
-      const href = link.getAttribute('href');
-      const title = link.textContent?.trim() || '';
-      if (href && title && href.includes('/') && !href.startsWith('#')) {
-        const url = href.startsWith('http') ? href : window.location.origin + href;
-        const slug = href.split('/').pop() || 'unknown';
-        if (slug && slug !== 'unknown' && !results.some(r => r.slug === slug)) {
-          results.push({ title, url, slug });
-        }
-      }
-    });
-
-    // Deduplicate by slug
-    const uniqueResults = Array.from(
-      new Map(results.map(r => [r.slug, r])).values()
-    );
-
-    return uniqueResults;
+    return { url, slug, title };
   });
-
-  console.log(`Found ${collections.length} collections`);
   
-  if (collections.length === 0) {
-    console.log('\n⚠️  NO COLLECTIONS FOUND - Saving debug info...');
-    const debugHtml = await page.content();
-    await fs.writeFile(
-      path.join(CONFIG.outputDir, DIRS.admin, 'homepage-debug.html'),
-      debugHtml
-    );
-    
-    // Take a screenshot
-    await page.screenshot({ 
-      path: path.join(CONFIG.outputDir, DIRS.admin, 'homepage-screenshot.png'),
-      fullPage: true 
-    });
-    
-    console.log(`Saved: ${DIRS.admin}/homepage-debug.html`);
-    console.log(`Saved: ${DIRS.admin}/homepage-screenshot.png`);
-    console.log('\nPlease check these files and look for collection links manually.');
-    console.log('Then we can update the selectors.\n');
-  }
-  
+  console.log(`Using ${collections.length} predefined collections:`);
   collections.forEach((col, idx) => {
-    console.log(`  ${idx + 1}. ${col.title} (${col.slug})`);
+    console.log(`  ${idx + 1}. ${col.title}`);
   });
 
   return collections;
 }
 
-// Step 2: Scrape collection
+// Step 2: Scrape collection with sub-sections/headers
 async function scrapeCollection(page, collection) {
   console.log(`\n--- Scraping Collection: ${collection.title} ---`);
   
@@ -259,6 +213,7 @@ async function scrapeCollection(page, collection) {
       ...collectionInfo,
       scrapedAt: new Date().toISOString(),
       description: '',
+      sections: [], // Track sub-sections/headers
       publications: [],
       metadata: {}
     };
@@ -281,54 +236,85 @@ async function scrapeCollection(page, collection) {
       }
     }
 
-    // Find publication links
-    const pubLinks = document.querySelectorAll('a[href*="/pub/"]');
-    const pubsSet = new Set();
-
-    pubLinks.forEach(link => {
-      const href = link.getAttribute('href');
-      if (!href || href === '/pub/') return;
-
-      const title = link.textContent?.trim() || 
-                   link.getAttribute('title') || 
-                   link.querySelector('[class*="title"]')?.textContent?.trim() || 
-                   'Untitled';
-      
-      const url = href.startsWith('http') ? href : window.location.origin + href;
-      const slug = href.split('/pub/')[1]?.split('/')[0] || 'unknown';
-      
-      if (slug !== 'unknown' && !pubsSet.has(slug)) {
-        pubsSet.add(slug);
-        
-        const parent = link.closest('[class*="pub"], [class*="publication"], li, article');
-        let authors = '';
-        let date = '';
-        let isPublished = true; // Assume published unless we find draft indicator
-        
-        if (parent) {
-          const authorEl = parent.querySelector('[class*="author"], .byline');
-          const dateEl = parent.querySelector('[class*="date"], time');
-          const statusEl = parent.querySelector('[class*="draft"], [class*="status"]');
-          
-          authors = authorEl?.textContent?.trim() || '';
-          date = dateEl?.getAttribute('datetime') || dateEl?.textContent?.trim() || '';
-          
-          // Check if it's a draft
-          if (statusEl && statusEl.textContent?.toLowerCase().includes('draft')) {
-            isPublished = false;
+    // Look for sections/headers (like "Spring 2025", "Spring 2023", etc.)
+    const sectionHeaders = document.querySelectorAll('h1, h2, h3, h4, [class*="section-header"], [class*="heading"]');
+    const sections = new Map();
+    let currentSection = 'Unsectioned';
+    
+    // Process the DOM in order to associate pubs with their sections
+    const allElements = document.querySelectorAll('h1, h2, h3, h4, a[href*="/pub/"]');
+    
+    allElements.forEach(el => {
+      // Check if this is a header
+      if (el.tagName.match(/^H[1-4]$/)) {
+        const headerText = el.textContent?.trim();
+        if (headerText && headerText.length > 2) {
+          currentSection = headerText;
+          if (!sections.has(currentSection)) {
+            sections.set(currentSection, []);
           }
         }
+      }
+      // Check if this is a pub link
+      else if (el.tagName === 'A') {
+        const href = el.getAttribute('href');
+        if (href && href.includes('/pub/')) {
+          const title = el.textContent?.trim() || 
+                       el.getAttribute('title') || 
+                       el.querySelector('[class*="title"]')?.textContent?.trim() || 
+                       'Untitled';
+          
+          const url = href.startsWith('http') ? href : window.location.origin + href;
+          const slug = href.split('/pub/')[1]?.split('/')[0] || 'unknown';
+          
+          if (slug !== 'unknown') {
+            const parent = el.closest('[class*="pub"], [class*="publication"], li, article');
+            let authors = '';
+            let date = '';
+            let isPublished = true;
+            
+            if (parent) {
+              const authorEl = parent.querySelector('[class*="author"], .byline');
+              const dateEl = parent.querySelector('[class*="date"], time');
+              const statusEl = parent.querySelector('[class*="draft"], [class*="status"]');
+              
+              authors = authorEl?.textContent?.trim() || '';
+              date = dateEl?.getAttribute('datetime') || dateEl?.textContent?.trim() || '';
+              
+              if (statusEl && statusEl.textContent?.toLowerCase().includes('draft')) {
+                isPublished = false;
+              }
+            }
 
-        data.publications.push({
-          title,
-          url,
-          slug,
-          authors,
-          date,
-          isPublished
-        });
+            const pubData = {
+              title,
+              url,
+              slug,
+              authors,
+              date,
+              isPublished,
+              section: currentSection
+            };
+
+            // Add to current section
+            if (!sections.has(currentSection)) {
+              sections.set(currentSection, []);
+            }
+            sections.get(currentSection).push(pubData);
+            
+            // Add to main publications list
+            data.publications.push(pubData);
+          }
+        }
       }
     });
+
+    // Convert sections map to array
+    data.sections = Array.from(sections.entries()).map(([name, pubs]) => ({
+      name,
+      publicationCount: pubs.length,
+      publications: pubs.map(p => p.slug)
+    }));
 
     return data;
   }, collection);
@@ -338,8 +324,22 @@ async function scrapeCollection(page, collection) {
     const originalCount = collectionData.publications.length;
     collectionData.publications = collectionData.publications.filter(p => p.isPublished);
     console.log(`  Found ${collectionData.publications.length} published publications (${originalCount - collectionData.publications.length} drafts filtered out)`);
+    
+    // Update section counts
+    collectionData.sections.forEach(section => {
+      const sectionPubs = collectionData.publications.filter(p => p.section === section.name);
+      section.publicationCount = sectionPubs.length;
+      section.publications = sectionPubs.map(p => p.slug);
+    });
   } else {
     console.log(`  Found ${collectionData.publications.length} publications`);
+  }
+  
+  if (collectionData.sections.length > 0) {
+    console.log(`  Organized into ${collectionData.sections.length} sections:`);
+    collectionData.sections.forEach(section => {
+      console.log(`    - ${section.name}: ${section.publicationCount} pubs`);
+    });
   }
   
   return collectionData;
@@ -474,10 +474,11 @@ async function scrapePublication(page, publication, pubDir) {
       console.log(`      ✓ Downloaded ${mediaManifest.length} images`);
     }
 
-    // Save publication manifest
+    // Save publication manifest with section info
     await saveJson(path.join(pubDir, 'publication-manifest.json'), {
       ...pubData,
       contentHtml: undefined, // Don't duplicate in JSON
+      section: publication.section, // Track which section this pub belongs to
       formats: {
         markdown: 'content.md',
         jatsXml: 'content.xml',
@@ -582,9 +583,8 @@ async function main() {
       );
 
       // Scrape all publications in this collection
-      const pubsToTest = collectionData.publications.slice(0, 2); // TEST MODE: Only 2 per collection
-      console.log(`  TEST MODE: Scraping ${pubsToTest.length} of ${collectionData.publications.length} publications...`);
-      
+      const pubsToTest = collectionData.publications; // FULL MODE:
+      console.log(`  Scraping ${pubsToTest.length} publications...`);
       for (const pub of pubsToTest) {
         await page.waitForTimeout(CONFIG.delays.polite);
         
@@ -596,8 +596,8 @@ async function main() {
         );
         await ensureDir(pubDir);
         
-        // Scrape publication
-        const pubData = await scrapePublication(page, pub, pubDir);
+        // Scrape publication (pass the collection slug for context)
+        const pubData = await scrapePublication(page, pub, pubDir, collectionData.slug);
         
         // Track all pubs
         if (!allPubsSeen.has(pub.slug)) {

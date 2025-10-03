@@ -1,0 +1,135 @@
+# Home
+
+**Authors:** 
+
+## Content
+
+0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		[Skip to main content](#main-content)[Urban Africa Project](/)[Search](/search)**Dashboardcaret-down[Login or Signup](/login?redirect=/pub/gqw9ew57/release/1?readingCollection=490acc6a)
+- [Home](/)
+- Collectionscaret-down
+- [Getting Started](/getting-started)
+- [About](/about)
+
+[The Creative Genius of Urban Africa](https://urbanafrica.pubpub.org/the-creative-genius-of-urban-africa)The Creative Genius of Urban Africa[Spring 2023](https://urbanafrica.pubpub.org/spring-2023)Published on **May 09, 2023# The Dynamism of Culture: Understanding African Urban Futures
+
+by [Devon Neville](/user/devon-neville)Published onMay 09, 2023CiteSocial[PDF Download](https://s3.amazonaws.com/assets.pubpub.org/cm4c09smi1y70w7fd6ui3nr1cs8q411g.pdf)[Word Download](https://assets.pubpub.org/e4co3xb0/f39343ce-0f9c-4140-9253-6fd3988ccfcd.docx)[Markdown Download](https://assets.pubpub.org/5w67lmew/f39343ce-0f9c-4140-9253-6fd3988ccfcd.md)[EPUB Download](https://assets.pubpub.org/3upvsu11/f39343ce-0f9c-4140-9253-6fd3988ccfcd.epub)[HTML Download](https://assets.pubpub.org/t4jcpbxq/f39343ce-0f9c-4140-9253-6fd3988ccfcd.html)[OpenDocument Download](https://assets.pubpub.org/zouw8v7k/f39343ce-0f9c-4140-9253-6fd3988ccfcd.odt)[Plain Text Download](https://assets.pubpub.org/opzxc78i/f39343ce-0f9c-4140-9253-6fd3988ccfcd.txt)[JATS XML Download](https://assets.pubpub.org/2nzubwqu/f39343ce-0f9c-4140-9253-6fd3988ccfcd.xml)[LaTeX Download](https://assets.pubpub.org/tyxfg9zi/f39343ce-0f9c-4140-9253-6fd3988ccfcd.tex)DownloadContentslast released2 years ago[The Dynamism of Culture: Understanding African Urban Futures - Release #1](https://urbanafrica.pubpub.org/pub/gqw9ew57/release/1)Show detailsThe Dynamism of Culture: Understanding African Urban FuturesContents·         Spanning the epochs of African urban history, there have been many warring influences that have shaped urban practices and cities in Africa. Changing political regimes, the implementation of colonialism and its unique locus of control being centered within cities, particularly around segregation and urban planning, and the influence of architectural style have all shaped cities and the way locals interact with them. Despite these influences across time and space, people’s cultural and artistic practices keenly show individual actors and communal attempts to render urban space and negotiate ideas of citizenship. Regardless of state, governmental, and architectural influence in cities, the most profound impact on cities comes from ordinary citizens engaging in cultural practices that tie them to their city, linking them to their environment, and illuminating how individuals comment and perceive their cities. Looking at actors engaged in cultural practices related to urban life matter because regardless of city or period, locals who are actively invested in maintaining and protecting their urban culture will fill the roles of any absent state, lack of infrastructure, or built environment project that shapes surroundings.
+
+## On Literature & Theorizing Artistic Connections
+
+      Artistic practices and cultural expression allow individuals and communities to render urban spaces, and make sense of their life and emotions through a resulting cultural practice or artistic form. In the form of the novel, Lola Akande theorizes the unique link between the novel and the African city. In discussing the dialectic nature of writing about cities and city dwelling, Akande notes, “the third level of interrelationship between literature and the city, in Blanchant’s view, is that like the work of literature, the city brings its authors/writers into existence, not the other way around.”1 Akande is referencing the works of a scholar Maurice Blanchant, who theorized about the several layers of highly inter relational dynamic between the artist and the city. Akande is channeling Blanchant’s scholarship, and noting that in order to render or comment on the city through literature, the city makes the artist. Even when the work of an artist may be negative or scathing, the city creates the author, and inherently shapes the work. Understanding this idea channels the assumption that the city is a unique place to create cultural works, and that the city is always an actor in work. With this in mind, seeing cities can be seen with a discerning lens through literature, like Akande argues, as well as other art and cultural practices.
+
+## On Music and Lagos: Fela Kuti 
+
+     In addition to literature, music functions not only to capture and create sonic soundscapes of urban life, but it also represents another artistic and cultural practice where the city functions as an agent in the shaping of art. A prominent artist who left not only a lasting impact on the city of Lagos, but afrobeats music as an entire genre is the life and legacy of Fela Kuti. Fela Kuti’s entire delivery of music was not only shaped by Lagos, but his music also continued to evolve as Fela made sense of the ‘postcolonial incredible’ of Lagos. In Tejumola Olaniyan’s *Arrest the Music! Fela and His Rebel Art and Politics*, Olaniyan explains that the city was not a passive inspiration to Kuti’s musical style, in fact, the city “simultaneously enabled and circumscribed Fela’s imagination and incongruence. It set the terms of engagement but also had to concede and absorb the endless and unpredictable contractual revisions Fela routinely threw in.2” Lagos was currently in the process of decolonization and massive bureaucratic transformation, and culturally, the genre of music called highlife dominated the dancing club scene. While Fela originally wanted to perform highlife jazz, a fusion style of music and change the popular taste in Lagos, he was largely unsuccessful in the 1960s by nature of the fact that Lagosians were simply not interested in his music. In order to see the city and truly ascertain its heartbeat, Fela listened and wrote music about “the laboring millions without whose daily toil there would have been no Lagos to speak of; they are the city.”3 In doing so, he embodied Lagos through singing about the common citizen, singing in their spoken language, Pidgin English, as well as instrumentally adding elements like blaring horns and aggressive percussion to mimic the sonic landscape of traffic and city chaos.4 These changes to Fela’s sound marked the beginning of the genre of afrobeats, skyrocketing Fela into immense fame in Lagos. Olaniyan deftly notes the genesis of afrobeats, commenting, “We usually credit Fela with the patent for afrobeat, but to speak truly, it was a joint invention with the teeming masses of Lagos and their kind in similar locations elsewhere in the country and in Africa generally.” The city, in many ways, is a sum of its citizens, and Lagos created Fela as an artist as much as Fela would go on to influence Lagos through his music.
+
+## Artistic Expression and Criticism: Cartoons and Diversity of Urban Ethnographic Dimension 
+
+     Examining city life and urbanity through the lens of culture also allows one to see the ethnographic dimension of a city5 That ethnographic dimension of a city can be multifaceted as well, as art and cultural practices can be used to celebrate, criticize, and show resistance to institutions in urban contexts like the state. In the book chapter *Cartoon Satire: Cartoons as Critical Entertainment and Resistance in Ghana’s Fourth Republic*, author Dr. Oduro-Frimpong argues that the art form of cartoons carry a dual meaning as being both entertainment and offering locally legible criticism or resistance to perceived injustices.6 In examining the cartoonist The Black Narrators’ piece “The Fight Against Corruption”, the viewer sees a policeman, a priest, a judge, and other prominent figures sitting on the top of a tree called ‘corruption’. Groups of ordinary citizens attempt to fell the tree while the corrupt throw money at the protestors from the branches trying to convince them to stop. Dr Oduro-Frimpong argues that the cartoon represents a “broad call for grassroots mobilization to physically fight and end financial corruption in the public service.7” The mobilization of individual resistance to represent the people coming together to rid the institutions of corruption speaks to an urban collective that experiences events like these, which ultimately give rise to the creation of these cartoons in the first place. Mediums such as political cartoons and cartoons that offer social commentary offer a pulse into urban activities that not only articulate general entertainment but also criticisms of aspects of the city that the masses and the artist themselves disagree with, such as corruption in institutions like the judiciary and the church.
+
+## Conclusion
+
+      The city and the artistic creator have an important relationship that has been examined. Another aspect of cultural projects and their impact on cities relates to reading influences such as local built environment as cultural practices in order to view cities as unique for the cultural practices and how locals negotiate ideas of citizenship. An idea that scholar Prita Meier articulates in her book *Swahili Port Cities: The Architecture of Elsewhere* is that Swahili port city residents articulated ideas of citizenship being inherently related to ideas of elsewhere through cultural diffusion and trade by means of shaping their built environment to reflect that sentiment.8 In chapter four of her text, Meier supports her assertion by examining the practice of hanging chinese porcelain bowls on the walls of their homes to articulate feelings of elsewhere. Meier argues, “Patrician members of coastal society visualized their sophistication, Islamic identity, social mobility, and privileged connection to other Indian Ocean rim cultures by constructing complex display tableaux of imported objets d’art in their homes.9” While naturally, decorating and interior design reflects changes to the built environment, I also believe that this practice can be viewed as a cultural attempt to render the urban environment by articulating this notion of citizenship that relates not only to actual location, but also to the idea of elsewhere. Across cultures, displaying fine objects in the home connotes sophistication and wealth, but for Swahili patricians, this practice was distinct in its ability to connect with urbanity by articulating the distinct Swahili sentiment of citizenship. For Swahili patricians, citizenship and urbanity were inherently tied up in the idea of elsewhere, and their cultural project of mounting Chinese export porcelain bowls en masse on their walls like artwork articulated their connections with faraway places as well as rooting them in the city.
+
+There are many different ways to see a city, and all cities should be approached with respect and curiosity to determine each cities’ uniqueness and history. When examining African cities, it's tempting to consider viewing them best through a post-colonial lens, or a spatial lens, or through the lens of the built environment to ‘best’ see African cities. While one of those lenses may work best for one particular city, in thinking about African cities more broadly, and when considering African urban futures, viewing cities through cultural and artistic processes that are occurring locally is the most nascent way to approach seeing cities. Viewing cities through their cultural projects will illuminate ordinary actions from citizens as well as profound community ideals, and intersect with the social and political aspects of urban life. People make sense of urban citizenship through cultural projects, and find unity with others in their creations, and the consumption of art and cultural projects that render urban environments. Viewing cities from a viewpoint of popular culture also accounts for the diversity of experiences within a city: popular culture accounts for music, literature, design, cartoons of which the subject matters can relate to a city positively, negatively, passively, and so on. Cultural expression will always be diverse yet always rooted in experience, and the experience will always be rooted in city life and citizenship. Cultural and artist projects allow urban African futures to appreciate the dynamic, and often contradicting fabric of urban life.
+
+Footnotes9License[Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?[Login to discuss](/login?redirect=/pub/gqw9ew57/release/1?readingCollection=490acc6a)commentNo comments here Why not start the discussion?Read Next[Africa: Colonialism No Longer Has A Hold On Me](https://urbanafrica.pubpub.org/pub/0wu2x0j4?readingCollection=490acc6a)[Urban Africa Project](/)
+- [About](/about)
+- [RSS](/rss.xml)
+- [Legal](/legal)
+
+[Published with*](https://www.pubpub.org)
+- [CommunityUrban Africa Project](/dash)
+- [CollectionThe Creative Genius of Urban Africa](/dash/collection/the-creative-genius-of-urban-africa)
+- [PubThe Dynamism of Culture: Understanding African Urban Futures](/dash/pub/gqw9ew57)
+
+- [Theorizing the "African City"](/theorizing-the-african-city)
+- [Shape as Substance? Materiality and Urban Africa](/shape-as-substance)
+- [The City as Control? Space, Power, and Colonial Imprint](/the-city-as-control-space-power-and-colonial-imprint)
+- [The Creative Genius of Urban Africa](/the-creative-genius-of-urban-africa)
+- [Mapping Accra](/mapping-accra)
+
+- [collectionThe Creative Genius of Urban Africa](https://urbanafrica.pubpub.org/the-creative-genius-of-urban-africa)
+- 
+
+Cite as  Neville, Devon. 2023. “The Dynamism of Culture: Understanding African Urban Futures.” In The Creative Genius of Urban Africa*. https://urbanafrica.pubpub.org/pub/gqw9ew57.duplicateCopymoreMore Cite Options
+- [Twitter](https://twitter.com/intent/tweet?url=https://urbanafrica.pubpub.org/pub/gqw9ew57&text=The Dynamism of Culture: Understanding African Urban Futures)
+- [Reddit](https://reddit.com/submit?url=https://urbanafrica.pubpub.org/pub/gqw9ew57&title=The Dynamism of Culture: Understanding African Urban Futures)
+- [Facebook](https://www.facebook.com/sharer.php?u=https://urbanafrica.pubpub.org/pub/gqw9ew57)
+- [LinkedIn](https://www.linkedin.com/shareArticle?url=https://urbanafrica.pubpub.org/pub/gqw9ew57&title=The Dynamism of Culture: Understanding African Urban Futures)
+- [Email](mailto:?subject=The Dynamism of Culture: Understanding African Urban Futures&body=https://urbanafrica.pubpub.org/pub/gqw9ew57)
+
+- Auto Generated Download
+- PDF
+- Word
+- Markdown
+- EPUB
+- HTML
+- OpenDocument
+- Plain Text
+- JATS XML
+- LaTeX
+
+- [On Literature & Theorizing Artistic Connections](#on-literature-theorizing-artistic-connections)
+- [On Music and Lagos: Fela Kuti ](#on-music-and-lagos-fela-kuti)
+- [Artistic Expression and Criticism: Cartoons and Diversity of Urban Ethnographic Dimension ](#artistic-expression-and-criticism-cartoons-and-diversity-of-urban-ethnographic-dimension)
+- [Conclusion](#conclusion)
+
+[tickRelease #1
+
+May 09, 2023 11:29 AM
+
+](https://urbanafrica.pubpub.org/pub/gqw9ew57/release/1)
+
+- [On Literature & Theorizing Artistic Connections](#on-literature-theorizing-artistic-connections)
+- [On Music and Lagos: Fela Kuti ](#on-music-and-lagos-fela-kuti)
+- [Artistic Expression and Criticism: Cartoons and Diversity of Urban Ethnographic Dimension ](#artistic-expression-and-criticism-cartoons-and-diversity-of-urban-ethnographic-dimension)
+- [Conclusion](#conclusion)

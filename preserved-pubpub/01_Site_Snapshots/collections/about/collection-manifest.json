@@ -1,9 +1,88 @@
 {
-  "title": "About",
   "url": "https://urbanafrica.pubpub.org/about",
   "slug": "about",
-  "scrapedAt": "2025-10-02T19:58:35.761Z",
+  "title": "About",
+  "scrapedAt": "2025-10-03T21:25:51.232Z",
   "description": "Contributor Profile",
+  "sections": [
+    {
+      "name": "Contributors, Spring 2023",
+      "publicationCount": 2,
+      "publications": [
+        "hazik-azam",
+        "hazik-azam"
+      ]
+    },
+    {
+      "name": "Hazik Azam",
+      "publicationCount": 2,
+      "publications": [
+        "henrybaur",
+        "henrybaur"
+      ]
+    },
+    {
+      "name": "Henry Baur",
+      "publicationCount": 2,
+      "publications": [
+        "nate-block",
+        "nate-block"
+      ]
+    },
+    {
+      "name": "Nate Block",
+      "publicationCount": 2,
+      "publications": [
+        "isa-krebs",
+        "isa-krebs"
+      ]
+    },
+    {
+      "name": "Isa Krebs",
+      "publicationCount": 2,
+      "publications": [
+        "mackenzielael",
+        "mackenzielael"
+      ]
+    },
+    {
+      "name": "Mackenzie Lael",
+      "publicationCount": 2,
+      "publications": [
+        "jacquimarr",
+        "jacquimarr"
+      ]
+    },
+    {
+      "name": "Jacquelinne Marroquin",
+      "publicationCount": 2,
+      "publications": [
+        "devon-neville",
+        "devon-neville"
+      ]
+    },
+    {
+      "name": "Devon Neville",
+      "publicationCount": 2,
+      "publications": [
+        "nate-plageman",
+        "nate-plageman"
+      ]
+    },
+    {
+      "name": "Nate Plageman",
+      "publicationCount": 2,
+      "publications": [
+        "jack-sabatini",
+        "jack-sabatini"
+      ]
+    },
+    {
+      "name": "Jack Sabatini",
+      "publicationCount": 0,
+      "publications": []
+    }
+  ],
   "publications": [
     {
       "title": "Hazik Azam",
@@ -11,7 +90,17 @@
       "slug": "hazik-azam",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Contributors, Spring 2023"
+    },
+    {
+      "title": "Hazik Azam",
+      "url": "https://urbanafrica.pubpub.org/pub/hazik-azam",
+      "slug": "hazik-azam",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Contributors, Spring 2023"
     },
     {
       "title": "Henry Baur ",
@@ -19,7 +108,17 @@
       "slug": "henrybaur",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Hazik Azam"
+    },
+    {
+      "title": "Henry Baur",
+      "url": "https://urbanafrica.pubpub.org/pub/henrybaur",
+      "slug": "henrybaur",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Hazik Azam"
     },
     {
       "title": "Nate Block",
@@ -27,7 +126,17 @@
       "slug": "nate-block",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Henry Baur"
+    },
+    {
+      "title": "Nate Block",
+      "url": "https://urbanafrica.pubpub.org/pub/nate-block",
+      "slug": "nate-block",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Henry Baur"
     },
     {
       "title": "Isa Krebs",
@@ -35,7 +144,17 @@
       "slug": "isa-krebs",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Nate Block"
+    },
+    {
+      "title": "Isa Krebs",
+      "url": "https://urbanafrica.pubpub.org/pub/isa-krebs",
+      "slug": "isa-krebs",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Nate Block"
     },
     {
       "title": "Mackenzie Lael ",
@@ -43,7 +162,17 @@
       "slug": "mackenzielael",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Isa Krebs"
+    },
+    {
+      "title": "Mackenzie Lael",
+      "url": "https://urbanafrica.pubpub.org/pub/mackenzielael",
+      "slug": "mackenzielael",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Isa Krebs"
     },
     {
       "title": "Jacquelinne Marroquin",
@@ -51,7 +180,17 @@
       "slug": "jacquimarr",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Mackenzie Lael"
+    },
+    {
+      "title": "Jacquelinne Marroquin",
+      "url": "https://urbanafrica.pubpub.org/pub/jacquimarr",
+      "slug": "jacquimarr",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Mackenzie Lael"
     },
     {
       "title": "Devon Neville",
@@ -59,7 +198,17 @@
       "slug": "devon-neville",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Jacquelinne Marroquin"
+    },
+    {
+      "title": "Devon Neville",
+      "url": "https://urbanafrica.pubpub.org/pub/devon-neville",
+      "slug": "devon-neville",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Jacquelinne Marroquin"
     },
     {
       "title": "Nate Plageman",
@@ -67,7 +216,17 @@
       "slug": "nate-plageman",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Devon Neville"
+    },
+    {
+      "title": "Nate Plageman",
+      "url": "https://urbanafrica.pubpub.org/pub/nate-plageman",
+      "slug": "nate-plageman",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Devon Neville"
     },
     {
       "title": "Jack Sabatini",
@@ -75,7 +234,17 @@
       "slug": "jack-sabatini",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Nate Plageman"
+    },
+    {
+      "title": "Jack Sabatini",
+      "url": "https://urbanafrica.pubpub.org/pub/jack-sabatini",
+      "slug": "jack-sabatini",
+      "authors": "",
+      "date": "",
+      "isPublished": true,
+      "section": "Nate Plageman"
     }
   ],
   "metadata": {}

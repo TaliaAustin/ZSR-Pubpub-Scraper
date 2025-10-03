@@ -1,0 +1,123 @@
+# Home
+
+**Authors:** 
+
+## Content
+
+0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		[Skip to main content](#main-content)[Urban Africa Project](/)[Search](/search)**Dashboardcaret-down[Login or Signup](/login?redirect=/pub/q0vywxtb/release/1?readingCollection=501b9bb0)
+- [Home](/)
+- Collectionscaret-down
+- [Getting Started](/getting-started)
+- [About](/about)
+
+[The City as Control? Space, Power, and Colonial Imprint](https://urbanafrica.pubpub.org/the-city-as-control-space-power-and-colonial-imprint)The City as Control? Space, Power, and Colonial Imprint[Spring 2023](https://urbanafrica.pubpub.org/spring-2023)Published on **May 09, 2023# A Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers 
+
+by [Isa Krebs](/user/isa-krebs)Published onMay 09, 2023CiteSocial[PDF Download](https://s3.amazonaws.com/assets.pubpub.org/t39lqvlxbn6ac51tpabugzmx0qy5r13m.pdf)[Word Download](https://assets.pubpub.org/motyf1li/4aacc285-ff71-472a-a6a0-513dc3520aa2.docx)[Markdown Download](https://assets.pubpub.org/sfrm23cl/4aacc285-ff71-472a-a6a0-513dc3520aa2.md)[EPUB Download](https://assets.pubpub.org/na436934/4aacc285-ff71-472a-a6a0-513dc3520aa2.epub)[HTML Download](https://assets.pubpub.org/1re7fpgi/4aacc285-ff71-472a-a6a0-513dc3520aa2.html)[OpenDocument Download](https://assets.pubpub.org/zz2zxyoh/4aacc285-ff71-472a-a6a0-513dc3520aa2.odt)[Plain Text Download](https://assets.pubpub.org/vpt18vyz/4aacc285-ff71-472a-a6a0-513dc3520aa2.txt)[JATS XML Download](https://assets.pubpub.org/qhhtcj1d/4aacc285-ff71-472a-a6a0-513dc3520aa2.xml)[LaTeX Download](https://assets.pubpub.org/xc793bvf/4aacc285-ff71-472a-a6a0-513dc3520aa2.tex)Downloadlast released2 years ago[A Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers  - Release #1](https://urbanafrica.pubpub.org/pub/q0vywxtb/release/1)Show detailsA Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers Rebecca Ginsburg, *At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg* (Charlottesville University of Virginia Press, 2011). 
+
+Rebecca Ginsburg wrote the book, *Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg*, to share the stories of female domestic servants who worked and lived in the built environment of their white employer. Ginsburg, an Apartheid historian, holds an expansive knowledge of the political dynamics and colonial history that caused and shaped Apartheid – the institutionalized segregation on the basis of race throughout South Africa via the Afrikaner Nationalist Party's acquisition of power. Ginsburg veers away from creating a literary text resembling what other Apartheid historians have already produced. Rather, Ginsburg writes for an audience familiar with Apartheid and provides them with a vessel to explore authentic narratives of women who worked as domestic servants in the homes of white South Africans. Ginsburg’s passion for unraveling the intricate, and often melancholy and uncomfortable, dynamics of the era led her to conduct nearly sixty interviews with retired domestic workers and their family members. These women’s “sharp memories'' enabled them to provide “disarmingly honest” narratives about their experiences working and living alongside the people who dehumanized their race (p. 18). Through the stories the women shared, Ginsburg chose to focus her book on the nuanced relationship between the Black female domestic worker and the white family within the built environment of the home. Ginsburg chooses this niche aspect of Apartheid history because she believes that it is imperative for learners to situate themselves in the shoes of those they seek to learn about, particularly those who fall victim to the oppression of those in power. Thus, Ginsburg turns to the population she believes was most adversely impacted by Apartheid, female domestic workers. Through her exploration of these women’s stories, Ginsburg claims that despite their subjugation, the women were able to claim agency by manipulating the built environment of the white home and utilizing their spatial proximity and relations to their employers and urban cityscape to their benefit.
+
+When critically analyzing Ginsburg’s ability to support her thesis, one finds that the examples she provides as evidence serves as foils to her claim. Within the home, Ginsburg primarily discusses the built environments of the kitchen and the back room – spaces intentionally constructed to seclude Black women from the presence of whites. Due to the isolated design of these spaces, Ginsburg explains that women were able to escape the omnipresent surveillance of their employers. Consequently, women attained a warped sense of power over these spaces due to their ability to do as they pleased, so long as their actions remained unobserved to the white family. Thus, Ginsburg claims that women’s manipulation and control over the built environments of the kitchen and back room served as a means of resistance against the white power structure inherent to the home.
+
+The kitchen, located in the center of the home, resembled a cell-like structure with walls barricading the space from the rest of the home, which made it unviewable from any other room – a deliberate choice to make servants’ presence invisible in rooms that were considered to be exclusive social spaces for whites. The kitchen was primarily occupied by Black women since its purpose was for labor deemed unfit for whites. Due to the peculiar sense of privacy found in the kitchen, Ginsburg argues that women were able to undermine the social norms and rules posed upon them. For instance, African women frequently broke the unspoken rule that dishware could not be shared among those of different races, even if sanitized. She shares that one retired domestic worker explained she would “switch on their kettle and use the same cups to drink tea. Thereafter [she would] wash it and take it back to its place with no marks”(159). Ginsburg claims these examples and those of similar nature serve as small, yet significant, acts of disobedience representing women’s subversion of the expectations of their employers, which gave them a sense of ownership over the kitchen and their role in the home.
+
+Although the kitchen was a site free from the white panopticon, which allowed Black women to bend the household rules, Ginsburg’s assertion that these women attained agency is rather optimistic. The structure of the kitchen allows the racial hierarchy created by white South Africans to flourish. To assume that the kitchen was a place of empowerment for Black women minimizes the fact that whites made these women invisible in their homes, and their only opportunity to attain visibility was in spaces created to marginalize them. Thus, glorifying women’s ability to secretly sip tea from a white cup, thoroughly wash away any trace of its use, and tuck it away into its designated cabinet ignores the greater problem – that their actions were enacted in secrecy due to their fear of being caught by their oppressor. If caught, the worker risked losing her sole source of income and housing. Therefore, the sense of agency found in the kitchen is mitigated by the ubiquitous racial power structure.
+
+Additionally, the element of secrecy and solitude suggests that these actions did not produce a significant, long-term change in liberating the community of female African workers from unfair working conditions and segregation. Although it is not Ginsburg’s explicit aim to assess the domestic worker’s ability to spark rebellion in Johannesburg, it insinuates that they lacked any substantial form of power. Thus, the women’s choice to oppose the outlined rules appears to be an understandable and valuable mechanism for remaining sane and finding personal identity in the home, rather than an act of challenging the authority of their employer.
+
+An additional example of how the built environment separated Africans from whites was in their living quarters. In nearly every crevice of the home, the African worker’s presence was ignored; however, Ginsburg contends that Black women’s invisibility enabled them to hide their loved ones in their living quarters, which were referred to as back rooms. Even though it was illegal for workers’ family members to stay with them without proper documentation, individuals sought a life outside of their underfunded villages on the outskirts of Johannesburg by living in the worker’s back room. Ginsburg shares the story of one domestic worker, Alice, who explains that her mother and ten-year-old daughter stayed in her back room but her “missus and the bass didn’t know. Ah, they will chase me [away]. It’s not nice to stay there all day long in the room together…It’s very, very hard” (p. 126). Alice, who likely had to sign a contract ensuring that her family would not inhabit her back room, was consumed by an immense fear of being caught. Thus, her mother and daughter had no choice but to remain in the confines of the sterile back room for the entirety of the day’s daylight hours. Consequently, one is left to question how beneficial it was for these individuals to come to Johannesburg. If Apartheid regulations permitted Blacks to work and/or receive medical care in the cityscape, the individuals would not be able to reap these benefits since they did not obtain the proper documentation. Additionally, the back room was not a space accessible solely to the worker. Ginsburg explains that the rooms had a “single door locked with a key, usually held by both the worker and her employers'' (p. 12). Therefore, the worker lacked a true sense of privacy, resulting in the continuation of the aforementioned relentless fear of being caught and reported to the police. These women’s efforts to manipulate the power structure may have provided women with the comfort of companionship and the thrill of using their employment opportunity to their benefit; however, it is a stretch to claim that these actions were motivated by the agency to rebel, rather than the necessity to be with their loved ones while they endured dire labor conditions and maltreatment.
+
+When reflecting on Ginsburg’s overall success, it appears that her main argument was not resoundingly affirmed. However, through her research and acquisition of numerous first-hand accounts, it becomes obvious that her work allowed her audience to place themselves in the shoes of the domestic worker to understand the cyclical, convoluted position they found themselves in. Undoubtedly, Ginsburg is clear that these women were not complicit in their role as domestic workers. But, through her coupling of the built environment and its inhabitants, it is evident that women were subjected to extremely minimal autonomy. However, Ginsburg’s contribution to highlighting these women’s resilience despite the emotional and physical burdens placed upon them is commendable. Ginsburg shows her readers the reality of how hard it is to break systems of oppression and the importance of recognizing the bottom-up actions that the most oppressed populations enacted to allow themselves to find meaning in their lives. Therefore, informed readers must extract the intricate dynamics of oppression and racism that were exemplified in the built environment of the home through the relationship of the white employer and the Black female employee to understand how Apartheid impacted nearly every facet of life in Johannesburg.
+
+– Isabel Krebs, Wake Forest University
+
+License[Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?[Login to discuss](/login?redirect=/pub/q0vywxtb/release/1?readingCollection=501b9bb0)commentNo comments here Why not start the discussion?Read Next[More Than A Domestic Worker ](https://urbanafrica.pubpub.org/pub/h28jcrdu?readingCollection=501b9bb0)[Urban Africa Project](/)
+- [About](/about)
+- [RSS](/rss.xml)
+- [Legal](/legal)
+
+[Published with*](https://www.pubpub.org)
+- [CommunityUrban Africa Project](/dash)
+- [CollectionThe City as Control? Space, Power, and Colonial Imprint](/dash/collection/the-city-as-control-space-power-and-colonial-imprint)
+- [PubA Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers ](/dash/pub/q0vywxtb)
+
+- [Theorizing the "African City"](/theorizing-the-african-city)
+- [Shape as Substance? Materiality and Urban Africa](/shape-as-substance)
+- [The City as Control? Space, Power, and Colonial Imprint](/the-city-as-control-space-power-and-colonial-imprint)
+- [The Creative Genius of Urban Africa](/the-creative-genius-of-urban-africa)
+- [Mapping Accra](/mapping-accra)
+
+- [collectionThe City as Control? Space, Power, and Colonial Imprint](https://urbanafrica.pubpub.org/the-city-as-control-space-power-and-colonial-imprint)
+- 
+
+Cite as  Krebs, Isa. 2023. “A Critical Analysis of At Home with Apartheid and the Extent of Its Ability to Effectively Share the Narrative of the Female Domestic Workers .” In The City as Control? Space, Power, and Colonial Imprint*. https://urbanafrica.pubpub.org/pub/q0vywxtb.duplicateCopymoreMore Cite Options
+- [Twitter](https://twitter.com/intent/tweet?url=https://urbanafrica.pubpub.org/pub/q0vywxtb&text=A Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers )
+- [Reddit](https://reddit.com/submit?url=https://urbanafrica.pubpub.org/pub/q0vywxtb&title=A Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers )
+- [Facebook](https://www.facebook.com/sharer.php?u=https://urbanafrica.pubpub.org/pub/q0vywxtb)
+- [LinkedIn](https://www.linkedin.com/shareArticle?url=https://urbanafrica.pubpub.org/pub/q0vywxtb&title=A Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers )
+- [Email](mailto:?subject=A Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers &body=https://urbanafrica.pubpub.org/pub/q0vywxtb)
+
+- Auto Generated Download
+- PDF
+- Word
+- Markdown
+- EPUB
+- HTML
+- OpenDocument
+- Plain Text
+- JATS XML
+- LaTeX
+
+[tickRelease #1
+
+May 09, 2023 10:33 AM
+
+](https://urbanafrica.pubpub.org/pub/q0vywxtb/release/1)

@@ -1,0 +1,127 @@
+# Home
+
+**Authors:** 
+
+## Content
+
+0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		[Skip to main content](#main-content)[Urban Africa Project](/)[Search](/search)**Dashboardcaret-down[Login or Signup](/login?redirect=/pub/58potzxx/release/1?readingCollection=501b9bb0)
+- [Home](/)
+- Collectionscaret-down
+- [Getting Started](/getting-started)
+- [About](/about)
+
+[The City as Control? Space, Power, and Colonial Imprint](https://urbanafrica.pubpub.org/the-city-as-control-space-power-and-colonial-imprint)The City as Control? Space, Power, and Colonial Imprint[Spring 2025](https://urbanafrica.pubpub.org/spring-2025)Published on **May 01, 2025# Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011)
+
+by [Addison Schmidt](/user/addison-schmidt)Published onMay 01, 2025CiteSocial[PDF Download](https://s3.amazonaws.com/assets.pubpub.org/46ixuvku1fbovvsil5wpwkvkdb6a1is9.pdf)[Word Download](https://assets.pubpub.org/3ain7ex2/98ab90e3-d464-46be-9b1b-87c92c40277f.docx)[Markdown Download](https://assets.pubpub.org/cd9hlx0o/98ab90e3-d464-46be-9b1b-87c92c40277f.md)[EPUB Download](https://assets.pubpub.org/dy3o5kec/98ab90e3-d464-46be-9b1b-87c92c40277f.epub)[HTML Download](https://assets.pubpub.org/ewzmyuyi/98ab90e3-d464-46be-9b1b-87c92c40277f.html)[OpenDocument Download](https://assets.pubpub.org/6goiekr5/98ab90e3-d464-46be-9b1b-87c92c40277f.odt)[Plain Text Download](https://assets.pubpub.org/14qy6bwj/98ab90e3-d464-46be-9b1b-87c92c40277f.txt)[JATS XML Download](https://assets.pubpub.org/sizwqwhj/98ab90e3-d464-46be-9b1b-87c92c40277f.xml)[LaTeX Download](https://assets.pubpub.org/6bbfnegw/98ab90e3-d464-46be-9b1b-87c92c40277f.tex)Downloadlast released5 months ago[Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011) - Release #1](https://urbanafrica.pubpub.org/pub/58potzxx/release/1)Show detailsRebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011)In her 2011 book *At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg, *historian Rebecca Ginsburg details the lives of the numerous Black South African women who worked in the homes of white South African families in the 1960s and 1970s under apartheid. The origins of Black women domestic laborers in suburban Johannesburg can be traced back to the 1910s when the country’s government urged white citizens to fire Black “houseboys” and instead hire Black women due to the perceived threat of Black men’s sexuality (p. 8). By the “height” of apartheid between 1960 and 1976, employing a Black female domestic worker was widespread in white households throughout South Africa (p. 13). 
+
+Although each chapter focuses on thematic landscapes, most interconnect in some fashion with all three of Ginsburg’s primary arguments. The first of these arguments is the idea that, despite harsh rules and circumstances in white suburban homes, Black domestic workers partook in small acts of disobedience, including gossip, stealing, and hosting guests which, while not part of an organized movement, nonetheless constituted a form of nuanced resistance (p. 23-4). Secondly, Ginsburg claims that the widespread presence of women in suburbs designed to be exclusively white indicates that “apartheid’s planners enjoyed at best uneven success in keeping Africans in their place” (p. 25). Ginsburg’s third and final aim is to assert that physical space itself, including the well-maintained, Western-style homes of wealthy white South Africans in the Northern Suburbs, is subject to a variety of interpretations regarding use and meanings. She is largely successful in her effort to support these claims as a result of the accessible, straightforward narrative she employs that allows the reader to easily understand the content and context of domestic workers’ lives. Despite the effectiveness of Ginsburg’s choice to narrativize the book’s contents in terms of conveying her argument, she does sometimes undermine the credibility of the source by lacking clarity regarding what subject or subjects inspire specific stories. Ginsburg also doesn’t actively engage much in scholarly discourse throughout her work, instead preferring to focus almost exclusively on the oral histories she collected via interviews and other primary sources including transcripts from previous oral histories, photos of suburban homes, and depictions of home layouts. 
+
+*At Home with Apartheid *delves into the lives of Black women who served as domestic workers in suburban Johannesburg through five main aspects: arrival and acclimation into the city; daily work; children (both their own and the white children they cared for); hosting guests; and the strict house rules they abided by. The Introduction outlines Ginsburg’s methods, which include interviews with 60 Black South Africans and 20 white South Africans, all of which were conducted across ten months Ginsburg spent in Johannesburg between 1996 and 2004 (p. 14). In her words, people were generally “disarmingly honest about their pasts, and their emotional responses to their experiences remained strong,” which she theorizes can be partially attributed to the Truth and Reconciliation Hearings that occurred during the time of the interviews (p. 18). 
+
+In Chapter 1 “Getting to Know the Corners,” Ginsburg introduces the life of a domestic worker who is arriving in Johannesburg, where her mere presence is illegal without formal employment papers (p. 38). Many African women arrived in the city without employment and slept discreetly in public spaces or in fellow workers’ backrooms, whether those workers were women they knew from home, through distant connections,  or sometimes even strangers that they came upon on the street (p. 42-3). The practice of hosting new arrivals in one’s backroom was a form of the “nuanced resistance” that Ginsburg outlines in the introduction (p. 50). The knowledge needed to navigate the city designed exclusively for white people– knowing when police were present, which shops allowed African visitors, and where workers’ presence was allowed when accompanied by white children–exemplifies Ginsburg’s assertion that space is perceived differently by group (p. 50-3). Chapter 2 “The Tempo of Kitchen Life” moves to the interior of the home and narrates the average day of a domestic worker, including their small, minimally furnished back rooms and outdoor showers. In Ginsburg’s account, the worker rose before the white family in the morning, went to bed after them, and assisted in nearly every form of domestic life, including helping white families wake up in the morning. This intimacy represents a complete subversion of the separateness that characterized the values of the apartheid regime, a concept that supports Ginsburg’s argument that apartheid failed to successfully separate Black and white South Africans. Despite their harsh circumstances, Black women found a community for themselves on Black-only buses and in parks on their off days, which supports the idea of resistance (p. 80-1). 
+
+Chapter 3 is about the experiences of children– both Black and white– in relation to African domestic workers, most of whom left behind children of their own in townships or rural areas to go care for white children who would grow to view them as inferior due to their race by the age of just five years old (p. 95). The choice of women to nurture and love white children despite the separation from their own was nuanced in the sense that many women felt simultaneously attached to the child they had often raised from birth and also resented because of the privileges those children had, including education and her presence, that her own did not. Chapter 4 “Come in the Dark” describes domestic workers’ practice of hosting guests in back rooms,  which was one of their foremost modes of resistance. There were three primary groups of guests: “homegirls” and “homeboys” who had connections to a worker through their communities of origin; their children; female strangers; and male lovers (p. 116-18). Domestic workers usually had to sneak guests into the house, usually by planning times for them to sneak in when the white family would be occupied or out of the house (p. 122-4). 
+
+Chapter 5 “House Rules” describes the strict rules white Madams used to assert white supremacy within the intimacy of the home. Black servants were not allowed to sit on chairs, drink from the family’s china, eat with the family, or spend time outdoors in the front of the house except in the mornings when they cleaned the *stoep* (p. 140). Many domestic workers subverted these rules by sitting on furniture or using the family’s cutlery while they weren’t around (p. 158-9). White women, whose role was viewed even by themselves as superfluous due to the presence of the domestic worker doing the housework, often spent their time closely surveilling the domestic worker (p. 150-1). Chapter 6 “From Homes with Apartheid” serves as *At Home with Apartheid*’s conclusion and sets the scene of a suburban home on a Saturday afternoon. In the kitchen, the domestic worker baked a cake with the youngest daughter. When everyone finished their activities, the worker was left to clean up everything—from the cake she was baking to the elder daughter’s snack dishes to the father’s car polishing rag (p. 171-2). Her Saturday, as Ginsburg recounts, was far from relaxing. 
+
+The primary strength of *At Home with Apartheid *is its accessibility to a wider reading public, which is in large part due to Ginsburg’s frequent choice to employ a narrative structure that privileges storytelling and scene setting more than much historical writing does. Although the introduction does not set the most robust picture of apartheid South Africa’s origins and political motivations, it does provide context related the origin of female African domestic workers in white homes beginning in the 1910s (p. 8). This sets the stage for Ginsburg to spend the remainder of the book very specifically delving into the lives of her interviewees in order to paint an almost fictionally detailed image of domestic workers’ lives and contexts. Her casual tone matches that of the women she quotes frequently, which adds to the emotional impact of their harrowing accounts. In Chapter 3 “Children and Leaving,” Ginsburg highlights that a woman’s desire to provide the best lives for her children under apartheid required her to leave them to make money caring for white children in Johannesburg. One white man that Ginsburg interviewed stated “In a way, I think she was my mother,” regarding his childhood nanny (p. 94). On the next page, Ginsburg asserts that white children typically realized that their Black nannies were viewed as subordinate to whites by the age of just five years old (p. 95). In the same chapter, Ginsburg both states and illustrates the nuanced feelings of both love and hatred that many workers felt toward the white children they cared for. In this way the process of both showing (via quotes) and telling (via plain assertions) the reader about a given circumstance in the worker’s life is effective. 
+
+While the use of narrative storytelling makes for a digestible reading experience, it simultaneously leads to a lack of clarity at times regarding the narrative’s origin. Specifically, it is sometimes unclear to the reader if a given story was about one person or was a narrativized version of multiple interviewees’ experiences. For example, in Chapter 2 “The Tempo of Kitchen Life,” Ginsburg narrativizes the daily life of “Rose,” whose real name she states is Nkululeko (p. 54). In the second paragraph of Chapter 2, after she introduces Rose, Ginsburg postulates that “Perhaps it was her first week in this position; or maybe she had been with the family in this very yard for upward of twenty years,” which indicates that the day she is about to describe is in fact not based on the real-life happenings of a specific individual and instead a generalized account of a domestic worker’s day (p. 54). The chapter continues by outlining the particulars of a back room, workers’ cold outdoor bathing routine, and the design of a white household. Ginsburg does provide numerical citations throughout the book, but the choice to utilize endnotes as opposed to the more traditional practice of footnotes is somewhat disruptive from the reader’s perspective. Citations from interviewees are understandably anonymized, but the lack of like-for-like characterization is challenging to decipher and does leave the reader questioning how Ginsburg painted such generalized scenes. While interviewing 60 Black workers and families of workers is a laudable feat, “the Northern Suburbs were not monolithic,” and therefore the reader may be skeptical of such narratives that lack specific details characterizing the worker or workers who Ginsburg uses to make her claims (p. 22). 
+
+Ginsburg’s desire to prioritize accessibility is also apparent in her choice to focus on the content of her own research, particularly the oral histories that she collected, as opposed to engaging in a broader scholarly discourse by comparing her findings and assertions to other scholarly works. This presents an interesting case in historical writing and makes it difficult for scholars themselves to situate her work alongside other apartheid research. In the Introduction, Ginsburg states that *Maids and Madams* by Jaclyn Cock and *A Talent for Tomorrow* by Suzanne Gordon were both “especially useful” to her, and she occasionally uses quotes from these manuscripts, but she does not dedicate time to comparing her work to theirs holistically (p. 21). 
+
+In the opening line of *At Home with Apartheid, *author Rebecca Ginsburg declares that “Apartheid was good for no one, but there was nobody for whom it was worse than African women” (1). Through an enticing, well-researched, and intelligible body of work, Ginsburg details the lives of a significant subset of that population: Black female domestic workers. The book’s primary strength lies in its readability and the breadth of oral histories from workers themselves, and it serves as an important summative work on their lives. Its contents are ideal for those seeking a look at the interpersonal workings of oppressive regimes more broadly, and apartheid South Africa in particular. Students and others who aren’t fond of or accustomed to scholarly writing that privileges placing itself within a larger canon of historiography over providing new details will appreciate this book due to its narrative nature and the author’s focus on illuminating uncovered and previously underrepresented stories in historical research. 
+
+Addison Schmidt, Wake Forest University
+
+License[Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?[Login to discuss](/login?redirect=/pub/58potzxx/release/1?readingCollection=501b9bb0)commentNo comments here Why not start the discussion?[Urban Africa Project](/)
+- [About](/about)
+- [RSS](/rss.xml)
+- [Legal](/legal)
+
+[Published with*](https://www.pubpub.org)
+- [CommunityUrban Africa Project](/dash)
+- [CollectionThe City as Control? Space, Power, and Colonial Imprint](/dash/collection/the-city-as-control-space-power-and-colonial-imprint)
+- [PubRRebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011)](/dash/pub/58potzxx)
+
+- [Theorizing the "African City"](/theorizing-the-african-city)
+- [Shape as Substance? Materiality and Urban Africa](/shape-as-substance)
+- [The City as Control? Space, Power, and Colonial Imprint](/the-city-as-control-space-power-and-colonial-imprint)
+- [The Creative Genius of Urban Africa](/the-creative-genius-of-urban-africa)
+- [Mapping Accra](/mapping-accra)
+
+- [collectionThe City as Control? Space, Power, and Colonial Imprint](https://urbanafrica.pubpub.org/the-city-as-control-space-power-and-colonial-imprint)
+- 
+
+Cite as  Schmidt, Addison. 2025. “Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011).” In The City as Control? Space, Power, and Colonial Imprint*. https://urbanafrica.pubpub.org/pub/58potzxx.duplicateCopymoreMore Cite Options
+- [Twitter](https://twitter.com/intent/tweet?url=https://urbanafrica.pubpub.org/pub/58potzxx&text=Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011))
+- [Reddit](https://reddit.com/submit?url=https://urbanafrica.pubpub.org/pub/58potzxx&title=Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011))
+- [Facebook](https://www.facebook.com/sharer.php?u=https://urbanafrica.pubpub.org/pub/58potzxx)
+- [LinkedIn](https://www.linkedin.com/shareArticle?url=https://urbanafrica.pubpub.org/pub/58potzxx&title=Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011))
+- [Email](mailto:?subject=Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011)&body=https://urbanafrica.pubpub.org/pub/58potzxx)
+
+- Auto Generated Download
+- PDF
+- Word
+- Markdown
+- EPUB
+- HTML
+- OpenDocument
+- Plain Text
+- JATS XML
+- LaTeX
+
+[tickRelease #1
+
+May 01, 2025 11:18 AM
+
+](https://urbanafrica.pubpub.org/pub/58potzxx/release/1)

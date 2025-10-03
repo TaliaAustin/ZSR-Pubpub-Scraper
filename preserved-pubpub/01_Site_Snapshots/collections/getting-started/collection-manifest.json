@@ -1,9 +1,74 @@
 {
-  "title": "Getting Started",
   "url": "https://urbanafrica.pubpub.org/getting-started",
   "slug": "getting-started",
-  "scrapedAt": "2025-10-02T19:58:22.364Z",
+  "title": "Getting Started",
+  "scrapedAt": "2025-10-03T21:25:12.654Z",
   "description": "How to create a pub and submit it for publication.",
+  "sections": [
+    {
+      "name": "Getting Started",
+      "publicationCount": 0,
+      "publications": []
+    },
+    {
+      "name": "How-To Guides",
+      "publicationCount": 2,
+      "publications": [
+        "adding-pubs?readingCollection=b046f25e",
+        "adding-pubs?readingCollection=b046f25e"
+      ]
+    },
+    {
+      "name": "Creating and Submitting Pubs",
+      "publicationCount": 2,
+      "publications": [
+        "formatting-your-pub?readingCollection=b046f25e",
+        "formatting-your-pub?readingCollection=b046f25e"
+      ]
+    },
+    {
+      "name": "Formatting your Pub",
+      "publicationCount": 2,
+      "publications": [
+        "citing-sources?readingCollection=b046f25e",
+        "citing-sources?readingCollection=b046f25e"
+      ]
+    },
+    {
+      "name": "Citing Sources in your Pub",
+      "publicationCount": 2,
+      "publications": [
+        "using-images?readingCollection=b046f25e",
+        "using-images?readingCollection=b046f25e"
+      ]
+    },
+    {
+      "name": "Using Images in your Pubs",
+      "publicationCount": 2,
+      "publications": [
+        "vf9d5fm0?readingCollection=b046f25e",
+        "vf9d5fm0?readingCollection=b046f25e"
+      ]
+    },
+    {
+      "name": "Embedding a StoryMap",
+      "publicationCount": 0,
+      "publications": []
+    },
+    {
+      "name": "For March 27th, in Class",
+      "publicationCount": 2,
+      "publications": [
+        "z630uz9k",
+        "citing-sources"
+      ]
+    },
+    {
+      "name": "For March 1st, in Class",
+      "publicationCount": 0,
+      "publications": []
+    }
+  ],
   "publications": [
     {
       "title": "Creating and Submitting Pubs",
@@ -11,7 +76,17 @@
       "slug": "adding-pubs?readingCollection=b046f25e",
       "authors": "by Kyle Denlinger",
       "date": "Published: Jan 27, 2023",
-      "isPublished": true
+      "isPublished": true,
+      "section": "How-To Guides"
+    },
+    {
+      "title": "Creating and Submitting Pubs",
+      "url": "https://urbanafrica.pubpub.org/pub/adding-pubs?readingCollection=b046f25e",
+      "slug": "adding-pubs?readingCollection=b046f25e",
+      "authors": "by Kyle Denlinger",
+      "date": "Published: Jan 27, 2023",
+      "isPublished": true,
+      "section": "How-To Guides"
     },
     {
       "title": "Formatting your Pub",
@@ -19,7 +94,17 @@
       "slug": "formatting-your-pub?readingCollection=b046f25e",
       "authors": "by Kyle Denlinger",
       "date": "Published: Feb 08, 2023",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Creating and Submitting Pubs"
+    },
+    {
+      "title": "Formatting your Pub",
+      "url": "https://urbanafrica.pubpub.org/pub/formatting-your-pub?readingCollection=b046f25e",
+      "slug": "formatting-your-pub?readingCollection=b046f25e",
+      "authors": "by Kyle Denlinger",
+      "date": "Published: Feb 08, 2023",
+      "isPublished": true,
+      "section": "Creating and Submitting Pubs"
     },
     {
       "title": "Citing Sources in your Pub",
@@ -27,7 +112,17 @@
       "slug": "citing-sources?readingCollection=b046f25e",
       "authors": "by Kyle Denlinger",
       "date": "Published: Feb 08, 2023",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Formatting your Pub"
+    },
+    {
+      "title": "Citing Sources in your Pub",
+      "url": "https://urbanafrica.pubpub.org/pub/citing-sources?readingCollection=b046f25e",
+      "slug": "citing-sources?readingCollection=b046f25e",
+      "authors": "by Kyle Denlinger",
+      "date": "Published: Feb 08, 2023",
+      "isPublished": true,
+      "section": "Formatting your Pub"
     },
     {
       "title": "Using Images in your Pubs",
@@ -35,7 +130,17 @@
       "slug": "using-images?readingCollection=b046f25e",
       "authors": "by Kyle Denlinger",
       "date": "Published: Feb 08, 2023",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Citing Sources in your Pub"
+    },
+    {
+      "title": "Using Images in your Pubs",
+      "url": "https://urbanafrica.pubpub.org/pub/using-images?readingCollection=b046f25e",
+      "slug": "using-images?readingCollection=b046f25e",
+      "authors": "by Kyle Denlinger",
+      "date": "Published: Feb 08, 2023",
+      "isPublished": true,
+      "section": "Citing Sources in your Pub"
     },
     {
       "title": "Embedding a StoryMap",
@@ -43,7 +148,17 @@
       "slug": "vf9d5fm0?readingCollection=b046f25e",
       "authors": "by Kyle Denlinger",
       "date": "Published: Apr 22, 2025",
-      "isPublished": true
+      "isPublished": true,
+      "section": "Using Images in your Pubs"
+    },
+    {
+      "title": "Embedding a StoryMap",
+      "url": "https://urbanafrica.pubpub.org/pub/vf9d5fm0?readingCollection=b046f25e",
+      "slug": "vf9d5fm0?readingCollection=b046f25e",
+      "authors": "by Kyle Denlinger",
+      "date": "Published: Apr 22, 2025",
+      "isPublished": true,
+      "section": "Using Images in your Pubs"
     },
     {
       "title": "Example Book Review Pub",
@@ -51,7 +166,8 @@
       "slug": "z630uz9k",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "For March 27th, in Class"
     },
     {
       "title": "Citations and Footnotes",
@@ -59,7 +175,8 @@
       "slug": "citing-sources",
       "authors": "",
       "date": "",
-      "isPublished": true
+      "isPublished": true,
+      "section": "For March 27th, in Class"
     }
   ],
   "metadata": {}

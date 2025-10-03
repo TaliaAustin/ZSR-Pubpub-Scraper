@@ -1,0 +1,65 @@
+{
+  "title": "Narratives from Home: Prioritizing multiple narratives while studying urban Africa",
+  "url": "https://urbanafrica.pubpub.org/pub/2ikubbyo?readingCollection=117f9448",
+  "slug": "2ikubbyo?readingCollection=117f9448",
+  "authors": [],
+  "date": "Published: Apr 25, 2025",
+  "isPublished": true,
+  "section": "The Value of Unprecedented:",
+  "scrapedAt": "2025-10-03T21:20:52.271Z",
+  "fullTitle": "Home",
+  "content": "0:root { \n\t\t\t--community-accent-dark: #2c4150;\n\t\t\t--community-accent-dark-faded-30: rgb(66, 74, 80);\n\t\t\t--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);\n\t\t}\n\t\t\t.accent-background { background-color: #2c4150; }\n\t\t\t.accent-color { color: #FFFFFF; }\n\t\t\t.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }\n\t\t\t.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }\n\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }\n\n\t\t\t.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }\n\n\t\t\t.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }\n\t\t\t.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-primary\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-success\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-warning\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-danger\"]),\n\t\t\t.accent-color .bp3-button[class*=\"bp3-icon\"]::before { color: inherit; }\n\t\t\t.accent-color a, .accent-color a:hover { color: inherit; }\n\t\t\t.bp3-tab[aria-selected=\"true\"], .bp3-tab:not([aria-selected=\"true\"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }\n\t\t\t.bp3-tab[aria-selected=\"true\"] { box-shadow: inset 0 -3px 0 #2c4150; }\n\t\t\t.thread:hover:after { background-color: #2c4150; }\n\t\t\t.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }\n\t\t\t.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }\n\t\t\t.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }\n\n\t\t\t.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }\n\t\t\t.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }\n\n\t\t\tspan.citation:hover { color: #2c4150; }\n\n\t\t\t.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }\n\n\t\t\t\n\t\t\t\n\t\tSkip to main contentUrban Africa ProjectSearchDashboardcaret-downLogin or SignupHomeCollectionscaret-downGetting StartedAboutTheorizing the \"African City\"Theorizing the \"African City\"Spring 2025Published on Apr 25, 2025Narratives from Home: Prioritizing multiple narratives while studying urban Africaby Addison SchmidtPublished onApr 25, 2025CiteSocialPDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX DownloadDownloadContentslast released5 months agoNarratives from Home: Prioritizing multiple narratives while studying urban Africa - Release #1Show detailsNarratives from Home: Prioritizing multiple narratives while studying urban AfricaContents·When students begin studying African cities, they must prioritize studying sources written by authors who recognize their positionality and who focus on conveying many narrative experiences of city dwellers in urban Africa. Although it is impossible to obtain a full breadth of understanding about any one city, let alone dozens of cities across an entire continent, reading sources that delve into the daily lives of various individuals and groups in a given city garners a more authentic picture than either a single narrative or a theory-focused piece can offer.It’s impossible to understand a city entirelyOne of the most important concepts that new scholars of African cities should understand is that, like any city or historical context, it is impossible to understand a metropolis in its entirety. Planner Tanya Zack and photographer Mark Lewis, who are both South African, remark upon the concept of characterizing a city in its entirety in the introduction to their 2023 book Wake Up, This is Joburg, which tells ten stories about various communities within Johannesburg:And we led with an awareness we were not telling people’s whole stories, but only small fragments of their stories as heard by us. These are ten stories we found. There are others. And it would take many more to constitute a batch of stories that might offer a social history of this changeable city in the early twenty-first century.1Zack and Lewis’ admission of the shortcomings of their book is important because it reminds the reader that the stories they read are incomplete, but also because it indicates that they are aware of the status that they hold as storytellers. This understanding is pertinent due to the historical and contemporary characterization of Africa and the Global South more broadly by Western scholars.As Jennifer Robinson points out in “Ordinary Cities,” scholars from the West are often inclined to view African cities through the lens of hierarchies of development and modernity.2 The particulars of these conceptions aren’t essential for a student of urban Africa to focus on initially, but one should be aware that any source will come with both evident and inherent biases. Because of this, students should prioritize reading from a vast array of authors– particularly those who are transparent about their lived experiences and the position they hold within their field of scholarship.The value of diverse perspectivesThe authors of Wake Up, This is Joburg interviewed dozens of people across the city to form ten different narratives on the “Shadow Economy” in Johannesburg.3 This variety allows them the opportunity to engage in dialogues that surround the city. In the third chapter titled “Inside Out,” Zack tells the stories of immigrants who work at the Rockey Street Market. Although the main story featured in the chapter is about a young woman named Senga Mutombo who moved to the city from the Democratic Republic of the Congo with ten family members, the chapter also touches on the struggles of immigrants more generally, and the way that they perceive themselves within the city. At one point the shoe repairman Samuel says that life as an immigrant in Johannesburg is good as long as one doesn’t “engage in unmeaningful activities,” which opens the discourse about what makes a good or bad immigrant.4 Later, Senga Mutombo says “People say it. They say when Mandela dies they will attack foreigners.”5 In a completely separate conversation in “Zola,” a man who is native to the city alludes to the idea: “We are just waiting for the old man to die. Then we gonna chase these foreigners. You know these machetes?”6The discourses that thrive in sources like Wake Up, This is Joburg that prioritize many voices is often lacking in singular narratives, even when those narratives are from an individual who is themselves African or lives in an African city. For example, the pamphlet Cocktail Ladies by student Marius Nkwoh from the University of Nigeria at Nsukka offers the perspective of a young Nigerian man soon after the nation’s independence.7 While the pamphlet does provide a somewhat detailed, insightful view into Nkwoh’s views as told in his radio addresses, on its own it lacks nuance and context. Do Nkwoh’s views reflect those of many young African men in the post-independence era? Are the issues described in it (night marauders, cocktail ladies, hypocrisy, road incidents, and superstition) characteristic of the priorities of this period or merely Nkwoh’s own? It is hard to understand a place or time without context and threads of discussion from many individuals. Thus, although any primary source from a citizen of urban Africa is valuable to those studying the subject, sources that prioritize multiple narratives should be prioritized by new students.Footnotes7LicenseCreative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)Comments0\n\t\t\t\t\t.discussion-list .discussion-thread-component.preview:hover,\n\t\t\t\t\t.discussion-list .discussion-thread-component.expanded-preview {\n\t\t\t\t\t\tborder-left: 3px solid #2c4150;\n\t\t\t\t\t\tpadding-left: calc(1em - 2px);\n\t\t\t\t\t}\n\t\t\t\t?Login to discusscommentNo comments here Why not start the discussion?Read NextUntitled Pub on May 4Urban Africa ProjectAboutRSSLegalPublished withCommunityUrban Africa ProjectCollectionTheorizing the \"African City\"PubNNarratives from Home: Prioritizing multiple narratives while studying urban AfricaTheorizing the \"African City\"Shape as Substance? Materiality and Urban AfricaThe City as Control? Space, Power, and Colonial ImprintThe Creative Genius of Urban AfricaMapping AccracollectionTheorizing the \"African City\"Cite as  Schmidt, Addison. 2025. “Narratives from Home: Prioritizing Multiple Narratives While Studying Urban Africa.” In Theorizing the “African City.” https://urbanafrica.pubpub.org/pub/2ikubbyo.duplicateCopymoreMore Cite OptionsTwitterRedditFacebookLinkedInEmailAuto Generated DownloadPDFWordMarkdownEPUBHTMLOpenDocumentPlain TextJATS XMLLaTeXIt’s impossible to understand a city entirelyThe value of diverse perspectivestickRelease #1Apr 25, 2025 1:11 PMIt’s impossible to understand a city entirelyThe value of diverse perspectives",
+  "metadata": {
+    "og:title": "Narratives from Home: Prioritizing multiple narratives while studying urban Africa",
+    "twitter:title": "Narratives from Home: Prioritizing multiple narratives while studying urban Africa · Theorizing the \"African City\"",
+    "twitter:image:alt": "Narratives from Home: Prioritizing multiple narratives while studying urban Africa · Theorizing the \"African City\"",
+    "citation_title": "Narratives from Home: Prioritizing multiple narratives while studying urban Africa",
+    "dc.title": "Narratives from Home: Prioritizing multiple narratives while studying urban Africa",
+    "og:site_name": "Urban Africa Project",
+    "og:url": "https://urbanafrica.pubpub.org/pub/2ikubbyo/release/1",
+    "og:type": "article",
+    "citation_publisher": "PubPub",
+    "citation_conference_title": "Theorizing the \"African City\"",
+    "citation_conferenceName": "Theorizing the \"African City\"",
+    "citation_pdf_url": "https://urbanafrica.pubpub.org/pub/2ikubbyo/download/pdf",
+    "og:image": "https://assets.pubpub.org/viqwggc2/61674831150751.png",
+    "og:image:url": "https://assets.pubpub.org/viqwggc2/61674831150751.png",
+    "og:image:width": "500",
+    "twitter:image": "https://assets.pubpub.org/viqwggc2/61674831150751.png",
+    "citation_author": "Addison Schmidt",
+    "dc.creator": "Addison Schmidt",
+    "article:published_time": "Fri Apr 25 2025 17:11:21 GMT+0000 (Coordinated Universal Time)",
+    "dc.date": "2025-3-25",
+    "citation_publication_date": "2025/4/25",
+    "dc.publisher": "PubPub",
+    "fb:app_id": "924988584221879",
+    "twitter:card": "summary",
+    "twitter:site": "@pubpub",
+    "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+    "google-site-verification": "jmmJFnkSOeIEuS54adOzGMwc0kwpsa8wQ-L4GyPpPDg"
+  },
+  "doi": "",
+  "abstract": "",
+  "images": [
+    {
+      "src": "https://urbanafrica.pubpub.org/static/license/cc-by-nc.svg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/logoWhite.svg",
+      "alt": "PubPub logo",
+      "title": ""
+    }
+  ],
+  "formats": {
+    "markdown": "content.md",
+    "jatsXml": "content.xml",
+    "pdf": "content.pdf",
+    "html": "snapshot.html"
+  },
+  "media": {
+    "count": 2,
+    "manifest": "media/media-manifest.json"
+  }
+}

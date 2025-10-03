@@ -1,0 +1,86 @@
+{
+  "title": "Using Images in your Pubs",
+  "url": "https://urbanafrica.pubpub.org/pub/using-images?readingCollection=b046f25e",
+  "slug": "using-images?readingCollection=b046f25e",
+  "authors": [],
+  "date": "Published: Feb 08, 2023",
+  "isPublished": true,
+  "section": "Citing Sources in your Pub",
+  "scrapedAt": "2025-10-03T21:25:35.445Z",
+  "fullTitle": "Home",
+  "content": "0:root { \n\t\t\t--community-accent-dark: #2c4150;\n\t\t\t--community-accent-dark-faded-30: rgb(66, 74, 80);\n\t\t\t--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);\n\t\t}\n\t\t\t.accent-background { background-color: #2c4150; }\n\t\t\t.accent-color { color: #FFFFFF; }\n\t\t\t.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }\n\t\t\t.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }\n\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }\n\n\t\t\t.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }\n\n\t\t\t.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }\n\t\t\t.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-primary\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-success\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-warning\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-danger\"]),\n\t\t\t.accent-color .bp3-button[class*=\"bp3-icon\"]::before { color: inherit; }\n\t\t\t.accent-color a, .accent-color a:hover { color: inherit; }\n\t\t\t.bp3-tab[aria-selected=\"true\"], .bp3-tab:not([aria-selected=\"true\"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }\n\t\t\t.bp3-tab[aria-selected=\"true\"] { box-shadow: inset 0 -3px 0 #2c4150; }\n\t\t\t.thread:hover:after { background-color: #2c4150; }\n\t\t\t.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }\n\t\t\t.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }\n\t\t\t.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }\n\n\t\t\t.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }\n\t\t\t.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }\n\n\t\t\tspan.citation:hover { color: #2c4150; }\n\n\t\t\t.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }\n\n\t\t\t\n\t\t\t\n\t\tSkip to main contentUrban Africa ProjectSearchDashboardcaret-downLogin or SignupHomeCollectionscaret-downGetting StartedAboutGetting StartedGetting StartedPublished on Feb 08, 2023Using Images in your PubsA picture is worth a thousand words. Sometimes.by Kyle DenlingerPublished onFeb 08, 2023CiteSocialPDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX DownloadDownloadContentslast released3 years agoUsing Images in your Pubs - Release #1Using Images in your Pubs - Release #2Show detailsUsing Images in your PubsContents·At some point you’ll probably want to use an image or some other multimedia in your pub. Doing so is pretty easy — just click “Media” in the pub editor bar and upload the image you want to use. PubPub will insert the image into your pub wherever you want it to go, and you can adjust its size and alignment through the Media tool.But before you go wild turning your pubs into photo essays, it’s important that you know how to use images responsibly. Responsible use satisfies these three criteria:You only use images you need to use, only if you’re allowed to use them, andonly if you make them accessible.Let’s walk through these together.1. Do you need to use an image?Ask yourself: is this image simply for decoration, or is it essential to convey your point or make your argument? Is it intended to meaningfully supplement your essay by providing a useful example, helpful visual metaphor, or primary source? Decorative images are sometimes nice, but generally speaking, if your essay isn’t diminished by omitting the image, you should probably leave it out. If your essay does require an image or other multimedia, read on.2. Are you allowed to use that specific image?Often it’s the case that you do need to use an image to enhance your work, but it’s likely that you do not have permission to use a certain image because it’s protected by copyright. If you didn’t create the image yourself, you need to assume that it’s protected by copyright and that you don’t have permission to use it. But don’t despair! Here are ways to find images you can use. In all cases, even when it’s not required, provide an attribution statement crediting the source or creator of the image in the caption.Exception 1: Public Domain ImagesCO 1069-43-73 flickr photo by The National Archives UK shared with no copyright restriction.If a work is in the public domain, it is no longer protected by copyright and is free for anyone to use without restriction. As of January 1, 2023, most works created prior to 1927 are now in the public domain in the United States. Works of the United States government are also in the public domain. Some sources for public domain images include:Flickr CommonsPublic Domain ReviewMetropolitan Museum of ArtGetty Open ContentNASAMore Public Domain Image sourcesException 2: Openly-Licensed ImagesView to the southwest from Central Nairobi flickr photo by Ninara shared under a Creative Commons Attribution (CC BY 2.0) licenseSometimes folks release their images under an open copyright license. These licenses generally mean that while the creator retains their copyright, they’ve given you permission to use their images with certain restrictions. These restrictions vary depending on the license used, but they often require providing proper attribution or restricting whether an image can be used for commercial purposes. Sources for openly-licensed photos include:Openverse (All Openverse content is under a Creative Commons license or is in the public domain)Unsplash (see the Unsplash license)Pexels (see the Pexels license)Exception 3: Fair UseUnder certain circumstances, it might be okay to reproduce a copyright-protected image without permission. For example, if you’re directly critiquing the image or using it as an object of study, you might be able to include a copy of the image in your essay. Fair use is an exception to all-rights reserved copyright law that makes possible scholarship, creative expression, and critique. Determining whether your use of an image is a fair use can be extremely tricky, though, so educate yourself and keep your nose clean.3. Make your Images AccessibleSo you’ve determined that need to use some images in your essay, and you’re pretty sure you’re allowed to use them. Great! Now it’s time to make your images accessible. Imagine browsing the web and every time there’s supposed to be an image you instead get something like this:photo2349.jpgYou know there’s supposed to be an image there, but all you get is an empty box with a meaningless caption and no additional context. Annoying, right? That’s very much what blind or visually impaired people experience every day. Annoying empty boxes. These folks engage with the web through specialized screen reader software that reads the text of a page through a speech synthesizer or braille display. If there’s no text there to describe the image, there’s nothing for the screen reader to, well, read. Luckily we can add a description to our images through the images alt text field. When you insert an image into your pub, click on the image to bring up the Media tool. You’ll notice a text field on the right, where you can add a caption to your image. Next to the Caption tab, you’ll see the Alt text tab. Add alt text to your images using the media tool.Whatever you put in the alt text field will never be displayed visually — this text is what screen reader software will read to the user. There are lots of guides on writing effective alt text. They sometimes contradict one another, but they generally agree on these things:Consider the context. For example, if it’s an image of a forest, is it intended to serve as an image of a specific forest, an example of a place’s terrain, or evidence of habitat loss? Your alt text should reflect that.Don’t duplicate what’s said in the caption. Keep it short, like a tweet. 140-280 characters.If it’s a purely decorative image, leave the alt text blank.That’s it! Now go, and use images responsibly.LicenseCreative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)Comments0\n\t\t\t\t\t.discussion-list .discussion-thread-component.preview:hover,\n\t\t\t\t\t.discussion-list .discussion-thread-component.expanded-preview {\n\t\t\t\t\t\tborder-left: 3px solid #2c4150;\n\t\t\t\t\t\tpadding-left: calc(1em - 2px);\n\t\t\t\t\t}\n\t\t\t\t?Login to discusscommentNo comments here Why not start the discussion?Urban Africa ProjectAboutRSSLegalPublished withCommunityUrban Africa ProjectCollectionGGetting StartedPubUsing Images in your PubsTheorizing the \"African City\"Shape as Substance? Materiality and Urban AfricaThe City as Control? Space, Power, and Colonial ImprintThe Creative Genius of Urban AfricaMapping AccracollectionGetting StartedCite as  Denlinger, Kyle. 2023. “Using Images in Your Pubs.” Urban Africa Project, February. https://urbanafrica.pubpub.org/pub/using-images.duplicateCopymoreMore Cite OptionsTwitterRedditFacebookLinkedInEmailAuto Generated DownloadPDFWordMarkdownEPUBHTMLOpenDocumentPlain TextJATS XMLLaTeX1. Do you need to use an image?2. Are you allowed to use that specific image?Exception 1: Public Domain ImagesException 2: Openly-Licensed ImagesException 3: Fair Use3. Make your Images AccessibletickRelease #2Mar 15, 2023 5:05 PMdocument-shareRelease #1Feb 08, 2023 4:12 PM1. Do you need to use an image?2. Are you allowed to use that specific image?Exception 1: Public Domain ImagesException 2: Openly-Licensed ImagesException 3: Fair Use3. Make your Images Accessible",
+  "metadata": {
+    "og:title": "Using Images in your Pubs",
+    "twitter:title": "Using Images in your Pubs · Urban Africa Project",
+    "twitter:image:alt": "Using Images in your Pubs · Urban Africa Project",
+    "citation_title": "Using Images in your Pubs",
+    "dc.title": "Using Images in your Pubs",
+    "og:site_name": "Urban Africa Project",
+    "og:url": "https://urbanafrica.pubpub.org/pub/using-images/release/2",
+    "og:type": "article",
+    "citation_publisher": "PubPub",
+    "citation_pdf_url": "https://urbanafrica.pubpub.org/pub/using-images/download/pdf",
+    "description": "A picture is worth a thousand words. Sometimes.",
+    "og:description": "A picture is worth a thousand words. Sometimes.",
+    "twitter:description": "A picture is worth a thousand words. Sometimes.",
+    "og:image": "https://assets.pubpub.org/wul0ho6o/31675891078184.jpeg",
+    "og:image:url": "https://assets.pubpub.org/wul0ho6o/31675891078184.jpeg",
+    "og:image:width": "500",
+    "twitter:image": "https://assets.pubpub.org/wul0ho6o/31675891078184.jpeg",
+    "citation_author": "Kyle Denlinger",
+    "dc.creator": "Kyle Denlinger",
+    "article:published_time": "Wed Feb 08 2023 21:12:04 GMT+0000 (Coordinated Universal Time)",
+    "dc.date": "2023-1-8",
+    "citation_publication_date": "2023/2/8",
+    "dc.publisher": "PubPub",
+    "fb:app_id": "924988584221879",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@pubpub",
+    "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+    "google-site-verification": "jmmJFnkSOeIEuS54adOzGMwc0kwpsa8wQ-L4GyPpPDg"
+  },
+  "doi": "",
+  "abstract": "",
+  "images": [
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjFwNzIyOTM3LzExNjc1ODg2NTA0NDU4LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19",
+      "alt": "Five people stand around a bookmobile with open sides displaying shelves of books. Some browse the books, others are chatting.",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjM4eDgyOWNuLzAxNjc1ODg0NjY4Mzk0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19",
+      "alt": "A modern-looking campus with a clock tower sits in the foreground of a cityscape including other modern buildings, open green spaces, and a pond.",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6ImN6Mnc3N2U4LzcxNjc1ODg3ODI5NjUzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "An intentional representation of a \"broken image\" -- an empty square with a broken file icon in the top left, and a caption that provides no context.",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6ImZsdDB4aW96LzMxNjc1ODg5NzM1MjQ3LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "The PubPub media tool with an example of alt text for a photo.",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/license/cc-by-nc.svg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/logoWhite.svg",
+      "alt": "PubPub logo",
+      "title": ""
+    }
+  ],
+  "formats": {
+    "markdown": "content.md",
+    "jatsXml": "content.xml",
+    "pdf": "content.pdf",
+    "html": "snapshot.html"
+  },
+  "media": {
+    "count": 6,
+    "manifest": "media/media-manifest.json"
+  }
+}

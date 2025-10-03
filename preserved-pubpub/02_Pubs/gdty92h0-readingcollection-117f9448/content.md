@@ -1,0 +1,131 @@
+# Home
+
+**Authors:** 
+
+## Content
+
+0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		[Skip to main content](#main-content)[Urban Africa Project](/)[Search](/search)**Dashboardcaret-down[Login or Signup](/login?redirect=/pub/gdty92h0/release/1?readingCollection=117f9448)
+- [Home](/)
+- Collectionscaret-down
+- [Getting Started](/getting-started)
+- [About](/about)
+
+[Theorizing the "African City"](https://urbanafrica.pubpub.org/theorizing-the-african-city)Theorizing the "African City"[Spring 2025](https://urbanafrica.pubpub.org/spring-2025)Published on **May 06, 2025# Peeling Back the Layers of African Cities
+
+by [Morgan White](/user/morgan-white)Published onMay 06, 2025CiteSocial[PDF Download](https://s3.amazonaws.com/assets.pubpub.org/af59na0lnogavzxtybiwel10yx2t9x2c.pdf)[Word Download](https://assets.pubpub.org/yt9j3au8/2b7b2df8-62c6-4642-8a33-e2af8ef371a3.docx)[Markdown Download](https://assets.pubpub.org/e26mx7mo/2b7b2df8-62c6-4642-8a33-e2af8ef371a3.md)[EPUB Download](https://assets.pubpub.org/murkjz88/2b7b2df8-62c6-4642-8a33-e2af8ef371a3.epub)[HTML Download](https://assets.pubpub.org/zyihujc4/2b7b2df8-62c6-4642-8a33-e2af8ef371a3.html)[OpenDocument Download](https://assets.pubpub.org/o6r0e0f9/2b7b2df8-62c6-4642-8a33-e2af8ef371a3.odt)[Plain Text Download](https://assets.pubpub.org/aaz8ogf6/2b7b2df8-62c6-4642-8a33-e2af8ef371a3.txt)[JATS XML Download](https://assets.pubpub.org/23tdc273/2b7b2df8-62c6-4642-8a33-e2af8ef371a3.xml)[LaTeX Download](https://assets.pubpub.org/ulnbs22v/2b7b2df8-62c6-4642-8a33-e2af8ef371a3.tex)Downloadlast released5 months ago[Peeling Back the Layers of African Cities - Release #1](https://urbanafrica.pubpub.org/pub/gdty92h0/release/1)Show detailsPeeling Back the Layers of African CitiesMorgan White
+
+02/09/2024
+
+**Blog Post**
+
+Students of African cities, or any cities at all, are faced with the difficult task of understanding the myriad aspects of what makes each city unique. We tend to think of Johannesburg, Nairobi, or Lagos as having distinct characteristics that both separate them from one another and unite the people within them. However, approaching the study of cities with this mindset will only show scholars the artificial aspects of those cities, the mask they put on to fool the week-long traveler or search engine researcher. For students to truly grasp what a city is, they must listen to the people living there and collect the data of life stories and experiences that only those who truly immerse themselves in a city’s everyday rhythms can comprehend. No city can be appreciated with one term or statement—the vibrant amalgamation of people, languages, and cultures in any city makes that impossible—but students can begin to understand the lived experiences of a city’s residents by hearing their stories. Of course, one cannot listen to all the millions of people who reside in and around a city, but understanding the histories of a representative collection of those living in and experiencing a city on a daily basis, and the context that put them there, is essential for students to “see” a city to the best of their ability.
+
+In *The Megacity*, George Packer provides a perfect example of how to misunderstand the essence of an African city. Approaching Lagos, Nigeria, with a profoundly American perspective and utterly Manichean style of thinking, Packer represents the city in a pejorative manner. His language is riddled with negative connotations throughout the article, but I will focus on his description of a small market with numerous vendors selling their wares. He describes the scene as “pandemonium”, and notes the “snarling” car engines in the “oily” tire-repair yard.1 While this may be Packer’s understanding of the bustling city of Lagos, I challenge students today not to approach the study of African cities with such a clearly preconceived notion of what a city should and should not be. While Lagos may not look like New York or London, that does not mean that it is worse, or the people less happy, than those Western cities. Packer quotes a number of Lagosians in his introduction, but these conversations are clearly brief, and only serve to further his dystopian image of the city. Even to a student with little understanding of African cities like Lagos, Packer’s claim that the average resident is “hard, closed, and unsmiling” must seem incorrect upon any scrutiny.2
+
+Take another description of a market in an African city, this from Tanya Zack and Mark Lewis’s *Wake Up, this is Joburg*, which actually includes long conversations with African people living and working in the city. Johannesburg is vastly different from Lagos in many ways, but the hustle and bustle of markets, with lively vendors from across the continent trying to sell their goods, is quite similar. In an interview with a woman named Senga and her family, immigrants from the Democratic Republic of Congo, we see that these markets can be places of joy, generosity, and astute business intelligence. Senga talks “spiritedly” with other vendors, and a fellow vendor remarks that they clearly “care for each other”.3 In a nearby stall, a shoemaker repairs an elderly lady’s shoe for free, and as images 1 and 2 in the appendix show, the vendors smile as they sell a variety of food, clothes, and services from around Africa for their eager, often homesick, buyers. Here is a vision of a quintessential part of an African city—the market—which contrasts severely to Packer’s. Instead of viewing the market, a representation of the African informal economy, as dirty and chaotic, we see through conversation that the people working there are striving to make a living like they would anywhere in the world. Instead of looking down on the buying and selling of goods in this atmosphere, and assuming that the people participating must be living in a condition of “human misery” as Packer claims, we see a lively and engaging, albeit challenging, style of living.4
+
+I contrast these examples to show students of African cities what can be gained from actually speaking with residents. One does oneself a disservice by approaching this scholarship with an assumption of what a city should look like. By holding conversations with those living in African cities, scholars can understand the real issues faced by occupants of a city. For developers, comprehending the importance of metadata like Senga’s story is crucial. Those hoping to improve the lives of inhabitants of African cities cannot approach development through a Western lens, with the notion that there is an “ordinary city” that should be considered productive around the world. Numerous reasons explain why cities like Lagos and Johannesburg don’t look like the “developed” cities of the Western world. Centuries of extractive colonialism and intentional political fragmentation by imperialist nations has set many African cities on a course of development that is different from what occurred in other parts of the world, and makes urban planning along the same lines as Western cities unachievable. These cities certainly have areas that can be improved, I am by no means suggesting they are perfect, but only by holding conversations with residents and properly understanding their daily lives can students of African cities “see” them properly and hope to make a difference.
+
+**Literature Cited**
+
+Packer, George, “The Megacity: Decoding the Chaos of Lagos,”. The New Yorker, November 13, 2006.
+
+Zack, Tanya, and Mark Lewis. *Wake up, This Is Joburg*, Duke University Press, 2023. *ProQuest Ebook Central*, [https://ebookcentral.proquest.com/lib/wfu/detail.action?docID=30101242](https://ebookcentral.proquest.com/lib/wfu/detail.action?docID=30101242).
+
+**Appendix**
+
+Image 1:
+
+Image 2:
+
+Footnotes4License[Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?[Login to discuss](/login?redirect=/pub/gdty92h0/release/1?readingCollection=117f9448)commentNo comments here Why not start the discussion?[Urban Africa Project](/)
+- [About](/about)
+- [RSS](/rss.xml)
+- [Legal](/legal)
+
+[Published with*](https://www.pubpub.org)
+- [CommunityUrban Africa Project](/dash)
+- [CollectionTheorizing the "African City"](/dash/collection/theorizing-the-african-city)
+- [PubPPeeling Back the Layers of African Cities](/dash/pub/gdty92h0)
+
+- [Theorizing the "African City"](/theorizing-the-african-city)
+- [Shape as Substance? Materiality and Urban Africa](/shape-as-substance)
+- [The City as Control? Space, Power, and Colonial Imprint](/the-city-as-control-space-power-and-colonial-imprint)
+- [The Creative Genius of Urban Africa](/the-creative-genius-of-urban-africa)
+- [Mapping Accra](/mapping-accra)
+
+- [collectionTheorizing the "African City"](https://urbanafrica.pubpub.org/theorizing-the-african-city)
+- 
+
+Cite as  White, Morgan. 2025. “Peeling Back the Layers of African Cities.” In Theorizing the “African City.”* https://urbanafrica.pubpub.org/pub/gdty92h0.duplicateCopymoreMore Cite Options
+- [Twitter](https://twitter.com/intent/tweet?url=https://urbanafrica.pubpub.org/pub/gdty92h0&text=Peeling Back the Layers of African Cities)
+- [Reddit](https://reddit.com/submit?url=https://urbanafrica.pubpub.org/pub/gdty92h0&title=Peeling Back the Layers of African Cities)
+- [Facebook](https://www.facebook.com/sharer.php?u=https://urbanafrica.pubpub.org/pub/gdty92h0)
+- [LinkedIn](https://www.linkedin.com/shareArticle?url=https://urbanafrica.pubpub.org/pub/gdty92h0&title=Peeling Back the Layers of African Cities)
+- [Email](mailto:?subject=Peeling Back the Layers of African Cities&body=https://urbanafrica.pubpub.org/pub/gdty92h0)
+
+- Auto Generated Download
+- PDF
+- Word
+- Markdown
+- EPUB
+- HTML
+- OpenDocument
+- Plain Text
+- JATS XML
+- LaTeX
+
+[tickRelease #1
+
+May 06, 2025 9:01 AM
+
+](https://urbanafrica.pubpub.org/pub/gdty92h0/release/1)

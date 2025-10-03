@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Home</article-title>
+      </title-group>
+      <contrib-group>
+
+      </contrib-group>
+      
+      
+      <pub-date>
+        <year>2023</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <p>0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		Skip to main contentUrban Africa ProjectSearchDashboardcaret-downLogin or SignupHomeCollectionscaret-downGetting StartedAboutTheorizing the "African City"Theorizing the "African City"Spring 2023Published on Feb 24, 2023Urbanization and Community Development in Lagos: Navigating Growth and Population RiseExamining population growth and community infrastructure in Lagosby Nate BlockPublished onFeb 24, 2023CiteSocialPDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX DownloadDownloadlast released3 years agoUrbanization and Community Development in Lagos: Navigating Growth and Population Rise - Release #1Show detailsUrbanization and Community Development in Lagos: Navigating Growth and Population RiseLagos is growing at an extremely rapid rate and without proper infrastructure and a sense of community, the current problems will be exacerbated leading to a substantial societal collapse; the city is already under immense pressure, but at the current growth rate, city-wide catastrophe is increasingly likely.Coastal West Africa is growing at an unprecedented speed, however with this massive expansion of population and urbanization comes many challenges. Cities such as Lagos, Nigeria’s largest city, have upwards of 5,000 immigrants flooding into the city each and every day and projections show Lagos could become home to nearly 25 million people by 2035.1 With this extreme rise in population and immigration, a sense of community within Lagos is never truly accepted or formed. With such extreme numbers of people moving and interacting within this urban epicenter, no communities have been built or maintained. Without the foundations of communities within the city, Lago’s internal difficulties will only be exacerbated as the city continues to grow.Lagos is currently home to around 16 million people, and we are already able to see the ways in which this unprecedented population increase has driven people apart, rather than together. As a New Yorker writer, George Packer, explains, “Newcomers to the city are not greeted with the words, ‘welcome to Lagos’... ‘Nobody will care for you, and you have to struggle to survive’”.2 Lagos and its citizens have already accepted and adapted to an individualistic society and thus all sense of community has been lost. This individualistic society has created a vicious working environment for those who try to provide for themselves and others. “After three months, he had saved enough room. ‘If you sit down, you will die of hunger,’”3 The economic conditions of Lagos do not favor those who attempt to contribute to society. As this man continues to do harsh physical labor at a sawmill, he is unable to reap any sort of benefit because of the poor economic foundation that Lagos has formed. There is essentially no time to rest because of inadequate government and economy, thus making this poor man operate at all times to afford basic necessities. Daily life is an extreme struggle, and the individual has become completely neglected and stripped of almost all human qualities except for labor purposes.Photo Of Traffic In LagosMany believe that Lagos is purely a city of chaos and disorder within Nigerian society and there is a popular notion that everyone is in a hurry. However, upon further investigation, there are certain aspects of the city that mesh together and create order within this chaos. A prime example of this order is the makeshift marketplace that occurred alongside some train tracks.4 This minute sense of community proves that people can come together; human trade and interaction are vital for a functioning city, and this proves that Lagos is indeed capable.However, there is hope for Lagos and its future. When talking with a current Lagosian, Rem Koolhaas, a Harvard Professor, stated, “But you took a lot of pride in that notion that you could actually survive in Lagos. This place that was very difficult to live in also offered up a lot of opportunities.”`5 This pride is something that is shared amongst many Lagosians. If these citizens are able to come together around this shared pride and form strong communities, they can make way for change. While it could still take years for significant change to be made, the basic foundation of communities within the city would help to alleviate many of the challenges immediately.Footnotes5LicenseCreative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?Login to discusscommentNo comments here Why not start the discussion?Read NextA City of People: The Social Tapestry of Urban African CitiesUrban Africa ProjectAboutRSSLegalPublished withCommunityUrban Africa ProjectCollectionTheorizing the "African City"PubUrbanization and Community Development in Lagos: Navigating Growth and Population RiseTheorizing the "African City"Shape as Substance? Materiality and Urban AfricaThe City as Control? Space, Power, and Colonial ImprintThe Creative Genius of Urban AfricaMapping AccracollectionTheorizing the "African City"Cite as  Block, Nate. 2023. “Urbanization and Community Development in Lagos: Navigating Growth and Population Rise.” In Theorizing the “African City.” https://urbanafrica.pubpub.org/pub/dc66sahh.duplicateCopymoreMore Cite OptionsTwitterRedditFacebookLinkedInEmailAuto Generated DownloadPDFWordMarkdownEPUBHTMLOpenDocumentPlain TextJATS XMLLaTeXtickRelease #1Feb 24, 2023 12:25 PM</p>
+  </body>
+</article>

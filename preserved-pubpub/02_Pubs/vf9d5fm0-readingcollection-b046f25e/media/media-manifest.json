@@ -1,0 +1,44 @@
+[
+  {
+    "filename": "image-1.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjQzNXg0bW40L1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwODQyLTQxNzQ1MzI1OTQyNjg5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+    "alt": "Share icon",
+    "title": ""
+  },
+  {
+    "filename": "image-2.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjdwYzAwdGJ1L1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwODQzLTYxNzQ1MzI2MDE2MTUxLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+    "alt": "The StoryMap JS share dialog box. An area alerting the user that they have unpublished changes is highlighted.",
+    "title": ""
+  },
+  {
+    "filename": "image-3.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjIwZzc5OWtnL1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwOTMwLTIxNzQ1MzI4NjgxMzIyLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+    "alt": "The StoryMapJS share dialog, with the link field highlighted",
+    "title": ""
+  },
+  {
+    "filename": "image-4.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6InU1dGc1M2Y0L1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwOTM3LTcxNzQ1MzI5MTM3NTMwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+    "alt": "The Add Media box, with the Iframe menu item and the insert URL field highlighted.",
+    "title": ""
+  },
+  {
+    "filename": "image-5.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6InB3dGJzMDNqL1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwOTQ1LTcxNzQ1MzI5NTIzMjE5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+    "alt": "Media layout settings, with Width set to 75%, Height set to 700px, and breakout alignment selected.",
+    "title": ""
+  },
+  {
+    "filename": "image-6.svg",
+    "originalUrl": "https://urbanafrica.pubpub.org/static/license/cc-by-nc.svg",
+    "alt": "",
+    "title": ""
+  },
+  {
+    "filename": "image-7.svg",
+    "originalUrl": "https://urbanafrica.pubpub.org/static/logoWhite.svg",
+    "alt": "PubPub logo",
+    "title": ""
+  }
+]

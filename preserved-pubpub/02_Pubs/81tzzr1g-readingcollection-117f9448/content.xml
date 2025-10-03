@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.2 20190208//EN" "JATS-archivearticle1.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" article-type="research-article">
+  <front>
+    <article-meta>
+      <title-group>
+        <article-title>Home</article-title>
+      </title-group>
+      <contrib-group>
+
+      </contrib-group>
+      
+      
+      <pub-date>
+        <year>2023</year>
+      </pub-date>
+    </article-meta>
+  </front>
+  <body>
+    <p>0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		Skip to main contentUrban Africa ProjectSearchDashboardcaret-downLogin or SignupHomeCollectionscaret-downGetting StartedAboutTheorizing the "African City"Theorizing the "African City"Spring 2023Published on Feb 24, 2023A City of People: The Social Tapestry of Urban African Citiesby Mackenzie LaelPublished onFeb 24, 2023CiteSocialPDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX DownloadDownloadContentslast released3 years agoA City of People: The Social Tapestry of Urban African Cities - Release #1Show detailsA City of People: The Social Tapestry of Urban African CitiesContents·The humanistic aspect of an urban city is an integral part of a city's makeup. For without people, there would be no city. The ways in which a city is composed, how spaces are used and seen and the ongoing developments of African cities are all connected to people and is imperative to understanding what a modern urban African city can be. By focusing on the social, cultural and familial aspects of the city, one can achieve a better appreciation of what an urban African city is. We will turn to the examples of Accra and Johannesburg to better illuminate these connections as done by Zack and Lewis in Wake Up, This is Joburg1 and Quayson in Introduction: Urban Theory and Performative Streetscapes.2People Shaping the City People themselves are not only shaped by the city but the city itself is shaped by the people. This kind of symbiotic relationship between city and people is highlighted by Oxford Street in Accra, Ghana3. On Oxford Street, one can see examples of social interactions and social culture occurring in a space that was created or planned in a wider scheme. For example, the colorful exchanges between pedestrians and drivers on a roadway occur in a space created by planners. These types of interactions would not occur if the space itself was not constructed in such a way. There are also times when social interactions and culture occur in spaces that were shaped or created by people themselves. For example, the sidewalks on Oxford Street, while designed for pedestrian use only, have evolved into a marketplace of local vendors where community and social interaction thrives. No matter how many rules or designated spaces are created by urban planners, they cannot control or stifle human interaction or social evolutions. The usage and creation of spaces within an urban city not only foster particular kinds of interactions but are themselves created from the evolutions of social culture as well.Family and Immigrants The idea of space and social culture is further highlighted amongst the immigrant population in Johannesburg, South Africa.4 There are examples of families who will often follow another family member when immigrating to Johannesburg from other parts of Africa for what they feel are better opportunities. This kind of chain migration not only highlights the importance of the familial unit but spills into the makeup of the city as well. This can be seen along the stalls of Rockey Street Market, where there is a wide and varying demographic of immigrant stall owners. The market itself is a microsystem of what the immigrant experience and life is like in Johannesburg and shows how a space created by state-controlled city planning can be transformed into a space for those who are seeking community. This also demonstrates that the family unit and kinship is not only part of the growing immigrant community in Johannesburg but that it contributes to the structure of the city itself. The ties between family, community and kinship play heavily into the composition and relational aspect socially within urban African cities.Conclusion The social, cultural and familial aspects of urban life are integrally intertwined with the ways in which a city lives and breathes. Cities would be but a hollow husk of themselves without people living in, creating and existing in urban spaces. Whether they are a local vendor in Accra or an immigrant stall owner in Johannesburg, they come together in such a way that shows how important people are to cities. Each individual brings their own unique perspective to create the tapestry of social and cultural life in urban African cities, culminating in multifaceted communities that create and work within urban spaces.Footnotes4LicenseCreative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?Login to discusscommentNo comments here Why not start the discussion?Read NextUnraveling Urban African TerrainUrban Africa ProjectAboutRSSLegalPublished withCommunityUrban Africa ProjectCollectionTheorizing the "African City"PubA City of People: The Social Tapestry of Urban African CitiesTheorizing the "African City"Shape as Substance? Materiality and Urban AfricaThe City as Control? Space, Power, and Colonial ImprintThe Creative Genius of Urban AfricaMapping AccracollectionTheorizing the "African City"Cite as  Lael, Mackenzie. 2023. “A City of People: The Social Tapestry of Urban African Cities.” In Theorizing the “African City.” https://urbanafrica.pubpub.org/pub/81tzzr1g.duplicateCopymoreMore Cite OptionsTwitterRedditFacebookLinkedInEmailAuto Generated DownloadPDFWordMarkdownEPUBHTMLOpenDocumentPlain TextJATS XMLLaTeXPeople Shaping the City Family and Immigrants Conclusion tickRelease #1Feb 24, 2023 12:22 PMPeople Shaping the City Family and Immigrants Conclusion</p>
+  </body>
+</article>

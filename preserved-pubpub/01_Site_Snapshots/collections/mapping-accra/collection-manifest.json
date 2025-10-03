@@ -1,0 +1,131 @@
+{
+  "url": "https://urbanafrica.pubpub.org/mapping-accra",
+  "slug": "mapping-accra",
+  "title": "Mapping Accra",
+  "scrapedAt": "2025-10-03T21:24:47.068Z",
+  "description": "A Story Map of Accra",
+  "sections": [
+    {
+      "name": "Mapping Accra",
+      "publicationCount": 0,
+      "publications": []
+    },
+    {
+      "name": "Spring 2025",
+      "publicationCount": 2,
+      "publications": [
+        "i66ezsoc?readingCollection=c0d64fdc",
+        "i66ezsoc?readingCollection=c0d64fdc"
+      ]
+    },
+    {
+      "name": "Claiming the City: Power, Memory, and Belonging in Modern Accra",
+      "publicationCount": 2,
+      "publications": [
+        "5owduj7k?readingCollection=c0d64fdc",
+        "5owduj7k?readingCollection=c0d64fdc"
+      ]
+    },
+    {
+      "name": "The Persistence of Identity and Autonomy in Accra",
+      "publicationCount": 2,
+      "publications": [
+        "3r5bqcwf?readingCollection=c0d64fdc",
+        "3r5bqcwf?readingCollection=c0d64fdc"
+      ]
+    },
+    {
+      "name": "Give Due to the Pillars of Power in Global Cities.",
+      "publicationCount": 2,
+      "publications": [
+        "fglwr5ar?readingCollection=c0d64fdc",
+        "fglwr5ar?readingCollection=c0d64fdc"
+      ]
+    },
+    {
+      "name": "Reframing Accra: A People's Perspective on Ghana’s Capital",
+      "publicationCount": 0,
+      "publications": []
+    },
+    {
+      "name": "Create a pub to begin your submission.",
+      "publicationCount": 0,
+      "publications": []
+    }
+  ],
+  "publications": [
+    {
+      "title": "Claiming the City: Power, Memory, and Belonging in Modern Accra",
+      "url": "https://urbanafrica.pubpub.org/pub/i66ezsoc?readingCollection=c0d64fdc",
+      "slug": "i66ezsoc?readingCollection=c0d64fdc",
+      "authors": "by Ken Chen",
+      "date": "Published: May 06, 2025",
+      "isPublished": true,
+      "section": "Spring 2025"
+    },
+    {
+      "title": "Claiming the City: Power, Memory, and Belonging in Modern Accra",
+      "url": "https://urbanafrica.pubpub.org/pub/i66ezsoc?readingCollection=c0d64fdc",
+      "slug": "i66ezsoc?readingCollection=c0d64fdc",
+      "authors": "by Ken Chen",
+      "date": "Published: May 06, 2025",
+      "isPublished": true,
+      "section": "Spring 2025"
+    },
+    {
+      "title": "The Persistence of Identity and Autonomy in Accra",
+      "url": "https://urbanafrica.pubpub.org/pub/5owduj7k?readingCollection=c0d64fdc",
+      "slug": "5owduj7k?readingCollection=c0d64fdc",
+      "authors": "by Addison Schmidt",
+      "date": "Published: May 06, 2025",
+      "isPublished": true,
+      "section": "Claiming the City: Power, Memory, and Belonging in Modern Accra"
+    },
+    {
+      "title": "The Persistence of Identity and Autonomy in Accra",
+      "url": "https://urbanafrica.pubpub.org/pub/5owduj7k?readingCollection=c0d64fdc",
+      "slug": "5owduj7k?readingCollection=c0d64fdc",
+      "authors": "by Addison Schmidt",
+      "date": "Published: May 06, 2025",
+      "isPublished": true,
+      "section": "Claiming the City: Power, Memory, and Belonging in Modern Accra"
+    },
+    {
+      "title": "Give Due to the Pillars of Power in Global Cities. ",
+      "url": "https://urbanafrica.pubpub.org/pub/3r5bqcwf?readingCollection=c0d64fdc",
+      "slug": "3r5bqcwf?readingCollection=c0d64fdc",
+      "authors": "by Ella Jones",
+      "date": "Published: May 06, 2025",
+      "isPublished": true,
+      "section": "The Persistence of Identity and Autonomy in Accra"
+    },
+    {
+      "title": "Give Due to the Pillars of Power in Global Cities.",
+      "url": "https://urbanafrica.pubpub.org/pub/3r5bqcwf?readingCollection=c0d64fdc",
+      "slug": "3r5bqcwf?readingCollection=c0d64fdc",
+      "authors": "by Ella Jones",
+      "date": "Published: May 06, 2025",
+      "isPublished": true,
+      "section": "The Persistence of Identity and Autonomy in Accra"
+    },
+    {
+      "title": "Reframing Accra: A People's Perspective on Ghana’s Capital",
+      "url": "https://urbanafrica.pubpub.org/pub/fglwr5ar?readingCollection=c0d64fdc",
+      "slug": "fglwr5ar?readingCollection=c0d64fdc",
+      "authors": "by Morgan White",
+      "date": "Published: May 06, 2025",
+      "isPublished": true,
+      "section": "Give Due to the Pillars of Power in Global Cities."
+    },
+    {
+      "title": "Reframing Accra: A People's Perspective on Ghana’s Capital",
+      "url": "https://urbanafrica.pubpub.org/pub/fglwr5ar?readingCollection=c0d64fdc",
+      "slug": "fglwr5ar?readingCollection=c0d64fdc",
+      "authors": "by Morgan White",
+      "date": "Published: May 06, 2025",
+      "isPublished": true,
+      "section": "Give Due to the Pillars of Power in Global Cities."
+    }
+  ],
+  "metadata": {}
+}

@@ -1,0 +1,65 @@
+{
+  "title": "The Drawbacks of Urban Apocalyse: Seeing African Cities Anew",
+  "url": "https://urbanafrica.pubpub.org/pub/ont2rvrh?readingCollection=117f9448",
+  "slug": "ont2rvrh?readingCollection=117f9448",
+  "authors": [],
+  "date": "Published: Feb 28, 2023",
+  "isPublished": true,
+  "section": "Unraveling Urban African Terrain",
+  "scrapedAt": "2025-10-03T21:21:42.927Z",
+  "fullTitle": "Home",
+  "content": "0:root { \n\t\t\t--community-accent-dark: #2c4150;\n\t\t\t--community-accent-dark-faded-30: rgb(66, 74, 80);\n\t\t\t--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);\n\t\t}\n\t\t\t.accent-background { background-color: #2c4150; }\n\t\t\t.accent-color { color: #FFFFFF; }\n\t\t\t.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }\n\t\t\t.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }\n\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }\n\n\t\t\t.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }\n\n\t\t\t.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }\n\t\t\t.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-primary\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-success\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-warning\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-danger\"]),\n\t\t\t.accent-color .bp3-button[class*=\"bp3-icon\"]::before { color: inherit; }\n\t\t\t.accent-color a, .accent-color a:hover { color: inherit; }\n\t\t\t.bp3-tab[aria-selected=\"true\"], .bp3-tab:not([aria-selected=\"true\"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }\n\t\t\t.bp3-tab[aria-selected=\"true\"] { box-shadow: inset 0 -3px 0 #2c4150; }\n\t\t\t.thread:hover:after { background-color: #2c4150; }\n\t\t\t.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }\n\t\t\t.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }\n\t\t\t.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }\n\n\t\t\t.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }\n\t\t\t.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }\n\n\t\t\tspan.citation:hover { color: #2c4150; }\n\n\t\t\t.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }\n\n\t\t\t\n\t\t\t\n\t\tSkip to main contentUrban Africa ProjectSearchDashboardcaret-downLogin or SignupHomeCollectionscaret-downGetting StartedAboutTheorizing the \"African City\"Theorizing the \"African City\"Spring 2023Published on Feb 28, 2023The Drawbacks of Urban Apocalyse: Seeing African Cities Anew by Devon NevillePublished onFeb 28, 2023CiteSocialPDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX DownloadDownloadContentslast released3 years agoThe Drawbacks of Urban Apocalyse: Seeing African Cities Anew  - Release #1Show detailsThe Drawbacks of Urban Apocalyse: Seeing African Cities Anew Contents·Traditional approaches to African urban studies have lagged behind by not considering African cities as unique places, which has ‘othered’ the cities and their inhabitants. Scholarly approaches to combat this ‘othering’ are often drawn upon an idea articulated by Garth Myers, who argues that African cities should not be lumped together as a monolithic representation of urban life and that recognizing the specificities of each city is a vital framework in order to effectively study African cities.1 It is crucial to apply this framework in considering the ‘slums’ or ‘underbellies’ of cities. Instead of viewing ‘slums’ as separate or peripheral to the ‘main’ city, ‘slums’ ought to be considered vital parts of urbanity that make an impact on how the city not only functions, but how inhabitants operate without and beyond the purview of the state.On State Regulation and Apocalypse: Seeing Lagos Consider cities that have two very different levels of state regulation present in the city, Lagos and Johannesburg. Lagos is a rapidly growing city that has grown largely in absence of an active state, resulting in the need for local structures of power and regulation so citizens can work and self-organize. In George Packer’s article on Lagos in 2003, his consideration of the slums centers on his belief that the space is misused given its lack of development and that kinship oriented structures such as the oga is a “predatory system of obligation, set down in no laws, enforced by implied threat.”2 For Packer, the slums and the practices like oga create a “spirit of individualism [that] overwhelms the spirit of solidarity.”3 Packer fails to grasp that people living in slums have implemented structured, mutual support systems that allow people to find working roles in a city with little formal economic opportunity. While not perfect, client-patron relations are successful due to solidarity of those within the community and the system, which has arisen as a result for autonomy within the community to supplement the lack of state assistance. However, Packer cannot see past the slum as a sight of misuse and waste, trapping city folk in a never ending rat race. These assumptions flatten his perspective of the city, where he ultimately concludes that Lagos is on the brink of apocalypse.The Inner City and Johannesburg Conversely, Johannesburg is a city defined by state regulation, with black townships and ‘slums’ existing in stark contrast to the incredibly wealthy white, official sections of the city. Those places not recognized as the city were black townships, which were shunned of resources and intensely policed. In a post-Apartheid Johannesburg, the authors Tanya Zack and Mark Lewis in Wake Up, This is Joburg tell the stories through photography and essay of individuals living and working in the inner city, often making their living by informal means, where they privilege the stories of individuals who improvise daily by “penetrating leftover spaces and freshly choreographing the places of neglect and composition.”4 Zack’s and Lewis’ conscious decision to privilege the voices of protagonists not only validates the struggles of inhabitants who, by race and class, inhabit spaces they were never meant to exist in, and whose labor, decisions, and dreams help shape the city. Neglecting to recognize the inner city would minimize the lives and industries of its inhabitant and negate the impact of how the state has played an active role in stratifying Johannesburg.Engaging with the ‘periphery’ is essential to not only highlighting the lives, actions, and stories of those who live there but also about seeing African cities fully for what they are. Slums are not apocalyptic places where no order or justice exist. Viewing African cities in an apocalyptic framework like Packer strips agency from those city dwellers and reinforces Western and colonial-originating ideas about urbanity as hegemonic.Footnotes4LicenseCreative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)Comments0\n\t\t\t\t\t.discussion-list .discussion-thread-component.preview:hover,\n\t\t\t\t\t.discussion-list .discussion-thread-component.expanded-preview {\n\t\t\t\t\t\tborder-left: 3px solid #2c4150;\n\t\t\t\t\t\tpadding-left: calc(1em - 2px);\n\t\t\t\t\t}\n\t\t\t\t?Login to discusscommentNo comments here Why not start the discussion?Read NextThe African Government Abandonment and The Negative Socioeconomic EffectsUrban Africa ProjectAboutRSSLegalPublished withCommunityUrban Africa ProjectCollectionTheorizing the \"African City\"PubThe Drawbacks of Urban Apocalyse: Seeing African Cities Anew Theorizing the \"African City\"Shape as Substance? Materiality and Urban AfricaThe City as Control? Space, Power, and Colonial ImprintThe Creative Genius of Urban AfricaMapping AccracollectionTheorizing the \"African City\"Cite as  Neville, Devon. 2023. “The Drawbacks of Urban Apocalyse: Seeing African Cities Anew .” In Theorizing the “African City.” https://urbanafrica.pubpub.org/pub/ont2rvrh.duplicateCopymoreMore Cite OptionsTwitterRedditFacebookLinkedInEmailAuto Generated DownloadPDFWordMarkdownEPUBHTMLOpenDocumentPlain TextJATS XMLLaTeXOn State Regulation and Apocalypse: Seeing Lagos The Inner City and Johannesburg tickRelease #1Feb 28, 2023 3:10 PMOn State Regulation and Apocalypse: Seeing Lagos The Inner City and Johannesburg ",
+  "metadata": {
+    "og:title": "The Drawbacks of Urban Apocalyse: Seeing African Cities Anew ",
+    "twitter:title": "The Drawbacks of Urban Apocalyse: Seeing African Cities Anew  · Theorizing the \"African City\"",
+    "twitter:image:alt": "The Drawbacks of Urban Apocalyse: Seeing African Cities Anew  · Theorizing the \"African City\"",
+    "citation_title": "The Drawbacks of Urban Apocalyse: Seeing African Cities Anew ",
+    "dc.title": "The Drawbacks of Urban Apocalyse: Seeing African Cities Anew ",
+    "og:site_name": "Urban Africa Project",
+    "og:url": "https://urbanafrica.pubpub.org/pub/ont2rvrh/release/1",
+    "og:type": "article",
+    "citation_publisher": "PubPub",
+    "citation_conference_title": "Theorizing the \"African City\"",
+    "citation_conferenceName": "Theorizing the \"African City\"",
+    "citation_pdf_url": "https://urbanafrica.pubpub.org/pub/ont2rvrh/download/pdf",
+    "og:image": "https://assets.pubpub.org/z9ibumi0/31677615421373.jpeg",
+    "og:image:url": "https://assets.pubpub.org/z9ibumi0/31677615421373.jpeg",
+    "og:image:width": "500",
+    "twitter:image": "https://assets.pubpub.org/z9ibumi0/31677615421373.jpeg",
+    "citation_author": "Devon Neville",
+    "dc.creator": "Devon Neville",
+    "article:published_time": "Tue Feb 28 2023 20:10:38 GMT+0000 (Coordinated Universal Time)",
+    "dc.date": "2023-1-28",
+    "citation_publication_date": "2023/2/28",
+    "dc.publisher": "PubPub",
+    "fb:app_id": "924988584221879",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@pubpub",
+    "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+    "google-site-verification": "jmmJFnkSOeIEuS54adOzGMwc0kwpsa8wQ-L4GyPpPDg"
+  },
+  "doi": "",
+  "abstract": "",
+  "images": [
+    {
+      "src": "https://urbanafrica.pubpub.org/static/license/cc-by-nc.svg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/logoWhite.svg",
+      "alt": "PubPub logo",
+      "title": ""
+    }
+  ],
+  "formats": {
+    "markdown": "content.md",
+    "jatsXml": "content.xml",
+    "pdf": "content.pdf",
+    "html": "snapshot.html"
+  },
+  "media": {
+    "count": 2,
+    "manifest": "media/media-manifest.json"
+  }
+}

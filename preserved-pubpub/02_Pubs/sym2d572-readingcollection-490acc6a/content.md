@@ -1,0 +1,129 @@
+# Home
+
+**Authors:** 
+
+## Content
+
+0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		[Skip to main content](#main-content)[Urban Africa Project](/)[Search](/search)**Dashboardcaret-down[Login or Signup](/login?redirect=/pub/sym2d572/release/1?readingCollection=490acc6a)
+- [Home](/)
+- Collectionscaret-down
+- [Getting Started](/getting-started)
+- [About](/about)
+
+[The Creative Genius of Urban Africa](https://urbanafrica.pubpub.org/the-creative-genius-of-urban-africa)The Creative Genius of Urban Africa[Spring 2023](https://urbanafrica.pubpub.org/spring-2023)Published on **May 09, 2023# Popular Culture as a Lens to Study Urban Africa
+
+Call for scholars looking towards urban African futures to use popular culture 
+
+by [Henry Baur](/user/henry-baur)Published onMay 09, 2023CiteSocial[PDF Download](https://s3.amazonaws.com/assets.pubpub.org/kk381m7rvf78emz3fwxqbb540rurif94.pdf)[Word Download](https://assets.pubpub.org/l08p1h1v/14515ef8-ea89-4a51-bad6-2d47ca0b70c7.docx)[Markdown Download](https://assets.pubpub.org/7aruf66a/14515ef8-ea89-4a51-bad6-2d47ca0b70c7.md)[EPUB Download](https://assets.pubpub.org/jme7paaw/14515ef8-ea89-4a51-bad6-2d47ca0b70c7.epub)[HTML Download](https://assets.pubpub.org/zd16u2s7/14515ef8-ea89-4a51-bad6-2d47ca0b70c7.html)[OpenDocument Download](https://assets.pubpub.org/0axbhx1h/14515ef8-ea89-4a51-bad6-2d47ca0b70c7.odt)[Plain Text Download](https://assets.pubpub.org/vk3oyjr5/14515ef8-ea89-4a51-bad6-2d47ca0b70c7.txt)[JATS XML Download](https://assets.pubpub.org/wm6xyrpq/14515ef8-ea89-4a51-bad6-2d47ca0b70c7.xml)[LaTeX Download](https://assets.pubpub.org/ovlzg7nh/14515ef8-ea89-4a51-bad6-2d47ca0b70c7.tex)Downloadlast released2 years ago[Popular Culture as a Lens to Study Urban Africa - Release #1](https://urbanafrica.pubpub.org/pub/sym2d572/release/1)Show detailsPopular Culture as a Lens to Study Urban AfricaThe study of urban Africa has been consistently tainted by a plethora of colonial-era side effects. Among these include studying African cities solely based upon preconceived notions of cities in the Global North, and how those cities have traditionally been examined. The fallacy that an African city’s success should revolve around its similarity to a European-style city is problematic, especially when considering the agency by which African cities may operate in their own right. Many of these Euro-centric models of study include employing a top-down method of examination, privileging the importance of bureaucratic systems over personal experience. Oftentimes portraying an attitude of delegitimization towards the civilian experience, strictly looking at cities by a manifestation of government control ignores crucial internal systems which are integral to the definition of a city. To those looking to alter their examination methodology of urban Africa moving forward, I strongly recommend using popular culture as a lens to study these cities on a more productive level, legitimizing individual experience. Through the consideration of music, cartoons, and literature, the arsenal of popular culture as resistance in urban Africa is a helpful tool for scholars thinking about urban African futures.
+
+Popular culture refers to the artistic expression enjoyed by a significant amount of a specific population. Under the umbrella of popular culture includes music. Like many forms of popular culture, music provides a lens by which one can see what is happening in a city due to its reflective nature and social critique. Specifically through the father of Afrobeat, Fela Kuti, music provides valuable insight to the personal experience in African cities such as Lagos.
+
+Fela Kuti is perhaps the most influential and controversial African musician of all time. Fela was notoriously a social activist, as well as musician, making him a uniquely profound case-study to examine the intersection of music and urban study. His eclectic genre, Afrobeat, combines elements of West African and American music. Pioneering this music genre, Fela played a significant role in the counterculture of the 1970’s which, coupled with his flavorful personality, gave Fela distinctive urban appeal. Despite his experience relating to mostly Nigeria and the metropolis of Lagos, Fela’s work and activism reflected broader statements about urban life across the African continent.
+
+In his 2004 book, *Arrest the Music!: Fela and His Rebel Art and Politics*, Nigerian professor Tejumola Olanyian explores Fela’s work and critiques of postcolonial, urban Nigeria.1 Summarizing his research of Fela and Nigeria well, Olanyian writes in his introduction, “Scholars have often noted that music, because of its distinctive power to activate emotional intensities, inscribes experience with greater potency than any other art. If there is one most pervasive experience that afrobeat has invested with such intensity, it is the experience of the postcolonial African state. But this [book] is also an acknowledgement of how greatly the state decisively imprints its mark on music.”2 In Olanyian’s thesis statements, he declares that Fela’s Afrobeat music well reflects the struggles of Nigeria’s postcolonial landscape. Additionally, Olanyian states that this music is conversely impacted by the postcolonial state. Olanyian’s second layer potentially challenges Fela’s self-proclaimed freedom from the postcolonial system, as he outspokenly wanted to go his own direction away from state control.
+
+In terms of Fela’s capability to engage the emotional intensities of his audience, Olanyian points to his lyrics as a reflection of critique and desires on a passionate level. Looking at chronology, Fela’s lyrics and cadence become increasingly reflective of his discontent with the postcolonial state. Throughout these songs, Fela’s lyrics point to concrete events in Nigeria’s political landscape while superimposing his unique criticism for them. Aside from general themes of crime, poverty, sexuality, and war throughout his music, Fela countlessly attacks Nigeria’s political systems. Olanyian points to one of Fela’s songs, “Stranger: Alhaji Alhaji,” to understand Fela’s sensationalist discontent with white influence over Nigeria via religion (both Christianity and Islam). This song’s lyrics such as, “This na revelation/ A revelation of our ancestors/ Offender dey point at himself/ Brothers and sisters hear me/ Mothers and fathers hear me/ Na strangers dey rule our country/ Na strangers dey dominate us…For inside army/ For inside government/ This is a revelation,”3 reflect this disdain. Thus, embedded deeper in his criticism of practicing non-indigenous religion, Fela identifies a problematic dynamic of “strangers” running Nigeria. Fela’s lyrics implore the people of Nigeria to recognize the suppression of their ancestors via the “stranger” government and military presence in their country. While one studying Nigeria from a typical top-down method would most likely see the poverty and crime highlighted in Fela’s other works, it is doubtful they could uncover this cultural suppression using a European-biased lens. Fela’s deeply personal experience with postcolonial life in Lagos impacts his music distinctly, giving scholars a productive way to view popular discontent.
+
+Music aside, political cartoons also support the scholarly lens of popular culture for urban study. Flourishing since at least the late 1950’s, cartoons similarly reflect urban life in another West African nation, Ghana. Through his study of Ghanaian political cartoons, Ashesi University professor, Dr. Joseph Oduro-Frimpong, notes the link between popular political satire and urban consideration. In his chapter, “This Cartoon Is a Satire: Cartoons as Critical Entertainment and Resistance in Ghana’s Fourth Republic,” Dr. Oduro-Frimpong looks beyond the obvious entertainment value of political cartoons.4 Dr. Oduro-Frimpong explores political activism in the cartoons of Adanan and The Black Narrator (pseudonyms of two Ghanaian cartoonists). Focusing on themes such as political recruitment malpractices, sanitation, and corruption, Dr. Oduro-Frimpong argues, similarly to Olanyian with music, that cartoons are an accessible way for artists to display their discontent with postcolonial urban life, detached from any direct affiliation to formal political systems. While debunking prevailing opinions that cartoons are merely for entertainment purposes, Dr. Oduro-Frimpong choses to signal, “how entangled popular culture entertainment genres are with meaningful critiques in the realm of resistance.”5 As with Fela’s critique of the cultural impressment of indigenous practices, Dr. Oduro-Frimpong explores sanitation as a relatively unacknowledged issue in cities like Accra.
+
+In one of the Black Narrator’s cartoons highlighted by Dr. Oduro-Frimpong, “Garbage Nightmare,” the chief executive of the Accra Metropolitan Authority is depicted being chased by a heap of garbage, as seen in the image above.6 In commentary on this cartoon, Dr. Oduro-Frimpong writes, “At the time that the cartoon appeared, Accra faced a garbage crisis. One key reason was inadequate dumpsites stemming from improper planning…Thus the portrayal of the chief executive being chased by humongous humanlike garbage strongly suggests the problem stems from his (in-)actions.”7 While this cartoon certainly appears as humorous, it is clearly a direct attack on this Accra politician and his failure to mitigate sanitation issues. A traditional look at city documents and words of politicians may neglect the popular dissatisfaction regarding concerns like sanitation. It is also important to note that the popularity of these cartoons is indicative of an agreeing opinion with critiques of artists like the Black Narrator. Dr. Oduro-Frimpong notes upon the profit capability of this new age in Ghanaian cartoonists. Because of the laissez-faire lure of profit, many of these cartoons would not logically exist without some sort of popular support behind them.
+
+Literature is another key aspect of popular culture. While oftentimes omitted from the canon of popular culture, literature such as the Nigerian pamphlets of the 1960’s certainly hold popular appeal on a level similar to music and cartoons. This Onitsha Market literature, collected by the University of Kansas library, includes cheap and accessible handbooks from Nigeria used to entertain and satire broader political concerns. In a particular pamphlet titled “Cocktail Ladies,” author Marius Nkwoh offers the public his radio broadcasting critiques in an accessible, print format.8 Due to the appeal of Nkwoh’s critical examination of postcolonial Nigeria, the public implored publication of these writings in this affordable and accessible format.
+
+Similarly to the lack of state intervention with Accra’s sanitation highlighted by The Black Narrator, Nkwoh points to a lack in policing in Eastern Nigeria (Onitsha). Conveying a common tone of negligence displayed by the postcolonial governments towards citizens of African cities, Nkwoh’s monologue reflects popular dissatisfaction. In commentary on the rampant night crime in Onitsha, Nkwoh writes, “This [crime] is a serious matter and the position requires an immediate handling by our governments, by the police and by the people themselves. It is not a matter to play politics with; nor one to make headlines in our newspapers. Anybody that pretends that this or that Region of Nigeria is holier and freer from the havocs of these night marauders then the other one is dishonest and a cheat.”9 Nkwoh thus removes himself from any political affiliation and remarks upon the issue of crime as a universal affair that needs to be dealt with, no questions asked. While one could see the skyrocketing crime in the 1960’s in Nigeria from a traditional lens, the study of government inaction via literature adds a new layer.
+
+Lastly, novels as part of literature fit nicely under the popular culture umbrella. Despite the existence of many theory-driven books regarding urban study, works of fiction are underutilized tools. As with music and cartoons, the casual nature of novels allows authors to embed political criticism for seemingly entertaining purposes. In her book, *The City in the African Novel: A Thematic Rendering of Urban Space*, author Lola Akande critically examines over a dozen novels in relation to urban trends.10 Among her examined novelists, Akande points to Cyprian Ekwensi who got his start via the publication of Onitsha Market pamphlets, just like Nkwoh. In one of his fictional novels, *People of the City*, Ekwensi tells the story of economic dysfunction in Lagos.11 Following the story of Amusa Sango, Ekwensi critiques urban issues such as overcrowded living conditions in Lagos. Ekwensi writes, “after Sango’s ejection by his shylock landlord, he combs the streets of the city [Lagos] in search of an alternative accommodation without success and remains a squatter the remainder of the novel.”12 Thus using the character of Sango to reveal his own issues with Lagos’ housing, Ekwensi is able to help readers understand the city’s dysfunction.
+
+Between music, cartoons, and literature, the popular culture umbrella thus provides a unique lens for scholars to understand contemporary issues with African cities. Contrary to the traditional top-down lens, popular culture offers a reflection on popular challenges and critiques from within. Scholars looking towards urban African futures can hereby use the tools of popular culture to make more informed judgments of study moving forward.
+
+Footnotes12License[Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?[Login to discuss](/login?redirect=/pub/sym2d572/release/1?readingCollection=490acc6a)commentNo comments here Why not start the discussion?Read Next[How to Prepare for a Successful African Urban Future](https://urbanafrica.pubpub.org/pub/k78rakfq?readingCollection=490acc6a)[Urban Africa Project](/)
+- [About](/about)
+- [RSS](/rss.xml)
+- [Legal](/legal)
+
+[Published with*](https://www.pubpub.org)
+- [CommunityUrban Africa Project](/dash)
+- [CollectionThe Creative Genius of Urban Africa](/dash/collection/the-creative-genius-of-urban-africa)
+- [PubPopular Culture as a Lens to Study Urban Africa](/dash/pub/sym2d572)
+
+- [Theorizing the "African City"](/theorizing-the-african-city)
+- [Shape as Substance? Materiality and Urban Africa](/shape-as-substance)
+- [The City as Control? Space, Power, and Colonial Imprint](/the-city-as-control-space-power-and-colonial-imprint)
+- [The Creative Genius of Urban Africa](/the-creative-genius-of-urban-africa)
+- [Mapping Accra](/mapping-accra)
+
+- [collectionThe Creative Genius of Urban Africa](https://urbanafrica.pubpub.org/the-creative-genius-of-urban-africa)
+- 
+
+Cite as  Baur, Henry. 2023. “Popular Culture as a Lens to Study Urban Africa.” In The Creative Genius of Urban Africa*. https://urbanafrica.pubpub.org/pub/sym2d572.duplicateCopymoreMore Cite Options
+- [Twitter](https://twitter.com/intent/tweet?url=https://urbanafrica.pubpub.org/pub/sym2d572&text=Popular Culture as a Lens to Study Urban Africa)
+- [Reddit](https://reddit.com/submit?url=https://urbanafrica.pubpub.org/pub/sym2d572&title=Popular Culture as a Lens to Study Urban Africa)
+- [Facebook](https://www.facebook.com/sharer.php?u=https://urbanafrica.pubpub.org/pub/sym2d572)
+- [LinkedIn](https://www.linkedin.com/shareArticle?url=https://urbanafrica.pubpub.org/pub/sym2d572&title=Popular Culture as a Lens to Study Urban Africa)
+- [Email](mailto:?subject=Popular Culture as a Lens to Study Urban Africa&body=https://urbanafrica.pubpub.org/pub/sym2d572)
+
+- Auto Generated Download
+- PDF
+- Word
+- Markdown
+- EPUB
+- HTML
+- OpenDocument
+- Plain Text
+- JATS XML
+- LaTeX
+
+[tickRelease #1
+
+May 09, 2023 10:48 AM
+
+](https://urbanafrica.pubpub.org/pub/sym2d572/release/1)

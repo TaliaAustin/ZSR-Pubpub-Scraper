@@ -1,0 +1,91 @@
+{
+  "title": "Embedding a StoryMap",
+  "url": "https://urbanafrica.pubpub.org/pub/vf9d5fm0?readingCollection=b046f25e",
+  "slug": "vf9d5fm0?readingCollection=b046f25e",
+  "authors": [],
+  "date": "Published: Apr 22, 2025",
+  "isPublished": true,
+  "section": "Using Images in your Pubs",
+  "scrapedAt": "2025-10-03T21:25:42.386Z",
+  "fullTitle": "Home",
+  "content": "0:root { \n\t\t\t--community-accent-dark: #2c4150;\n\t\t\t--community-accent-dark-faded-30: rgb(66, 74, 80);\n\t\t\t--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);\n\t\t}\n\t\t\t.accent-background { background-color: #2c4150; }\n\t\t\t.accent-color { color: #FFFFFF; }\n\t\t\t.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }\n\t\t\t.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }\n\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }\n\n\t\t\t.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }\n\n\t\t\t.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }\n\t\t\t.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-primary\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-success\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-warning\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-danger\"]),\n\t\t\t.accent-color .bp3-button[class*=\"bp3-icon\"]::before { color: inherit; }\n\t\t\t.accent-color a, .accent-color a:hover { color: inherit; }\n\t\t\t.bp3-tab[aria-selected=\"true\"], .bp3-tab:not([aria-selected=\"true\"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }\n\t\t\t.bp3-tab[aria-selected=\"true\"] { box-shadow: inset 0 -3px 0 #2c4150; }\n\t\t\t.thread:hover:after { background-color: #2c4150; }\n\t\t\t.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }\n\t\t\t.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }\n\t\t\t.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }\n\n\t\t\t.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }\n\t\t\t.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }\n\n\t\t\tspan.citation:hover { color: #2c4150; }\n\n\t\t\t.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }\n\n\t\t\t\n\t\t\t\n\t\tSkip to main contentUrban Africa ProjectSearchDashboardcaret-downLogin or SignupHomeCollectionscaret-downGetting StartedAboutGetting StartedGetting StartedPublished on Apr 22, 2025Embedding a StoryMapHow to embed a map from StoryMapJS on a Pubby Kyle DenlingerPublished onApr 22, 2025CiteSocialPDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX DownloadDownloadlast released5 months agoEmbedding a StoryMap - Release #1Show detailsEmbedding a StoryMapYou might be asked to create a pub that includes a StoryMap that you create with StoryMapJS. This tutorial assumes you already have a draft pub ready to go on PubPub and you have already created a StoryMap. When you’re finished editing your map at StoryMapJS, look for the share icon in the top right.Click ShareCheck to see if you have unpublished changes. If so, click Publish Changes. Copy the URL found in the Link box. Back in your draft pub in PubPub, click the Media button in the toolbar as you would to insert an image.In the insert media box, click Iframe, then paste in your StoryMap URL, then click Insert.Click on your StoryMap that is now embedded in your pub, then click the Media button in the top toolbar. Adjust the width and height of your embedded StoryMap. Recommended embed settings are “breakout” alignment, 75% width, and 700px height. Southern Literary Trail StoryMap, courtesy of Georgia Humanities Council / New Georgia Encyclopedia.LicenseCreative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)Comments0\n\t\t\t\t\t.discussion-list .discussion-thread-component.preview:hover,\n\t\t\t\t\t.discussion-list .discussion-thread-component.expanded-preview {\n\t\t\t\t\t\tborder-left: 3px solid #2c4150;\n\t\t\t\t\t\tpadding-left: calc(1em - 2px);\n\t\t\t\t\t}\n\t\t\t\t?Login to discusscommentNo comments here Why not start the discussion?Urban Africa ProjectAboutRSSLegalPublished withCommunityUrban Africa ProjectCollectionGGetting StartedPubEmbedding a StoryMapTheorizing the \"African City\"Shape as Substance? Materiality and Urban AfricaThe City as Control? Space, Power, and Colonial ImprintThe Creative Genius of Urban AfricaMapping AccracollectionGetting StartedCite as  Denlinger, Kyle. 2025. “Embedding a StoryMap.” Urban Africa Project, April. https://urbanafrica.pubpub.org/pub/vf9d5fm0.duplicateCopymoreMore Cite OptionsTwitterRedditFacebookLinkedInEmailAuto Generated DownloadPDFWordMarkdownEPUBHTMLOpenDocumentPlain TextJATS XMLLaTeXtickRelease #1Apr 22, 2025 9:47 AM",
+  "metadata": {
+    "og:title": "Embedding a StoryMap",
+    "twitter:title": "Embedding a StoryMap · Urban Africa Project",
+    "twitter:image:alt": "Embedding a StoryMap · Urban Africa Project",
+    "citation_title": "Embedding a StoryMap",
+    "dc.title": "Embedding a StoryMap",
+    "og:site_name": "Urban Africa Project",
+    "og:url": "https://urbanafrica.pubpub.org/pub/vf9d5fm0/release/1",
+    "og:type": "article",
+    "citation_publisher": "PubPub",
+    "citation_pdf_url": "https://urbanafrica.pubpub.org/pub/vf9d5fm0/download/pdf",
+    "description": "How to embed a map from StoryMapJS on a Pub",
+    "og:description": "How to embed a map from StoryMapJS on a Pub",
+    "twitter:description": "How to embed a map from StoryMapJS on a Pub",
+    "og:image": "https://assets.pubpub.org/z1517j0x/41674831175161.png",
+    "og:image:url": "https://assets.pubpub.org/z1517j0x/41674831175161.png",
+    "og:image:width": "500",
+    "twitter:image": "https://assets.pubpub.org/z1517j0x/41674831175161.png",
+    "citation_author": "Kyle Denlinger",
+    "dc.creator": "Kyle Denlinger",
+    "article:published_time": "Tue Apr 22 2025 13:47:48 GMT+0000 (Coordinated Universal Time)",
+    "dc.date": "2025-3-22",
+    "citation_publication_date": "2025/4/22",
+    "dc.publisher": "PubPub",
+    "fb:app_id": "924988584221879",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@pubpub",
+    "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+    "google-site-verification": "jmmJFnkSOeIEuS54adOzGMwc0kwpsa8wQ-L4GyPpPDg"
+  },
+  "doi": "",
+  "abstract": "",
+  "images": [
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjQzNXg0bW40L1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwODQyLTQxNzQ1MzI1OTQyNjg5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "Share icon",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjdwYzAwdGJ1L1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwODQzLTYxNzQ1MzI2MDE2MTUxLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "The StoryMap JS share dialog box. An area alerting the user that they have unpublished changes is highlighted.",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjIwZzc5OWtnL1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwOTMwLTIxNzQ1MzI4NjgxMzIyLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "The StoryMapJS share dialog, with the link field highlighted",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6InU1dGc1M2Y0L1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwOTM3LTcxNzQ1MzI5MTM3NTMwLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "The Add Media box, with the Iframe menu item and the insert URL field highlighted.",
+      "title": ""
+    },
+    {
+      "src": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6InB3dGJzMDNqL1NjcmVlbnNob3QgYXQgMjAyNS0wNC0yMiAwOTQ1LTcxNzQ1MzI5NTIzMjE5LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+      "alt": "Media layout settings, with Width set to 75%, Height set to 700px, and breakout alignment selected.",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/license/cc-by-nc.svg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/logoWhite.svg",
+      "alt": "PubPub logo",
+      "title": ""
+    }
+  ],
+  "formats": {
+    "markdown": "content.md",
+    "jatsXml": "content.xml",
+    "pdf": "content.pdf",
+    "html": "snapshot.html"
+  },
+  "media": {
+    "count": 7,
+    "manifest": "media/media-manifest.json"
+  }
+}

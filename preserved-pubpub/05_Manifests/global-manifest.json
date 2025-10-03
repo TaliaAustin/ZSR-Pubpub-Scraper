@@ -1,32 +1,486 @@
 {
-  "scrapedAt": "2025-10-02T19:58:20.086Z",
+  "scrapedAt": "2025-10-03T21:20:32.151Z",
   "baseUrl": "https://urbanafrica.pubpub.org",
   "publishedOnly": true,
   "collections": [
     {
+      "slug": "theorizing-the-african-city",
+      "title": "Theorizing The African City",
+      "description": "African urbanity is precious because it's the future of global cities, and it's unlike anything we've ever seen.",
+      "publicationCount": 24
+    },
+    {
+      "slug": "shape-as-substance",
+      "title": "Shape As Substance",
+      "description": "Looking at Kumasi and cities on the Swahili coast as built environments, and what historians can learn from studying urbanism in this way.",
+      "publicationCount": 24
+    },
+    {
+      "slug": "the-city-as-control-space-power-and-colonial-imprint",
+      "title": "The City As Control Space Power And Colonial Imprint",
+      "description": "A review on Rebecca Ginsburg's At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg",
+      "publicationCount": 24
+    },
+    {
+      "slug": "the-creative-genius-of-urban-africa",
+      "title": "The Creative Genius Of Urban Africa",
+      "description": "Call for scholars looking towards urban African futures to use popular culture",
+      "publicationCount": 16
+    },
+    {
+      "slug": "mapping-accra",
+      "title": "Mapping Accra",
+      "description": "A Story Map of Accra",
+      "publicationCount": 8
+    },
+    {
       "slug": "getting-started",
       "title": "Getting Started",
       "description": "How to create a pub and submit it for publication.",
-      "publicationCount": 7
+      "publicationCount": 12
     },
     {
       "slug": "about",
       "title": "About",
       "description": "Contributor Profile",
-      "publicationCount": 9
+      "publicationCount": 18
     }
   ],
   "allPublications": [
     {
+      "slug": "eshlga2d?readingCollection=117f9448",
+      "title": "Studying African Cities the Right Way",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "jzwtb0qf?readingCollection=117f9448",
+      "title": "The Value of Unprecedented:",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "2ikubbyo?readingCollection=117f9448",
+      "title": "Narratives from Home: Prioritizing multiple narratives while studying urban Africa",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "gdty92h0?readingCollection=117f9448",
+      "title": "Peeling Back the Layers of African Cities",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "3mtul0k6?readingCollection=117f9448",
+      "title": "The Expanding Urban Landscape in Lagos",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "dpfjfwv8?readingCollection=117f9448",
+      "title": "Viewing the Individual to Study Urban Africa",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "ps6op3wj?readingCollection=117f9448",
+      "title": "An African Story",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "dc66sahh?readingCollection=117f9448",
+      "title": "Urbanization and Community Development in Lagos: Navigating Growth and Population Rise",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "81tzzr1g?readingCollection=117f9448",
+      "title": "A City of People: The Social Tapestry of Urban African Cities",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "80evkz9a?readingCollection=117f9448",
+      "title": "Unraveling Urban African Terrain",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "ont2rvrh?readingCollection=117f9448",
+      "title": "The Drawbacks of Urban Apocalyse: Seeing African Cities Anew ",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "5287ocoi?readingCollection=117f9448",
+      "title": "The African Government Abandonment and The Negative Socioeconomic Effects",
+      "collections": [
+        "theorizing-the-african-city",
+        "theorizing-the-african-city"
+      ]
+    },
+    {
+      "slug": "x9q4fhlp?readingCollection=3186db49",
+      "title": "The value of using materiality to draw larger conclusions about the history of globalization.",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "hhd7xdzs?readingCollection=3186db49",
+      "title": "The Colonial Gaze and the Built Environment: Seeing and Unseeing African Cities",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "rs01t9vw?readingCollection=3186db49",
+      "title": "Reckoning or Restating: The values and limitations of studying historical urban African architecture and materialism ",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "6f3rr34j?readingCollection=3186db49",
+      "title": "Behind the Buildings: The Influence of the Built Environment on African City Scholarship",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "9g1b27sk?readingCollection=3186db49",
+      "title": "Power and Privilege Through Urbanity: How People in the Past Fall Through the Cracks",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "ws8mzlzd?readingCollection=3186db49",
+      "title": "Studying the Swahili Coast and Kumasi as Built Environments",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "h2ocv1bb?readingCollection=3186db49",
+      "title": "Coupling of the Built Environment with Individual Narratives ",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "zukjo4ud?readingCollection=3186db49",
+      "title": "African Architecture: Revealing the Complexities of the Built Environment of African Cities",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "f0j5csxx?readingCollection=3186db49",
+      "title": "Colonial Architecture Shaping Post-Independence Sentiments in Africa",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "qsh8yxnj?readingCollection=3186db49",
+      "title": "Aspirations and Exclusion",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "wqwhev1h?readingCollection=3186db49",
+      "title": "Reading Built Environments to See Urban African History",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "oayv558j?readingCollection=3186db49",
+      "title": "The Secrets of African Cities Revealed Through Architecture",
+      "collections": [
+        "shape-as-substance",
+        "shape-as-substance"
+      ]
+    },
+    {
+      "slug": "3ck2cryv?readingCollection=501b9bb0",
+      "title": "At Home With Apartheid: A Review",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "ksyv48fr?readingCollection=501b9bb0",
+      "title": "Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011).",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "6seicjlv?readingCollection=501b9bb0",
+      "title": "At Home With Apartheid Book Review",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "58potzxx?readingCollection=501b9bb0",
+      "title": "Rebecca Ginsburg, At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg (Charlottesville: University of Virginia Press, 2011)",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "omrlvyi3?readingCollection=501b9bb0",
+      "title": "Book Review: At Home with Apartheid",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "ik9ig5yf?readingCollection=501b9bb0",
+      "title": "One Home Two Worlds: Apartheid in Suburban Johannesburg ",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "3p3p64ft?readingCollection=501b9bb0",
+      "title": "At Home with Apartheid: The Hidden Landscapes of Domestic Service in Johannesburg",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "dfqes1b3?readingCollection=501b9bb0",
+      "title": "The Colon and the Colony: Agency under Apartheid",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "a6ni5f71?readingCollection=501b9bb0",
+      "title": "What Lies Beneath",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "q0vywxtb?readingCollection=501b9bb0",
+      "title": "A Critical Analysis of At Home with Apartheid and the Extent of its Ability to Effectively Share the Narrative of the Female Domestic Workers ",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "h28jcrdu?readingCollection=501b9bb0",
+      "title": "More Than A Domestic Worker ",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "say5s56j?readingCollection=501b9bb0",
+      "title": "At Home With Apartheid Review",
+      "collections": [
+        "the-city-as-control-space-power-and-colonial-imprint",
+        "the-city-as-control-space-power-and-colonial-imprint"
+      ]
+    },
+    {
+      "slug": "5thh6r8j?readingCollection=490acc6a",
+      "title": "African Futures as Global Futures",
+      "collections": [
+        "the-creative-genius-of-urban-africa",
+        "the-creative-genius-of-urban-africa"
+      ]
+    },
+    {
+      "slug": "sym2d572?readingCollection=490acc6a",
+      "title": "Popular Culture as a Lens to Study Urban Africa",
+      "collections": [
+        "the-creative-genius-of-urban-africa",
+        "the-creative-genius-of-urban-africa"
+      ]
+    },
+    {
+      "slug": "k78rakfq?readingCollection=490acc6a",
+      "title": "How to Prepare for a Successful African Urban Future",
+      "collections": [
+        "the-creative-genius-of-urban-africa",
+        "the-creative-genius-of-urban-africa"
+      ]
+    },
+    {
+      "slug": "q9ideym5?readingCollection=490acc6a",
+      "title": "Defining The \"African City\":  Examining The Role of Physical Spaces on Shaping African Cities",
+      "collections": [
+        "the-creative-genius-of-urban-africa",
+        "the-creative-genius-of-urban-africa"
+      ]
+    },
+    {
+      "slug": "c4m6atne?readingCollection=490acc6a",
+      "title": "Perspectives Shaping Westerners Understanding of Urban African Futures",
+      "collections": [
+        "the-creative-genius-of-urban-africa",
+        "the-creative-genius-of-urban-africa"
+      ]
+    },
+    {
+      "slug": "0xxs3qxv?readingCollection=490acc6a",
+      "title": "Envisioning African Cities’ Futures Through Pop Culture and Politics",
+      "collections": [
+        "the-creative-genius-of-urban-africa",
+        "the-creative-genius-of-urban-africa"
+      ]
+    },
+    {
+      "slug": "gqw9ew57?readingCollection=490acc6a",
+      "title": "The Dynamism of Culture: Understanding African Urban Futures",
+      "collections": [
+        "the-creative-genius-of-urban-africa",
+        "the-creative-genius-of-urban-africa"
+      ]
+    },
+    {
+      "slug": "0wu2x0j4?readingCollection=490acc6a",
+      "title": "Africa: Colonialism No Longer Has A Hold On Me",
+      "collections": [
+        "the-creative-genius-of-urban-africa",
+        "the-creative-genius-of-urban-africa"
+      ]
+    },
+    {
+      "slug": "i66ezsoc?readingCollection=c0d64fdc",
+      "title": "Claiming the City: Power, Memory, and Belonging in Modern Accra",
+      "collections": [
+        "mapping-accra",
+        "mapping-accra"
+      ]
+    },
+    {
+      "slug": "5owduj7k?readingCollection=c0d64fdc",
+      "title": "The Persistence of Identity and Autonomy in Accra",
+      "collections": [
+        "mapping-accra",
+        "mapping-accra"
+      ]
+    },
+    {
+      "slug": "3r5bqcwf?readingCollection=c0d64fdc",
+      "title": "Give Due to the Pillars of Power in Global Cities. ",
+      "collections": [
+        "mapping-accra",
+        "mapping-accra"
+      ]
+    },
+    {
+      "slug": "fglwr5ar?readingCollection=c0d64fdc",
+      "title": "Reframing Accra: A People's Perspective on Ghana’s Capital",
+      "collections": [
+        "mapping-accra",
+        "mapping-accra"
+      ]
+    },
+    {
       "slug": "adding-pubs?readingCollection=b046f25e",
       "title": "Creating and Submitting Pubs",
       "collections": [
+        "getting-started",
         "getting-started"
       ]
     },
     {
       "slug": "formatting-your-pub?readingCollection=b046f25e",
       "title": "Formatting your Pub",
+      "collections": [
+        "getting-started",
+        "getting-started"
+      ]
+    },
+    {
+      "slug": "citing-sources?readingCollection=b046f25e",
+      "title": "Citing Sources in your Pub",
+      "collections": [
+        "getting-started",
+        "getting-started"
+      ]
+    },
+    {
+      "slug": "using-images?readingCollection=b046f25e",
+      "title": "Using Images in your Pubs",
+      "collections": [
+        "getting-started",
+        "getting-started"
+      ]
+    },
+    {
+      "slug": "vf9d5fm0?readingCollection=b046f25e",
+      "title": "Embedding a StoryMap",
+      "collections": [
+        "getting-started",
+        "getting-started"
+      ]
+    },
+    {
+      "slug": "z630uz9k",
+      "title": "Example Book Review Pub",
+      "collections": [
+        "getting-started"
+      ]
+    },
+    {
+      "slug": "citing-sources",
+      "title": "Citations and Footnotes",
       "collections": [
         "getting-started"
       ]
@@ -35,6 +489,7 @@
       "slug": "hazik-azam",
       "title": "Hazik Azam",
       "collections": [
+        "about",
         "about"
       ]
     },
@@ -42,13 +497,70 @@
       "slug": "henrybaur",
       "title": "Henry Baur ",
       "collections": [
+        "about",
+        "about"
+      ]
+    },
+    {
+      "slug": "nate-block",
+      "title": "Nate Block",
+      "collections": [
+        "about",
+        "about"
+      ]
+    },
+    {
+      "slug": "isa-krebs",
+      "title": "Isa Krebs",
+      "collections": [
+        "about",
+        "about"
+      ]
+    },
+    {
+      "slug": "mackenzielael",
+      "title": "Mackenzie Lael ",
+      "collections": [
+        "about",
+        "about"
+      ]
+    },
+    {
+      "slug": "jacquimarr",
+      "title": "Jacquelinne Marroquin",
+      "collections": [
+        "about",
+        "about"
+      ]
+    },
+    {
+      "slug": "devon-neville",
+      "title": "Devon Neville",
+      "collections": [
+        "about",
+        "about"
+      ]
+    },
+    {
+      "slug": "nate-plageman",
+      "title": "Nate Plageman",
+      "collections": [
+        "about",
+        "about"
+      ]
+    },
+    {
+      "slug": "jack-sabatini",
+      "title": "Jack Sabatini",
+      "collections": [
+        "about",
         "about"
       ]
     }
   ],
   "stats": {
-    "totalCollections": 2,
-    "totalPublications": 4,
-    "publishedPublications": 4
+    "totalCollections": 7,
+    "totalPublications": 64,
+    "publishedPublications": 64
   }
 }

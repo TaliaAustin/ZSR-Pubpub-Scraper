@@ -1,0 +1,68 @@
+{
+  "title": "The Expanding Urban Landscape in Lagos",
+  "url": "https://urbanafrica.pubpub.org/pub/3mtul0k6?readingCollection=117f9448",
+  "slug": "3mtul0k6?readingCollection=117f9448",
+  "authors": [],
+  "date": "Published: Feb 24, 2023",
+  "isPublished": true,
+  "section": "Spring 2023",
+  "scrapedAt": "2025-10-03T21:21:05.157Z",
+  "fullTitle": "Home",
+  "content": "0:root { \n\t\t\t--community-accent-dark: #2c4150;\n\t\t\t--community-accent-dark-faded-30: rgb(66, 74, 80);\n\t\t\t--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);\n\t\t}\n\t\t\t.accent-background { background-color: #2c4150; }\n\t\t\t.accent-color { color: #FFFFFF; }\n\t\t\t.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }\n\t\t\t.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }\n\t\t\t.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }\n\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }\n\t\t\t.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }\n\n\t\t\t.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }\n\n\t\t\t.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }\n\t\t\t.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-primary\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-success\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-warning\"]),\n\t\t\t.accent-color .bp3-button:not([class*=\"bp3-intent-danger\"]),\n\t\t\t.accent-color .bp3-button[class*=\"bp3-icon\"]::before { color: inherit; }\n\t\t\t.accent-color a, .accent-color a:hover { color: inherit; }\n\t\t\t.bp3-tab[aria-selected=\"true\"], .bp3-tab:not([aria-selected=\"true\"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }\n\t\t\t.bp3-tab[aria-selected=\"true\"] { box-shadow: inset 0 -3px 0 #2c4150; }\n\t\t\t.thread:hover:after { background-color: #2c4150; }\n\t\t\t.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }\n\t\t\t.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }\n\t\t\t.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }\n\n\t\t\t.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }\n\t\t\t.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }\n\n\t\t\tspan.citation:hover { color: #2c4150; }\n\n\t\t\t.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }\n\n\t\t\t\n\t\t\t\n\t\tSkip to main contentUrban Africa ProjectSearchDashboardcaret-downLogin or SignupHomeCollectionscaret-downGetting StartedAboutTheorizing the \"African City\"Theorizing the \"African City\"Spring 2023Published on Feb 24, 2023The Expanding Urban Landscape in LagosDiscussion of the Growth Occurring in African Cities, in Particular Lagosby Jack SabatiniPublished onFeb 24, 2023CiteSocialPDF DownloadWord DownloadMarkdown DownloadEPUB DownloadHTML DownloadOpenDocument DownloadPlain Text DownloadJATS XML DownloadLaTeX DownloadDownloadContentslast released3 years agoThe Expanding Urban Landscape in Lagos - Release #1Show detailsThe Expanding Urban Landscape in LagosContents·The most important factor in understanding the dynamic terrain of urban Africa is the idea that these cities are not bleak and barren, but are expanding at exceptional rates. There is a common misconception that African cities are dying places. This is not the case.IntroductionIf I were to say “Africa,” what is the first thing that comes to mind? Maybe a lion pride patrolling the plains, or a penurious metropolis of pirates waiting for the next cargo ship to take a wrong turn. I would guess, “booming urban landscape” is pretty far down that list. The outdated, 20th-century narratives of Africa being a desolate and impoverished continent still dominate Western minds today, despite being entirely fallacious. “In 1960 less than 20 percent of Africa's population lived in cities. Today, that number has doubled to roughly 40 percent.”1 Furthermore, according to The Guardian, by the year 2100, 40% of the entire world’s population will reside in Africa.2 Based on the projected population, that’s 4.48 billion people!LagosOne city in particular has experienced unparalleled growth only in the last two decades or so and is projected to harbor north of 24.5 million people by 2035.3 No, it is not Johannesburg, Cape Town, or Cairo. On the West Coast of Africa, in the southwestern corner of Nigeria, resides the city of Lagos. In 1997, Nigeria was not even a universally mapped country. How then, in only the last two and a half decades, has a place, “considered a no-go zone, almost in its entirety,” grown so fast? According to Dutch architect Rem Koolhaas, it is because Lagos did not panic when the future was unclear.4In some cases, not panicking is just not regressing. However, in Lagos, not panicking meant taking steps to facilitate necessary growth. One example of Lagos working to grow is the “Great Wall of Lagos” project. In 1905 and 1912 two moles (extensions of land similar to a pier) were built to allow large ships to enter Lagos’s port. However, these moles disrupted the drift patterns of sand and sediment that normally landed on Victoria Island, one of Lagos’s most important port cities. By 2005, Victoria Island was in danger of being entirely lost due to erosion. This loss would not only have displaced thousands of people, but there would have been an estimated loss of nearly 460 billion naira annually (roughly 1 billion USD today).5 Governor of Lagos Bola Ahmed Tinubu knew decisive action was needed. The solution to this problem was the Great Wall of Lagos. The wall is 6.5 km now and will be 8.5 km in total. It has protected Victoria Island from the destructive corrosion that once threatened its survival, and the survival of the all-important trade revenue it generates for Lagos. The project’s leading support company, Eko Atlantic, stated “Governor Ambode, with the support of the Federal Government of Nigeria, [has] collectively turned a liability into an asset.”6Conclusion The Great Wall of Lagos is one example of Lagos taking steps to facilitate and assist with its rapid growth. There are other examples of this, and more will occur over time. What is essential to take away from this is not only the aspect of rapid growth, but the fact that the growth is happening entirely under the radar of the Western World. There needs to be more media coverage in Lagos and other African cities to rewrite common misconceptions. The world needs to know that Africa needs to be considered relevant. Whether people realize it or not, the incredible expansion of African cities will have major impacts on all of our futures, and the more we invest in the expanding regions, the more we will all benefit.Footnotes6LicenseCreative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)Comments0\n\t\t\t\t\t.discussion-list .discussion-thread-component.preview:hover,\n\t\t\t\t\t.discussion-list .discussion-thread-component.expanded-preview {\n\t\t\t\t\t\tborder-left: 3px solid #2c4150;\n\t\t\t\t\t\tpadding-left: calc(1em - 2px);\n\t\t\t\t\t}\n\t\t\t\t?Login to discusscommentNo comments here Why not start the discussion?Read NextViewing the Individual to Study Urban AfricaUrban Africa ProjectAboutRSSLegalPublished withCommunityUrban Africa ProjectCollectionTheorizing the \"African City\"PubThe Expanding Urban Landscape in LagosTheorizing the \"African City\"Shape as Substance? Materiality and Urban AfricaThe City as Control? Space, Power, and Colonial ImprintThe Creative Genius of Urban AfricaMapping AccracollectionTheorizing the \"African City\"Cite as  Sabatini, Jack. 2023. “The Expanding Urban Landscape in Lagos.” In Theorizing the “African City.” https://urbanafrica.pubpub.org/pub/3mtul0k6.duplicateCopymoreMore Cite OptionsTwitterRedditFacebookLinkedInEmailAuto Generated DownloadPDFWordMarkdownEPUBHTMLOpenDocumentPlain TextJATS XMLLaTeXIntroductionLagosConclusion tickRelease #1Feb 24, 2023 12:20 PMIntroductionLagosConclusion ",
+  "metadata": {
+    "og:title": "The Expanding Urban Landscape in Lagos",
+    "twitter:title": "The Expanding Urban Landscape in Lagos · Theorizing the \"African City\"",
+    "twitter:image:alt": "The Expanding Urban Landscape in Lagos · Theorizing the \"African City\"",
+    "citation_title": "The Expanding Urban Landscape in Lagos",
+    "dc.title": "The Expanding Urban Landscape in Lagos",
+    "og:site_name": "Urban Africa Project",
+    "og:url": "https://urbanafrica.pubpub.org/pub/3mtul0k6/release/1",
+    "og:type": "article",
+    "citation_publisher": "PubPub",
+    "citation_conference_title": "Theorizing the \"African City\"",
+    "citation_conferenceName": "Theorizing the \"African City\"",
+    "citation_pdf_url": "https://urbanafrica.pubpub.org/pub/3mtul0k6/download/pdf",
+    "description": "Discussion of the Growth Occurring in African Cities, in Particular Lagos",
+    "og:description": "Discussion of the Growth Occurring in African Cities, in Particular Lagos",
+    "twitter:description": "Discussion of the Growth Occurring in African Cities, in Particular Lagos",
+    "og:image": "https://assets.pubpub.org/z9ibumi0/31677615421373.jpeg",
+    "og:image:url": "https://assets.pubpub.org/z9ibumi0/31677615421373.jpeg",
+    "og:image:width": "500",
+    "twitter:image": "https://assets.pubpub.org/z9ibumi0/31677615421373.jpeg",
+    "citation_author": "Jack Sabatini",
+    "dc.creator": "Jack Sabatini",
+    "article:published_time": "Fri Feb 24 2023 17:20:19 GMT+0000 (Coordinated Universal Time)",
+    "dc.date": "2023-1-24",
+    "citation_publication_date": "2023/2/24",
+    "dc.publisher": "PubPub",
+    "fb:app_id": "924988584221879",
+    "twitter:card": "summary_large_image",
+    "twitter:site": "@pubpub",
+    "viewport": "width=device-width, initial-scale=1, shrink-to-fit=no",
+    "google-site-verification": "jmmJFnkSOeIEuS54adOzGMwc0kwpsa8wQ-L4GyPpPDg"
+  },
+  "doi": "",
+  "abstract": "",
+  "images": [
+    {
+      "src": "https://urbanafrica.pubpub.org/static/license/cc-by-nc.svg",
+      "alt": "",
+      "title": ""
+    },
+    {
+      "src": "https://urbanafrica.pubpub.org/static/logoWhite.svg",
+      "alt": "PubPub logo",
+      "title": ""
+    }
+  ],
+  "formats": {
+    "markdown": "content.md",
+    "jatsXml": "content.xml",
+    "pdf": "content.pdf",
+    "html": "snapshot.html"
+  },
+  "media": {
+    "count": 2,
+    "manifest": "media/media-manifest.json"
+  }
+}

@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2025-10-02T19:58:41.264Z",
+  "generatedAt": "2025-10-03T21:26:41.338Z",
   "status": "complete",
   "collections": {
-    "expected": 2,
-    "scraped": 2,
+    "expected": 7,
+    "scraped": 7,
     "complete": true
   },
   "publications": {
-    "total": 4,
+    "total": 64,
     "withPDF": 0,
     "withMedia": 0
   }

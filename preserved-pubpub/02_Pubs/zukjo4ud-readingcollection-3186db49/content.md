@@ -1,0 +1,121 @@
+# Home
+
+**Authors:** 
+
+## Content
+
+0:root { 
+			--community-accent-dark: #2c4150;
+			--community-accent-dark-faded-30: rgb(66, 74, 80);
+			--community-accent-dark-faded: rgba(44, 65, 80, 0.050000000000000044);
+		}
+			.accent-background { background-color: #2c4150; }
+			.accent-color { color: #FFFFFF; }
+			.accent-background.header-component, .accent-background.nav-bar-component, .accent-background.footer-component, .accent-background.nav-item-background, .accent-background.image-wrapper{ background-color: #2c4150; }
+			.accent-color.header-component, .accent-color.nav-bar-component, .accent-color.footer-component, .accent-color.nav-item { color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined) { background-color: rgba(44, 65, 80, 0.6); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.8); color: #FFFFFF; }
+			.bp3-button.bp3-intent-primary:not(.bp3-outlined):active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: #2c4150; color: #FFFFFF; }
+
+			.bp3-button.bp3-intent-primary.bp3-outlined { border-color: #2c4150; color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:hover:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.09999999999999998); color: #2c4150; }
+			.bp3-button.bp3-intent-primary.bp3-outlined:active:not(.bp3-disabled), .bp3-button.bp3-intent-primary.bp3-active:not(.bp3-disabled) { background-color: rgba(44, 65, 80, 0.19999999999999996); color: #2c4150; }
+
+			.bp3-tree-node.bp3-tree-node-selected > .bp3-tree-node-content { background-color: #2c4150; }
+
+			.bp3-tag.bp3-intent-primary { background: #2c4150; color: #FFFFFF; }
+			.bp3-tag.bp3-minimal.bp3-intent-primary { background-color: rgba(44, 65, 80, 0.09999999999999998); color: inherit; }
+			.accent-color .bp3-button:not([class*="bp3-intent-primary"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-success"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-warning"]),
+			.accent-color .bp3-button:not([class*="bp3-intent-danger"]),
+			.accent-color .bp3-button[class*="bp3-icon"]::before { color: inherit; }
+			.accent-color a, .accent-color a:hover { color: inherit; }
+			.bp3-tab[aria-selected="true"], .bp3-tab:not([aria-selected="true"]):hover { box-shadow: inset 0 -3px 0 rgba(44, 65, 80, 0.09999999999999998); }
+			.bp3-tab[aria-selected="true"] { box-shadow: inset 0 -3px 0 #2c4150; }
+			.thread:hover:after { background-color: #2c4150; }
+			.bp3-slider-progress.bp3-intent-primary, .bp3-dark .bp3-slider-progress.bp3-intent-primary { background: #2c4150; }
+			.bp3-slider-handle .bp3-slider-label { background: #2c4150; color: #FFFFFF; }
+			.highlight-dot-wrapper .highlight-dot { background-color: #2c4150; }
+
+			.changelog-callout { background: rgba(44, 65, 80, 0.09999999999999998) !important; }
+			.changelog-callout .release-label { color: #2c4150; border: 1px dashed #2c4150; }
+
+			span.citation:hover { color: #2c4150; }
+
+			.overflow-gradient { background: linear-gradient(90deg, rgba(44, 65, 80, 0) 0%,  rgba(44, 65, 80, 0) 85%,  #2c4150 100%); }
+
+			
+			
+		[Skip to main content](#main-content)[Urban Africa Project](/)[Search](/search)**Dashboardcaret-down[Login or Signup](/login?redirect=/pub/zukjo4ud/release/1?readingCollection=3186db49)
+- [Home](/)
+- Collectionscaret-down
+- [Getting Started](/getting-started)
+- [About](/about)
+
+[Shape as Substance? Materiality and Urban Africa](https://urbanafrica.pubpub.org/shape-as-substance)Shape as Substance? Materiality and Urban Africa[Spring 2023](https://urbanafrica.pubpub.org/spring-2023)Published on **Mar 29, 2023# African Architecture: Revealing the Complexities of the Built Environment of African Cities
+
+What does architecture reveal about the history, culture and inhabitants of African cities?
+
+by [Nate Block](/user/nate-block)Published onMar 29, 2023CiteSocial[PDF Download](https://s3.amazonaws.com/assets.pubpub.org/vuofn2u5fg4va1sbdlgai9xkvw5n1hxq.pdf)[Word Download](https://assets.pubpub.org/v0fgnew0/d607f571-5c4d-4fd3-92d4-692f5f8fa321.docx)[Markdown Download](https://assets.pubpub.org/br67l1d7/d607f571-5c4d-4fd3-92d4-692f5f8fa321.md)[EPUB Download](https://assets.pubpub.org/7hv7bt1r/d607f571-5c4d-4fd3-92d4-692f5f8fa321.epub)[HTML Download](https://assets.pubpub.org/xr88wviv/d607f571-5c4d-4fd3-92d4-692f5f8fa321.html)[OpenDocument Download](https://assets.pubpub.org/p15ggeam/d607f571-5c4d-4fd3-92d4-692f5f8fa321.odt)[Plain Text Download](https://assets.pubpub.org/2qxd2eu5/d607f571-5c4d-4fd3-92d4-692f5f8fa321.txt)[JATS XML Download](https://assets.pubpub.org/2c25zj1j/d607f571-5c4d-4fd3-92d4-692f5f8fa321.xml)[LaTeX Download](https://assets.pubpub.org/kwo564du/d607f571-5c4d-4fd3-92d4-692f5f8fa321.tex)Downloadlast released3 years ago[African Architecture: Revealing the Complexities of the Built Environment of African Cities - Release #1](https://urbanafrica.pubpub.org/pub/zukjo4ud/release/1)Show detailsAfrican Architecture: Revealing the Complexities of the Built Environment of African CitiesArchitecture is an essential instrument for understanding the history, culture, and evolution of African cities. It offers a unique insight into the lives of the people who inhabit these cities and the identities they have constructed. African cities are home to an assortment of architectural techniques, from traditional mud-brick homes to contemporary high-rises. Each style has its unique story to convey, and by investigating the architecture of African cities, we can attain a deeper understanding of the cities and civilizations of Africa. Architecture can truly reveal to us many details and angles about the history of a country that we may not have previously seen or appreciated. In many African cities, traditional and historical buildings are still standing, providing an insight into the past. The techniques and history of these buildings can tell us more about the culture and beliefs of the people who lived in them. In many African cities, modern buildings are popping up alongside traditional ones, reflecting the country’s rapid economic and social development while still attempting to preserve its natural identity. By studying the architecture of African cities through the lens of the past, we can reveal how the physical spaces within African cities represent and shape the culture of their inhabitants. Architecture can also tell us about the development of a country.
+
+Image of Victoria, Dar Es Salaam, Tanzania
+
+For many African cultures and communities, architecture serves as a medium of cultural preservation and plays many other important roles. For example, While discussing Swahili port cities, Prita Meier writes, “the stone mansion was the most important space for the performance of elite social identities and gender roles. In her elegant phrasing, it was the “structuring structure” of Waungwana civilization”.1 Meier’s ideas demonstrate the ways in which this architecture helped define their community and culture. Social elites and other wealthy members of society would frequently appreciate and value architecture more than any other valuable material possessions. While stone mansions serve specific purposes for more affluent community members, different types of architecture serve a wide array of functions as well. As Meier explains, “Newcomers were hosted in the homes of Waungwana families, they were invited to pray in the Friday mosque, and business deals were cemented in the customs house”.2 Each of these unique structures and buildings served its own individual purpose within the system of Swahili society. Mosques were home to religious and cultural traditions, customs houses served as centers of business and commerce, and their homes were inviting and open to “newcomers.” The architecture of this society is not only a representation of their identity and history, but the architecture itself shapes the members of these communities. The infrastructure and built spaces serve as a guide to members of society and thus are crucial in order to maintain and preserve Swahili identity. Through the usage of architecture in various roles within Swahili society, we are able to appreciate the versatility and importance of this infrastructure.
+
+Architecture’s purpose within African societies can also be clearly seen within the Asante Kingdom, which is located in what is now Southern Ghana. In the late 19th century, this community was heavily subjugated to the influence of European Imperialism, and through this process, their architecture was re-defined. In an attempt to establish dominance over the Asante Kingdom, the British relocated and rebuilt the Asante Palace. This palace was the home of the government of the Asante Kingdom but was soon replaced by “the construction of a European self-contained house to serve as the palace of the Asante Kingdom”.3 When looking at the palace today, which was never fully rebuilt with Asante’s influence, author, Tony Yeboah takes an entirely different approach to the value of this architecture; “the palace exists in people’s minds and corresponds with the past glory of the pre-1874 palace. The mental process gives people, especially those disappointed at Asante’s failure to rebuild its palace, the power to imagine and mentally construct an appropriate structure that excites the self “.4 Yeboah argues that there is value and appreciation in the fact that the palace was once there, despite the fact that it was never fully restored. 
+
+Image of Adum, Kumasi, Ghana
+
+Rather than solely appreciating architecture for its present-day existence, we are able to also gain a deeper understanding of its importance through the architecture’s existence within the minds of Asante citizens. Furthermore, there is beauty in the non-existence of architecture that once existed, as it provides us with a deeper understanding of the history of these communities. Through the presence of the British palace, we are able to see the effects that European influence had on this community and the imperialism that existed within this society. On the other hand, through the ideas and minds of the citizens and the absence of a true Asante Palace, we are able to see the pride that this community holds for its culture and history.
+
+By studying the architecture of African cities, we can gain a deeper understanding of the cities and cultures of Africa. From high-traffic bustling marketplaces to lavish palaces and religious structures, the architecture of all types can lead us to a unique perspective of the “African City.” Looking at architecture through multiple different lenses, we can gain a better understanding of the history, development, culture, and peoples of African cities. The current standing architecture of the Swahili port cities gives insight into the culture of this community and the ways in which they utilize their physical buildings in order to maintain their cultural identity. At the same time, the absence or reconstruction of African architecture can also teach us about the history of imperialisation within Africa. No matter which lens or medium we choose to take, looking at the architecture of these cities provides us with a perspective that is often times overlooked. As we further appreciate architecture’s value in this context, we will only learn more about the “African City.” Through a deep examination of the architecture of African cities, we can learn more about the ways in which African cultures adapted to their environments, preserved their cultures, and approached the influence of European imperialism.
+
+Footnotes4License[Creative Commons Attribution-NonCommercial 4.0 International License (CC-BY-NC 4.0)](https://creativecommons.org/licenses/by-nc/4.0/)Comments0
+					.discussion-list .discussion-thread-component.preview:hover,
+					.discussion-list .discussion-thread-component.expanded-preview {
+						border-left: 3px solid #2c4150;
+						padding-left: calc(1em - 2px);
+					}
+				?[Login to discuss](/login?redirect=/pub/zukjo4ud/release/1?readingCollection=3186db49)commentNo comments here Why not start the discussion?Read Next[Studying the Swahili Coast and Kumasi as Built Environments](https://urbanafrica.pubpub.org/pub/ws8mzlzd?readingCollection=3186db49)[Urban Africa Project](/)
+- [About](/about)
+- [RSS](/rss.xml)
+- [Legal](/legal)
+
+[Published with*](https://www.pubpub.org)
+- [CommunityUrban Africa Project](/dash)
+- [CollectionSSpring 2023](/dash/collection/spring-2023)
+- [PubAfrican Architecture: Revealing the Complexities of the Built Environment of African Cities](/dash/pub/zukjo4ud)
+
+- [Theorizing the "African City"](/theorizing-the-african-city)
+- [Shape as Substance? Materiality and Urban Africa](/shape-as-substance)
+- [The City as Control? Space, Power, and Colonial Imprint](/the-city-as-control-space-power-and-colonial-imprint)
+- [The Creative Genius of Urban Africa](/the-creative-genius-of-urban-africa)
+- [Mapping Accra](/mapping-accra)
+
+- [collectionShape as Substance? Materiality and Urban Africa](https://urbanafrica.pubpub.org/shape-as-substance)
+- 
+
+Cite as  Block, Nate. 2023. “African Architecture: Revealing the Complexities of the Built Environment of African Cities.” In Spring 2023*. https://urbanafrica.pubpub.org/pub/zukjo4ud.duplicateCopymoreMore Cite Options
+- [Twitter](https://twitter.com/intent/tweet?url=https://urbanafrica.pubpub.org/pub/zukjo4ud&text=African Architecture: Revealing the Complexities of the Built Environment of African Cities)
+- [Reddit](https://reddit.com/submit?url=https://urbanafrica.pubpub.org/pub/zukjo4ud&title=African Architecture: Revealing the Complexities of the Built Environment of African Cities)
+- [Facebook](https://www.facebook.com/sharer.php?u=https://urbanafrica.pubpub.org/pub/zukjo4ud)
+- [LinkedIn](https://www.linkedin.com/shareArticle?url=https://urbanafrica.pubpub.org/pub/zukjo4ud&title=African Architecture: Revealing the Complexities of the Built Environment of African Cities)
+- [Email](mailto:?subject=African Architecture: Revealing the Complexities of the Built Environment of African Cities&body=https://urbanafrica.pubpub.org/pub/zukjo4ud)
+
+- Auto Generated Download
+- PDF
+- Word
+- Markdown
+- EPUB
+- HTML
+- OpenDocument
+- Plain Text
+- JATS XML
+- LaTeX
+
+[tickRelease #1
+
+Mar 29, 2023 1:51 PM
+
+](https://urbanafrica.pubpub.org/pub/zukjo4ud/release/1)

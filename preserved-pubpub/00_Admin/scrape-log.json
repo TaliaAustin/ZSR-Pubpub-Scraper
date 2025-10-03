@@ -1,8 +1,17 @@
 {
-  "completedAt": "2025-10-02T19:58:41.264Z",
+  "completedAt": "2025-10-03T21:26:41.338Z",
   "config": {
     "baseUrl": "https://urbanafrica.pubpub.org",
     "outputDir": "./preserved-pubpub",
+    "collections": [
+      "https://urbanafrica.pubpub.org/theorizing-the-african-city",
+      "https://urbanafrica.pubpub.org/shape-as-substance",
+      "https://urbanafrica.pubpub.org/the-city-as-control-space-power-and-colonial-imprint",
+      "https://urbanafrica.pubpub.org/the-creative-genius-of-urban-africa",
+      "https://urbanafrica.pubpub.org/mapping-accra",
+      "https://urbanafrica.pubpub.org/getting-started",
+      "https://urbanafrica.pubpub.org/about"
+    ],
     "delays": {
       "navigation": 2000,
       "content": 1000,
@@ -13,8 +22,8 @@
     "publishedOnly": true
   },
   "stats": {
-    "totalCollections": 2,
-    "totalPublications": 4,
-    "publishedPublications": 4
+    "totalCollections": 7,
+    "totalPublications": 64,
+    "publishedPublications": 64
   }
 }

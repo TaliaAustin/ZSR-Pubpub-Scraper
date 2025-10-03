@@ -1,0 +1,38 @@
+[
+  {
+    "filename": "image-1.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjFwNzIyOTM3LzExNjc1ODg2NTA0NDU4LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19",
+    "alt": "Five people stand around a bookmobile with open sides displaying shelves of books. Some browse the books, others are chatting.",
+    "title": ""
+  },
+  {
+    "filename": "image-2.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6IjM4eDgyOWNuLzAxNjc1ODg0NjY4Mzk0LmpwZWciLCJlZGl0cyI6eyJyZXNpemUiOnsid2lkdGgiOjgwMCwiZml0IjoiaW5zaWRlIiwid2l0aG91dEVubGFyZ2VtZW50Ijp0cnVlfX19",
+    "alt": "A modern-looking campus with a clock tower sits in the foreground of a cityscape including other modern buildings, open green spaces, and a pond.",
+    "title": ""
+  },
+  {
+    "filename": "image-3.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6ImN6Mnc3N2U4LzcxNjc1ODg3ODI5NjUzLnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+    "alt": "An intentional representation of a \"broken image\" -- an empty square with a broken file icon in the top left, and a caption that provides no context.",
+    "title": ""
+  },
+  {
+    "filename": "image-4.jpg",
+    "originalUrl": "https://resize-v3.pubpub.org/eyJidWNrZXQiOiJhc3NldHMucHVicHViLm9yZyIsImtleSI6ImZsdDB4aW96LzMxNjc1ODg5NzM1MjQ3LnBuZyIsImVkaXRzIjp7InJlc2l6ZSI6eyJ3aWR0aCI6ODAwLCJmaXQiOiJpbnNpZGUiLCJ3aXRob3V0RW5sYXJnZW1lbnQiOnRydWV9fX0=",
+    "alt": "The PubPub media tool with an example of alt text for a photo.",
+    "title": ""
+  },
+  {
+    "filename": "image-5.svg",
+    "originalUrl": "https://urbanafrica.pubpub.org/static/license/cc-by-nc.svg",
+    "alt": "",
+    "title": ""
+  },
+  {
+    "filename": "image-6.svg",
+    "originalUrl": "https://urbanafrica.pubpub.org/static/logoWhite.svg",
+    "alt": "PubPub logo",
+    "title": ""
+  }
+]
