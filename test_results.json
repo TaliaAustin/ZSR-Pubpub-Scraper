@@ -1,0 +1,58 @@
+{
+    "test_date": "2025-11-25T16:47:08.020871",
+    "base_url": "https://urbanafrica.pubpub.org/",
+    "sitemap_test": {
+        "accessible": true,
+        "url": "https://urbanafrica.pubpub.org/sitemap.xml",
+        "total_urls": 65,
+        "publication_urls": 64
+    },
+    "publication_tests": [
+        {
+            "url": "https://urbanafrica.pubpub.org/pub/eshlga2d/release/1",
+            "accessible": true,
+            "metadata": {
+                "title": "Studying African Cities the Right Way",
+                "authors": [
+                    "Ken Chen"
+                ],
+                "publication_date": "2025/4/9"
+            },
+            "download_links_found": [
+                {
+                    "text": "PDFDownload",
+                    "href": "https://s3.amazonaws.com/assets.pubpub.org/zd177hg1xzryi4d5tzhx6iisvu1ltmsk.pdf",
+                    "absolute_url": "https://s3.amazonaws.com/assets.pubpub.org/zd177hg1xzryi4d5tzhx6iisvu1ltmsk.pdf"
+                },
+                {
+                    "text": "WordDownload",
+                    "href": "https://assets.pubpub.org/qfwh54pd/4befb518-d217-43c2-b0ae-f467e62e5f41.docx",
+                    "absolute_url": "https://assets.pubpub.org/qfwh54pd/4befb518-d217-43c2-b0ae-f467e62e5f41.docx"
+                },
+                {
+                    "text": "EPUBDownload",
+                    "href": "https://assets.pubpub.org/9nwfnoyj/4befb518-d217-43c2-b0ae-f467e62e5f41.epub",
+                    "absolute_url": "https://assets.pubpub.org/9nwfnoyj/4befb518-d217-43c2-b0ae-f467e62e5f41.epub"
+                },
+                {
+                    "text": "JATS XMLDownload",
+                    "href": "https://assets.pubpub.org/cjgq3ei8/4befb518-d217-43c2-b0ae-f467e62e5f41.xml",
+                    "absolute_url": "https://assets.pubpub.org/cjgq3ei8/4befb518-d217-43c2-b0ae-f467e62e5f41.xml"
+                },
+                {
+                    "text": "Packer’s article",
+                    "href": "../Week2/Packer The Megacity Decoding the Chaos of Lagos.pdf",
+                    "absolute_url": "https://urbanafrica.pubpub.org/Week2/Packer The Megacity Decoding the Chaos of Lagos.pdf"
+                },
+                {
+                    "text": "RSS",
+                    "href": "/rss.xml",
+                    "absolute_url": "https://urbanafrica.pubpub.org/rss.xml"
+                }
+            ],
+            "export_endpoints": {},
+            "status_code": 200,
+            "final_url": "https://urbanafrica.pubpub.org/pub/eshlga2d/release/1"
+        }
+    ]
+}
