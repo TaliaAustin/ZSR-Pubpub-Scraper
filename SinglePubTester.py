@@ -114,11 +114,24 @@ class SinglePubTester:
             print("🔗 FINDING DOWNLOAD LINKS")
             print("="*70)
             
+            # Format mapping for detection
+            format_patterns = {
+                'pdf': ['pdf', '.pdf'],
+                'docx': ['word', 'docx', '.docx'],
+                'markdown': ['markdown', '.md'],
+                'epub': ['epub', '.epub'],
+                'html': ['html', '.html', '.htm'],
+                'odt': ['opendocument', 'odt', '.odt'],
+                'txt': ['plain text', 'text', '.txt'],
+                'jats': ['jats', 'xml', '.xml'],
+                'latex': ['latex', 'tex', '.tex']
+            }
+            
             for link in soup.find_all('a', href=True):
                 href = link['href']
                 link_text = link.get_text(strip=True).lower()
                 
-                # Look for assets.pubpub.org or s3.amazonaws.com/assets.pubpub.org
+                # Look for PubPub asset links
                 is_asset = 'assets.pubpub.org' in href or 's3.amazonaws.com/assets.pubpub.org' in href
                 
                 if not is_asset:
@@ -126,24 +139,25 @@ class SinglePubTester:
                 
                 absolute_url = href if href.startswith('http') else urljoin(self.base_url, href)
                 
-                # Identify format
-                if '.pdf' in href.lower() or 'pdf' in link_text:
-                    metadata["downloads"]["pdf"] = absolute_url
-                    print(f"✅ Found PDF: {link_text}")
-                elif '.docx' in href.lower() or 'word' in link_text or 'docx' in link_text:
-                    metadata["downloads"]["docx"] = absolute_url
-                    print(f"✅ Found DOCX: {link_text}")
-                elif '.epub' in href.lower() or 'epub' in link_text:
-                    metadata["downloads"]["epub"] = absolute_url
-                    print(f"✅ Found EPUB: {link_text}")
-                elif '.xml' in href.lower() and ('jats' in link_text or 'xml' in link_text):
-                    metadata["downloads"]["jats"] = absolute_url
-                    print(f"✅ Found JATS XML: {link_text}")
+                # Check against all format patterns
+                for format_name, patterns in format_patterns.items():
+                    if any(pattern in href.lower() or pattern in link_text for pattern in patterns):
+                        # Special handling for JATS XML (avoid non-JATS XML files)
+                        if format_name == 'jats':
+                            if not ('jats' in link_text or 'xml' in link_text):
+                                continue
+                        
+                        # Don't overwrite if already found
+                        if format_name not in metadata["downloads"]:
+                            metadata["downloads"][format_name] = absolute_url
+                            print(f"✅ Found {format_name.upper()}: {link_text}")
+                        break
             
             if not metadata["downloads"]:
                 print("⚠️  No download links found!")
             else:
                 print(f"\n📊 Total formats found: {len(metadata['downloads'])}")
+                print(f"   Formats: {', '.join(metadata['downloads'].keys())}")
             
             return metadata, soup
             
@@ -343,14 +357,28 @@ class SinglePubTester:
                 print(f"\n{format_name.upper()}:")
                 print(f"  URL: {download_url}")
                 
-                # Determine filename with EXPLICIT .html extension
+                # Determine filename with proper extensions
+                extension_map = {
+                    'pdf': 'pdf',
+                    'docx': 'docx',
+                    'markdown': 'md',
+                    'epub': 'epub',
+                    'html': 'html',
+                    'odt': 'odt',
+                    'txt': 'txt',
+                    'jats': 'xml',
+                    'latex': 'tex'
+                }
+                
+                ext = extension_map.get(format_name, format_name)
+                
+                # Special naming for HTML
                 if format_name == "html":
-                    # MACOS FIX: Explicitly name as .html
                     filename = pub_dir / "index.html"
                 elif format_name == "jats":
                     filename = pub_dir / f"{slug}.xml"
                 else:
-                    filename = pub_dir / f"{slug}.{format_name}"
+                    filename = pub_dir / f"{slug}.{ext}"
                 
                 # Download
                 success = self.download_file(download_url, filename, format_name)
@@ -362,7 +390,7 @@ class SinglePubTester:
                     "exists": filename.exists()
                 }
                 
-                # If HTML, archive assets
+                # If HTML downloaded successfully, archive its assets
                 if success and format_name == "html" and filename.exists():
                     try:
                         with open(filename, 'r', encoding='utf-8') as f:
