@@ -1,7 +1,13 @@
 """
-Single Publication Test Scraper
+Single Publication Test Scraper - FINAL CLEAN VERSION
 Tests scraping on ONE publication to verify all exports work
-Includes macOS .html file fix
+Includes:
+- macOS .html file fix
+- Stable image filenames (slug + URL hash)
+- assets/images/ directory structure
+- Relative path rewriting for offline viewing
+
+Installation: pip install requests beautifulsoup4 lxml
 """
 
 import requests
@@ -10,6 +16,7 @@ import json
 import re
 import os
 import mimetypes
+import hashlib
 from urllib.parse import urlparse, urljoin
 from datetime import datetime
 from pathlib import Path
@@ -190,12 +197,6 @@ class SinglePubTester:
                 file_size = save_path.stat().st_size
                 size_mb = file_size / (1024 * 1024)
                 
-                # MACOS HTML FIX: Verify .html extension wasn't changed
-                if save_path.suffix == '.html' and not str(save_path).endswith('.html'):
-                    print(f"  ⚠️  WARNING: macOS may have changed file extension!")
-                    print(f"      Expected: {save_path}")
-                    print(f"      Check Finder to verify extension")
-                
                 print(f"  ✅ Downloaded: {save_path.name} ({size_mb:.2f} MB)")
                 print(f"     Saved to: {save_path}")
                 
@@ -234,90 +235,165 @@ class SinglePubTester:
         
         return False
     
-    def get_unique_filename(self, asset_url):
-        """Generate unique filename for asset"""
-        parsed_url = urlparse(asset_url)
-        path_segments = parsed_url.path.strip('/').split('/')
-        
-        filename = path_segments[-1] or 'asset'
-        filename = filename.split('?')[0].split('#')[0]
-        
-        if not filename or '.' not in filename:
-            ext = mimetypes.guess_extension(mimetypes.guess_type(asset_url)[0]) or '.bin'
-            filename = f"{path_segments[-2] or 'file'}{ext}"
-        
-        prefix = "_".join(path_segments[:-1])
-        local_path = Path("_assets") / prefix / filename if prefix else Path("_assets") / filename
-        
-        return local_path
-    
-    def download_asset(self, asset_url, save_dir):
-        """Download a single asset"""
-        try:
-            local_path = self.get_unique_filename(asset_url)
-            full_path = save_dir / local_path
-            
-            # Skip if already exists
-            if full_path.exists():
-                return str(local_path)
-            
-            full_path.parent.mkdir(parents=True, exist_ok=True)
-            
-            response = requests.get(asset_url, headers=HEADERS, timeout=30, stream=True)
-            response.raise_for_status()
-            
-            with open(full_path, 'wb') as f:
-                for chunk in response.iter_content(chunk_size=8192):
-                    if chunk:
-                        f.write(chunk)
-            
-            self.stats["assets_downloaded"] += 1
-            return str(local_path)
-            
-        except Exception as e:
-            if hasattr(e, 'response') and e.response and e.response.status_code in [404, 403]:
-                pass  # Skip 404/403 silently
-            else:
-                print(f"    ⚠️  Failed to download asset: {asset_url}")
-            return None
-    
-    def archive_html_with_assets(self, html_path, html_content):
-        """Download assets and rewrite HTML links"""
+    def archive_html_with_assets(self, html_path, html_content, pub_slug):
+        """Download assets and rewrite HTML links to relative paths with stable filenames"""
         print("\n  📦 Archiving HTML assets...")
+        print(f"  📄 HTML file size: {len(html_content)} bytes")
         
         soup = BeautifulSoup(html_content, 'html.parser')
-        save_dir = html_path.parent
-        downloaded = {}
         
-        # Process img, link, script tags
-        targets = [('img', 'src'), ('link', 'href'), ('script', 'src')]
+        # DEBUG: Check what images are in the HTML
+        all_images = soup.find_all('img')
+        print(f"  🔍 Found {len(all_images)} <img> tags in HTML")
         
-        for tag_name, attr in targets:
-            for tag in soup.find_all(tag_name):
-                source_url = tag.get(attr)
-                if not source_url or source_url.startswith('data:'):
+        if len(all_images) > 0:
+            print(f"  📸 Sample image sources:")
+            for img in all_images[:3]:
+                src = img.get('src', 'NO SRC ATTRIBUTE')
+                srcset = img.get('srcset', '')
+                if src and src != 'NO SRC ATTRIBUTE':
+                    print(f"     - src: {src[:80]}")
+                if srcset:
+                    print(f"     - srcset: {srcset[:80]}")
+        
+        # Create assets/images directory next to the HTML file
+        assets_dir = html_path.parent / "assets"
+        images_dir = assets_dir / "images"
+        images_dir.mkdir(parents=True, exist_ok=True)
+        print(f"  📁 Created directory: {images_dir}")
+        
+        downloaded_images = {}
+        failed_downloads = 0
+        
+        # Process all image tags
+        for img_tag in soup.find_all('img'):
+            # Get src attribute
+            src = img_tag.get('src')
+            srcset = img_tag.get('srcset')
+            
+            # PubPub often uses srcSet instead of src
+            image_url = None
+            if srcset:
+                # Parse srcset to get first URL
+                srcset_parts = srcset.split(',')[0].strip().split(' ')[0]
+                image_url = srcset_parts
+                print(f"    📸 Found image in srcset: {image_url[:60]}...")
+            elif src:
+                image_url = src
+                print(f"    📸 Found image in src: {image_url[:60]}...")
+            else:
+                print(f"    ⚠️  Image tag with no src or srcset attribute")
+                continue
+                
+            if image_url.startswith('data:'):
+                print(f"    ⏭️  Skipping data URI image")
+                continue
+            
+            # Convert to absolute URL
+            if image_url.startswith('http'):
+                absolute_url = image_url
+            else:
+                absolute_url = urljoin(self.base_url, image_url)
+            
+            print(f"    📥 Downloading: {absolute_url[:80]}...")
+            
+            # Check if already downloaded
+            if absolute_url in downloaded_images:
+                local_path = downloaded_images[absolute_url]
+                img_tag['src'] = local_path
+                # Remove srcset to use our local src
+                if img_tag.get('srcset'):
+                    del img_tag['srcset']
+                print(f"       ✅ Already downloaded as: {local_path}")
+                continue
+            
+            try:
+                # Download the image
+                response = requests.get(absolute_url, headers=HEADERS, timeout=30, stream=True)
+                response.raise_for_status()
+                
+                # Read content for hashing
+                content = b''
+                for chunk in response.iter_content(chunk_size=8192):
+                    if chunk:
+                        content += chunk
+                
+                # Generate stable filename: slug + hash of URL
+                url_hash = hashlib.md5(absolute_url.encode()).hexdigest()[:8]
+                
+                # Get file extension from URL or content-type
+                parsed_url = urlparse(absolute_url)
+                original_filename = Path(parsed_url.path).name.split('?')[0]
+                
+                if '.' in original_filename:
+                    ext = Path(original_filename).suffix
+                else:
+                    # Guess from content-type
+                    content_type = response.headers.get('content-type', '')
+                    ext = mimetypes.guess_extension(content_type) or '.jpg'
+                
+                # Stable filename: slug_hash.ext
+                stable_filename = f"{pub_slug}_{url_hash}{ext}"
+                image_path = images_dir / stable_filename
+                
+                # Write image file
+                with open(image_path, 'wb') as f:
+                    f.write(content)
+                
+                # Verify file was created
+                if not image_path.exists():
+                    print(f"       ❌ File not created: {image_path}")
+                    failed_downloads += 1
                     continue
                 
-                absolute_url = urljoin(self.base_url, source_url)
+                file_size = image_path.stat().st_size
+                print(f"       ✅ Saved: {stable_filename} ({file_size:,} bytes)")
                 
-                # Only download from same domain
-                if absolute_url.startswith(self.base_url):
-                    if absolute_url in downloaded:
-                        local_path = downloaded[absolute_url]
-                    else:
-                        local_path = self.download_asset(absolute_url, save_dir)
-                        if local_path:
-                            downloaded[absolute_url] = local_path
-                    
-                    if local_path:
-                        tag[attr] = local_path
+                # Create relative path: assets/images/filename.jpg
+                relative_path = f"assets/images/{stable_filename}"
+                
+                # Update HTML tag with relative path
+                img_tag['src'] = relative_path
+                # Remove srcset to avoid confusion
+                if img_tag.get('srcset'):
+                    del img_tag['srcset']
+                print(f"       🔄 Rewrote URL to: {relative_path}")
+                
+                # Track this download
+                downloaded_images[absolute_url] = relative_path
+                self.stats["assets_downloaded"] += 1
+                
+            except requests.exceptions.HTTPError as e:
+                status = e.response.status_code
+                print(f"       ❌ HTTP {status}: {absolute_url[:60]}")
+                failed_downloads += 1
+                continue
+            except Exception as e:
+                print(f"       ❌ Error: {str(e)[:60]}")
+                failed_downloads += 1
+                continue
         
-        # MACOS HTML FIX: Save as binary to preserve .html extension
+        # MACOS FIX: Save rewritten HTML as binary
+        print(f"\n  💾 Saving rewritten HTML...")
         with open(html_path, 'wb') as f:
             html_bytes = str(soup).encode('utf-8')
             f.write(html_bytes)
         
-        print(f"  ✅ Archived {len(downloaded)} assets")
+        print(f"  ✅ Archived {len(downloaded_images)} images to assets/images/ directory")
+        if failed_downloads > 0:
+            print(f"  ⚠️  {failed_downloads} images failed to download")
+        print(f"  ✅ Rewrote image URLs to relative paths")
+        
+        # Verify images directory has files
+        if images_dir.exists():
+            image_files = list(images_dir.glob("*"))
+            print(f"  📊 assets/images/ directory contains {len(image_files)} files")
+            if image_files:
+                print(f"  📄 Sample filenames:")
+                for img_file in image_files[:3]:
+                    print(f"     - {img_file.name}")
+        else:
+            print(f"  ⚠️  WARNING: assets/images/ directory does not exist!")
     
     def run_test(self):
         """Run the test on single publication"""
@@ -395,7 +471,7 @@ class SinglePubTester:
                     try:
                         with open(filename, 'r', encoding='utf-8') as f:
                             html_content = f.read()
-                        # Pass slug to the archival function (self, html_path, html_content, pub_slug)
+                        # Pass slug to the archival function
                         self.archive_html_with_assets(filename, html_content, slug)
                     except Exception as e:
                         print(f"  ⚠️  Could not archive HTML assets: {e}")
@@ -447,21 +523,17 @@ class SinglePubTester:
         
         # MACOS WARNING
         print("\n" + "="*70)
-        print("🍎 macOS USERS: IMPORTANT!")
+        print("🍎 macOS USERS: Verifying HTML")
         print("="*70)
-        print("If you see '.html' files in Finder:")
-        print("1. Right-click the file → Get Info")
-        print("2. Check 'Name & Extension' section")
-        print("3. Verify it ends with .html (not .html.txt)")
-        print("4. If wrong, uncheck 'Hide extension' and rename")
-        print("\nTo prevent this in future:")
-        print("  System Settings → Desktop & Dock → Show all filename extensions")
+        print("To test if images work offline:")
+        print("  1. Turn off WiFi")
+        print("  2. Open index.html in your browser")
+        print("  3. Images should display from assets/images/")
 
 
 def main():
     print("="*70)
-    print("🧪 Single Publication Test Scraper")
-    print("   (with macOS .html extension fix)")
+    print("🧪 Single Publication Test Scraper - CLEAN VERSION")
     print("="*70)
     
     # Get publication URL
@@ -511,8 +583,8 @@ def main():
     print("\n💡 Next steps:")
     print("  1. Check the output folder on your Desktop")
     print("  2. Verify all files downloaded correctly")
-    print("  3. Open index.html in a browser to test HTML archival")
-    print("  4. If everything looks good, run the full scraper!")
+    print("  3. Open index.html in a browser WITH WIFI OFF to test")
+    print("  4. If everything looks good, ready for full scraper!")
 
 
 if __name__ == "__main__":
